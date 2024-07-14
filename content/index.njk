@@ -42,6 +42,8 @@ eleventyNavigation:
 <section>
   <ul class="webmentions links" id="http://mycabinetofcuriosities.com">
 	<li>No webmentions were found.</li>
-  {{ webmentions }}
+  {% for child in webmentions.children %}
+  {{ child.content.text }}
+  {%- endfor %}
 </ul>
 </section>
