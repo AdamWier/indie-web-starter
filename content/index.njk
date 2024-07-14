@@ -42,10 +42,12 @@ eleventyNavigation:
 <section>
   <ul class="webmentions links" id="http://mycabinetofcuriosities.com">
   {% for child in webmentions.children %}
-    <ul>{{ child.content.text }}</ul>
+    <ul>* {{ child.content.text }}</ul>
+    {% if child["in-reply-to"]%} <div class="reply" data-link="{{child["in-reply-to"]}}">{{child.replyInfo.items[0].properties.author[0].properties.name}} replied </div>{% endif %}
+    <p>
   {%- endfor %}
   <article class="h-entry">
-    <a rel="author" class="p-author h-card" href="…">ME
+    <a rel="author" class="p-author h-card" href="…"><div class="p-name">ME</div>
         <img class="u-photo" alt="A picture of me in a hat, undershirt, black pants, leaning over the camera by the window" loading="lazy" decoding="async" src="./img/me.jpg" width="769" height="960">
     </a>
   <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
