@@ -3,12 +3,13 @@
 	"version": "8.0.0",
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"tailwind-dev": "npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --watch",
+		"tailwind-build": "NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify",
+		"build": "npx @11ty/eleventy && npm run tailwind-build",
 		"start": "npx @11ty/eleventy --serve",
-		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy & start-tailwind-dev",
+		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet & start-tailwind-dev",
+		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy & start-tailwind-dev"
 	},
 	"repository": {
 		"type": "git",
@@ -41,8 +42,10 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
+		"html-minifier": "^4.0.0",
 		"luxon": "^3.3.0",
 		"markdown-it-anchor": "^8.6.7",
-		"microformats-parser": "^2.0.2"
+		"microformats-parser": "^2.0.2",
+		"tailwindcss": "^3.4.6"
 	}
 }
