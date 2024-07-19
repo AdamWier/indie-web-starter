@@ -15,9 +15,14 @@ const dotenv = require('dotenv');
 const now = String(Date.now());
 const htmlmin = require('html-minifier');
 
+const eleventyGoogleFonts = require("eleventy-google-fonts");
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	dotenv.config()
+
+	eleventyConfig.addPlugin(eleventyGoogleFonts);
+	
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
