@@ -1,0 +1,26 @@
+.avatar {
+	vertical-align: middle;
+	height: 25%;
+	width: 25%;
+	border-radius: 25%;
+}
+ul {
+	list-style-type: none;
+}
+.home-bullet:before {
+	font-family: "FontAwesome";
+	content: "\e1b0";
+	margin: 0 5px 0 -15px;
+}
+
+.birthday-bullet:before {
+	font-family: "FontAwesome";
+	content: "\f1fd";
+	margin: 0 5px 0 -15px;
+}
+
+.briefcase-bullet:before {
+	font-family: "FontAwesome";
+	content: "\f0b1";
+	margin: 0 5px 0 -15px;
+}

@@ -4,40 +4,19 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-<h1>This is the very beginning of something</h1>
-<h2>This site implements: micropub, microsub, indieauth, microformats and webmentions</h2>
-<section class="h-card">
-<div class="p-name">
-  <span class="p-given-name">Adam</span>
-  <span class="p-family-name">Wier</span>
+{# <h2>This site implements: micropub, microsub, indieauth, microformats and webmentions</h2> #}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      {% include '_includes/hcard.njk' %}
+    </div>
+  </div>
 </div>
-<div>
-  <a class="u-url u-uid"  rel="me" href="https://www.mycabinetofcuriosities.com">My website</a> (here)
+
+{# <div>
+  
 </div>
-<div>
-  <a class="u-email" href="mailto:wier.adam@gmail.com" rel="me">wier.adam@gmail.com</a>
-</div>
-<div class="p-adr h-adr">
-  <span class="p-locality">Nantes</span>,
-  <span class="p-country-name">France</span>
-</div>
-<div class="h-geo u-geo p-geo">
-  <span class="p-latitude">47.218111</span>
-  <span class="p-longitude">-1.552800</span>
-</div>
-<div>
-  <time class="dt-bday">1986-06-25</time>
-</div>
-<div class="p-note">I am an alien.</div>
-<div>
-  <span class="p-job-title">Fullstack developer</span>
-</div>
-<div>
-  <span class="p-sex p-gender-identity">Male</span>
-</div>
-<div>
-  <img class="u-photo" alt="A picture of me in a hat, undershirt, black pants, leaning over the camera by the window" loading="lazy" decoding="async" src="./img/me.jpg" width="769" height="960">
-</div>
+
 </section>
 <section>
   <ul class="webmentions links" id="http://mycabinetofcuriosities.com">
@@ -58,5 +37,5 @@ eleventyNavigation:
   <a rel="syndication" class="u-syndication" href="http://facebook.com/orsomething">Fake syndication</a>
   <div class="p-category">Test</div>
 </article>
-</ul>
-</section>
+</ul> #}
+{# </section> #}
