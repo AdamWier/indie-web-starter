@@ -12,9 +12,6 @@ const pluginImages = require("./eleventy.config.images.js");
 
 const dotenv = require('dotenv');
 
-const now = String(Date.now());
-const htmlmin = require('html-minifier');
-
 const eleventyGoogleFonts = require("eleventy-google-fonts");
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
@@ -30,33 +27,8 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
 
-	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
-	
-	eleventyConfig.addShortcode('version', function () {
-	  return now
-	})
-
-	eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
-		if (
-		  process.env.ELEVENTY_PRODUCTION &&
-		  outputPath &&
-		  outputPath.endsWith('.html')
-		) {
-		  let minified = htmlmin.minify(content, {
-			useShortDoctype: true,
-			removeComments: true,
-			collapseWhitespace: true,
-		  });
-		  return minified
-		}
-		
-		return content
-	})
-
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-	eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
-	eleventyConfig.addWatchTarget('./styles/tailwind.css')
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
