@@ -16,7 +16,6 @@ module.exports = async function () {
                 const string = await EleventyFetch(child["in-reply-to"], {type: "text", duration: "0s"});
                 let parsed = Parser.mf2(string, {baseUrl: child["in-reply-to"]})
                 response.children[index].replyInfo = parsed;
-                console.log(parsed.items[0].properties.author)
                 return response.children
             }
             return response.children
