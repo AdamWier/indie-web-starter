@@ -1,0 +1,6 @@
+<ul class="list-group">
+    <li class="list-group-item list-group-item-action active">My latest Mastodon posts</li>
+    {%for post in mastodon%}
+        <li class="list-group-item">{{post.content | safe}}</li>
+    {% endfor %}
+</ul>
