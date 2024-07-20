@@ -7,6 +7,8 @@
                 <span class="text-info">{{post.date.toLocaleDateString()}}
                     {{post.date.toLocaleTimeString()}}</span>
                 {% if post.data.title%} ) {%endif%}
+                <a href="{{post.data.location}}">Location</a>
+                <a href="{{post.data.checkin}}">Checkin</a>
             </h6>
             {{post.content | safe}}
             <a href="{{post.url}}">Permalink</a>
