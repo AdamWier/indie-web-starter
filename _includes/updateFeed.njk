@@ -1,13 +1,13 @@
 {% import "shared/updateFeedItem.njk" as feedItemTemplate %}
 
-<div class="accordion shadow-lg my-3">
+<div class="accordion shadow-lg my-3" id="accordionExample">
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-            <button class="bg-primary text-light accordion-button collapsed fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <button class="bg-primary text-light accordion-button fw-normal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             My latest updates
             </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
             <div class="accordion-body p-0">
                 <ul class="list-group">
                     {%for post in collections.allUpdates | limit(10) %}
