@@ -14,6 +14,8 @@ const dotenv = require('dotenv');
 
 const eleventyGoogleFonts = require("eleventy-google-fonts");
 
+const stripHtml = require('striptags');
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	dotenv.config()
@@ -88,6 +90,8 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter('limit', (array, limit) => array.slice(0,limit))
+
+	eleventyConfig.addFilter('removeHtml', (string) => stripHtml(string))
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
