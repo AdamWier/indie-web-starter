@@ -19,6 +19,7 @@ permalink: /feed/syndicate-to-facebook.xml
 	<entry>
 		<title>{{ post.data.title or "Update" }}</title>
 		<link href="{{ absolutePostUrl }}"/>
+		<pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
 		<updated>{{ post.date | dateToRfc3339 }}</updated>
 		<id>{{ absolutePostUrl }}</id>
 		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
