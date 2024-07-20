@@ -1,0 +1,29 @@
+---
+# Metadata comes from _data/metadata.js
+permalink: /feed/link-mastodon-json.json
+---
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "{{ metadata.title }}",
+	"language": "{{ metadata.language }}",
+	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
+	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
+	"description": "{{ metadata.description }}",
+	"author": {
+		"name": "{{ metadata.author.name }}",
+		"url": "{{ metadata.author.url }}"
+	},
+	"items": [
+		{%for article in collections.articles %}
+			{%- set absolutePostUrl = article.url | htmlBaseUrl(metadata.url) %}
+			{
+				"id": "{{ absolutePostUrl }}",
+				"url": "{{ absolutePostUrl }}",
+				"content_text": "New blog post: \"{{ article.data.title }}\" at {{absolutePostUrl}} {{article.data.tags | tagify}} #blog #post #indieweb #syndication #posse",
+				"language": "{{ metadata.language }}",
+				"date_published": "{{ article.date | dateToRfc3339 }}"
+			}
+		{% if not loop.last %},{% endif %}
+		{%- endfor %}
+	]
+}

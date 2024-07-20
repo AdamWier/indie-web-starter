@@ -93,6 +93,8 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter('removeHtml', (string) => stripHtml(string))
 
+	eleventyConfig.addFilter('tagify', tags => tags.map(tag => `#${tag}`).join(' '));
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
