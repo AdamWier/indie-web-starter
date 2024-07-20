@@ -1,0 +1,39 @@
+<div class="card border-primary my-3">
+    <div class="card-header bg-primary text-white">
+        How I'm Spending My Free Time
+    </div>
+    <div class="card-body">
+        <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" data-bs-toggle="tab" href="#reading" aria-selected="true" role="tab">Reading</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab" href="#playing" aria-selected="false" role="tab">Playing</a>
+        </li>
+        {# <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-toggle="tab"  aria-selected="false" role="tab" href="#tinkering">Tinkering</a>
+        </li> #}
+        </ul>
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade show active" id="reading" role="tabpanel">
+            <div class="row m-3">
+            <div class="col">
+                <h3>{{reading.title}}</h3>
+                <h4>{{reading.author}}</h4>
+            </div>
+            <div class="col">
+                {% image "https://covers.openlibrary.org/b/id/"+reading.covers[0]+"-M.jpg", "Cover of "+reading.title, [130] %}
+            </div>
+            </div>
+            <p>{{reading.description.value}}</p>
+            <div></div>
+        </div>
+        <div class="tab-pane fade" id="playing" role="tabpanel">
+            <p>Playing</p>
+        </div>
+        {# <div class="tab-pane fade" id="tinkering">
+            <p>TINKERING</p>
+        </div> #}
+        </div>
+    </div>
+</div>
