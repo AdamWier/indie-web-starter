@@ -9,13 +9,19 @@ eleventyExcludeFromCollections: true
 <div class="container">
   <div class="row">
     <div class="col">
-      {% include '_includes/hcard.njk' %}
+      <div class="row">
+        <div class="col">
+          {% include '_includes/hcard.njk' %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <github-badge user="AdamWier" badge="octogeek"></github-badge>
+        </div>
+      </div>
     </div>
     <div class="col">
       {% include '_includes/mastodonFeed.njk' %}
-    </div>
-    <div>
-      <github-badge user="donthatedontkill" badge="octogeek"></github-badge>
     </div>
   </div>
 </div>
