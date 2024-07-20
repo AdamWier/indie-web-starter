@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <link rel="stylesheet" href="/css/article.css" />
 
-<div class="container">
+<div class="container h-entry">
     <div class="row">
         <div class="col-lg">
             <div>
@@ -12,11 +12,12 @@ layout: layouts/base.njk
         </div>
         <div class="col grow-col">
             <div class="card border-primary my-3">
-                <div class="card-header bg-primary text-white">{{title}}</div>
-                <div class="card-body">
+                <div class="p-name card-header bg-primary text-white">{{title}}</div>
+                <div class="e-content card-body">
                     {{ content | safe}}
                 </div>
                 <div class="card-footer text-end">
+                    <a hidden class="u-url" href="{{url}}">Permalink</a>
                     <a href="/">Back to main page</a>
                 </div>
             </div>
