@@ -1,5 +1,6 @@
 {% macro updateFeedItem(date, content, url, includeAvatar)%}
-    <li class="list-group-item">
+    <li class="list-group-item h-entry">
+        <div u-author hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
             {% if includeAvatar %}
                 <div class="col">
@@ -12,12 +13,13 @@
                     >
                 </div>
             {% endif %}
-            <div class="col grow-col">
+            <div class="col grow-col p-content">
                 {{content | safe}}
             </div>
         </div>
         <div class="row">
             <div class="col">
+                <span hidden class="dt-published">{{ date | htmlDateString}}</span>
                 <span class="text-info fw-bold">
                     {{date.toLocaleTimeString()}}
                     {{date.toLocaleDateString()}}
