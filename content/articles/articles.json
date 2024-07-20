@@ -1,3 +1,4 @@
 {
-    "tags": "articles"
+    "tags": "articles",
+    "layout": "permalinks/article"
 }
