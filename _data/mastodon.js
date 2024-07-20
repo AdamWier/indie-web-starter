@@ -5,7 +5,10 @@ module.exports = async function () {
 
     try {
         const statuses = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        return statuses.filter(status => status.content && !status.content.includes('@'))
+        return statuses.filter(status => status.content && !status.content.includes('@')).map(status => ({
+            ...status,
+            createdAt: new Date(status.created_at).toLocaleDateString() + " " + new Date(status.created_at).toLocaleTimeString()
+        }))
     } catch (err) {
         console.error(err)
         return null
