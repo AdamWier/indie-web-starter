@@ -19,7 +19,7 @@ permalink: /feed/link-mastodon-json.json
 			{
 				"id": "{{ absolutePostUrl }}",
 				"url": "{{ absolutePostUrl }}",
-				"content_text": "New blog post: \"{{ article.data.title }}\"<br/>{{absolutePostUrl}}<br/>{{article.data.tags | tagify}} #blog #post #indieweb #syndication #posse",
+				"content_text": "New blog post: \"{{ article.data.title }}\" at {{absolutePostUrl}} {{article.data.tags | tagify}} #blog #post #indieweb #syndication #posse",
 				"language": "{{ metadata.language }}",
 				"date_published": "{{ article.date | dateToRfc3339 }}"
 			}
