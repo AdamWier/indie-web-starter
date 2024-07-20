@@ -1,6 +1,8 @@
 name: Create toots from feed items
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   Feed2Mastodon:
