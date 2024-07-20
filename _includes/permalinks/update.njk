@@ -10,16 +10,14 @@ layout: layouts/base.njk
         {% include 'hcard.njk' %}
       </div>
       <ul class="list-group my-3">
-        <div href="#" class="list-group-item list-group-item-action active">
+        <div class="list-group-item list-group-item-action active">
           Update
         </div>
         {{ feedItemTemplate.updateFeedItem(page.date, content, page.url, true)}}
+        <div class="list-group-item list-group-item-action text-end">
+          <a href="/">Back to main page</a>
+        </div>
       </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col text-end">
-      <a href="/">Back to main page</a>
     </div>
   </div>
 </div>
