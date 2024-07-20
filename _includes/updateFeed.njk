@@ -1,3 +1,5 @@
+{% import "shared/updateFeedItem.njk" as feedItemTemplate %}
+
 <div class="accordion shadow-lg my-3">
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -9,19 +11,7 @@
             <div class="accordion-body p-0">
                 <ul class="list-group">
                     {%for post in collections.allUpdates | limit(10) %}
-                        <li class="list-group-item">{{post.content | safe}}
-                            <div class="row">
-                                <div class="col">
-                                    <span class="text-info fw-bold">
-                                        {{post.date.toLocaleTimeString()}}
-                                        {{post.date.toLocaleDateString()}}
-                                    </span>
-                                </div>
-                                <div class="col text-end">
-                                    <a href="{{post.url}}">Permalink</a>
-                                </div>
-                            </div>
-                        </li>
+                    {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url)}}
                     {% endfor %}
                 </ul>
             </div>

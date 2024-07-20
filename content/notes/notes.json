@@ -1,3 +1,4 @@
 {
-    "tags": "notes"
+    "tags": "notes",
+    "layout": "permalinks/update.njk"
 }

@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+{% import "shared/updateFeedItem.njk" as feedItemTemplate %}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div hidden>
+        {% include 'hcard.njk' %}
+      </div>
+      <ul class="list-group my-3">
+        {{ feedItemTemplate.updateFeedItem(page.date, content, page.url, true)}}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+{% macro updateFeedItem(date, content, url, includeAvatar)%}
+    <li class="list-group-item">
+        <div class="row">
+            {% if includeAvatar %}
+                <div class="col">
+                    <img 
+                        class="img-fluid small-avatar card-img-top u-photo" 
+                        alt="A picture of me in a hat, undershirt, black pants, leaning over the camera by the window" 
+                        loading="lazy" 
+                        decoding="async" 
+                        src="/img/me.jpg"
+                    >
+                </div>
+            {% endif %}
+            <div class="col">
+                {{content | safe}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <span class="text-info fw-bold">
+                    {{date.toLocaleTimeString()}}
+                    {{date.toLocaleDateString()}}
+                </span>
+            </div>
+            <div class="col text-end">
+                <a href="{{url}}">Permalink</a>
+            </div>
+        </div>
+    </li>
+{% endmacro %}
