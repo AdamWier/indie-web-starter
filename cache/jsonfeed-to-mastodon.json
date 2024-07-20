@@ -9,5 +9,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112819550405479974"
     ],
     "lastTootTimestamp": 1721489721919
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1721512385/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1721512385/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1721512385/",
+    "content_text": "God bless",
+    "language": "en",
+    "date_published": "2024-07-20T21:53:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112821121981629443"
+    ],
+    "lastTootTimestamp": 1721513702221
   }
 }
