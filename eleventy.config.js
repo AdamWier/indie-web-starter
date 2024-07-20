@@ -105,6 +105,10 @@ module.exports = function(eleventyConfig) {
 		return (new Date()).toISOString();
 	})
 
+	eleventyConfig.addCollection('allUpdates', collectionApi => {
+		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.mastodon].sort((a,b) => b.date - a.date)
+	})
+
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
