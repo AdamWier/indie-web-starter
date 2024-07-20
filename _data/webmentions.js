@@ -22,7 +22,11 @@ module.exports = async function () {
         })
         let newChildren = await Promise.all(promises)
         response.children = newChildren.flat()
-        return response
+        return response.children.map(child =>({
+            ...child,
+            content: child.content.html,
+            date: new Date(child.published)
+        }))
     } catch (err) {
         console.error(err)
         return null
