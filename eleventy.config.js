@@ -117,6 +117,10 @@ module.exports = function(eleventyConfig) {
 		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.mastodon, ...collectionApi.getAll()[0].data.webmentions].sort((a,b) => b.date - a.date)
 	})
 
+	eleventyConfig.addCollection('allOriginalContent', collectionApi => {
+		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getFilteredByTag('articles')].sort((a,b) => b.date - a.date)
+	})
+
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
