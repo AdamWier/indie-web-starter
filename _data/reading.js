@@ -1,5 +1,4 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const Image = require("@11ty/eleventy-img");
 
 module.exports = async function () {
     const base = "https://openlibrary.org";
