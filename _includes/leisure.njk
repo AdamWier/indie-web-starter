@@ -4,34 +4,55 @@
     </div>
     <div class="card-body">
         <ul class="nav nav-tabs" role="tablist">
-        <li class="nav-item" role="presentation">
-            <a class="nav-link active" data-bs-toggle="tab" href="#reading" aria-selected="true" role="tab">Reading</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" href="#playing" aria-selected="false" role="tab">Playing</a>
-        </li>
-        {# <li class="nav-item" role="presentation">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" data-bs-toggle="tab" href="#reading" aria-selected="true" role="tab">Reading</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="tab" href="#playing" aria-selected="false" role="tab">Playing</a>
+            </li>
+            {# <li class="nav-item" role="presentation">
             <a class="nav-link" data-bs-toggle="tab"  aria-selected="false" role="tab" href="#tinkering">Tinkering</a>
         </li> #}
         </ul>
         <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade show active" id="reading" role="tabpanel">
-            <div class="row m-3">
-            <div class="col">
-                <h3>{{reading.title}}</h3>
-                <h4>{{reading.author}}</h4>
+            <div class="tab-pane fade show active" id="reading" role="tabpanel">
+                <div class="row m-3">
+                    <div class="col">
+                        <h3>{{reading.title}}</h3>
+                        <h4>{{reading.author}}</h4>
+                    </div>
+                    <div class="col">
+                        {% image "https://covers.openlibrary.org/b/id/"+reading.covers[0]+"-M.jpg", "Cover of "+reading.title, [130] %}
+                    </div>
+                </div>
+                <p>{{reading.description.value}}</p>
+                <div></div>
             </div>
-            <div class="col">
-                {% image "https://covers.openlibrary.org/b/id/"+reading.covers[0]+"-M.jpg", "Cover of "+reading.title, [130] %}
+            <div class="tab-pane fade" id="playing" role="tabpanel">
+                <div class="row">
+                    <div class="col">
+                        <div class="row my-3">
+                            <div class="col-xl">
+                                <h3 class="text-center">Bayonetta</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                {% image "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p92.webp",
+                                "Cover of Bayonetta",
+                                [130] %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl">
+                        <p>
+                            A member of an ancient witch clan and possessing powers beyond the comprehension of mere mortals, Bayonetta faces-off against countless angelic enemies, many reaching epic proportions, in a game of 100% pure, unadulterated all-out action. Outlandish finishing moves are performed with balletic grace as Bayonetta flows from one fight to another. With magnificent over-the-top action taking place in stages that are a veritable theme park of exciting attractions, Bayonetta pushes the limits of the action genre, bringing to life its fast-paced, dynamic climax combat.
+                        </p>
+                    </div>
+                </div>
+
             </div>
-            </div>
-            <p>{{reading.description.value}}</p>
-            <div></div>
-        </div>
-        <div class="tab-pane fade" id="playing" role="tabpanel">
-            <p>Playing</p>
-        </div>
-        {# <div class="tab-pane fade" id="tinkering">
+            {# <div class="tab-pane fade" id="tinkering">
             <p>TINKERING</p>
         </div> #}
         </div>
