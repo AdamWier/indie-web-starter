@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<link rel="stylesheet" href="/css/article.css" />
+<link rel="stylesheet" href="/css/article.css"/>
 
 <div class="container h-entry">
     <div class="row">
@@ -12,7 +12,18 @@ layout: layouts/base.njk
         </div>
         <div class="col grow-col">
             <div class="card border-primary my-3">
-                <div class="p-name card-header bg-primary text-white">{{title}}</div>
+                <div class="p-name card-header bg-primary fw-bold text-white">
+                    <div class="row">
+                        <div class="col">
+                            {{title}}
+                        </div>
+                        <div class="col text-end">
+                            <span hidden class="dt-published">{{ page.date | htmlDateString}}</span>
+                            {{page.date.toLocaleTimeString()}}
+                            {{page.date.toLocaleDateString()}}
+                        </div>
+                    </div>
+                </div>
                 <div class="e-content card-body">
                     {{ content | safe}}
                 </div>
