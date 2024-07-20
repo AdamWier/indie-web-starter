@@ -1,11 +1,9 @@
 <ul class="list-group shadow-lg my-3">
     <li class="list-group-item list-group-item-action active">Latests posts directly to this website</li>
-    {%for post in collections.notes.reverse()%}
+    {%for post in collections.articles.reverse()%}
         <li class="list-group-item">
             <h6 class="fw-bold">
-                Update at
-                <span class="text-info">{{post.date.toLocaleDateString()}}
-                    {{post.date.toLocaleTimeString()}}</span>
+                {{post.data.title}} <span class="text-info">{{post.date.toLocaleDateString()}}{{post.date.toLocaleTimeString()}}</span>
             </h6>
             {{post.content | safe}}
             <a href="{{post.url}}">Permalink</a>
