@@ -1,6 +1,6 @@
 {% macro updateFeedItem(date, content, url, includeAvatar)%}
     <li class="list-group-item h-entry">
-        <div rel="author" class="p-author u-author" hidden>{% include 'hcard.njk' %}</div>
+        <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
             {% if includeAvatar %}
                 <div class="col">
