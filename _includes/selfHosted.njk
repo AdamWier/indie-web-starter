@@ -1,0 +1,15 @@
+<ul class="list-group shadow-lg my-3">
+    <li class="list-group-item list-group-item-action active">Latests posts directly to this website</li>
+    {%for post in collections.notes.reverse()%}
+        <li class="list-group-item">
+            <h6 class="fw-bold">
+                {% if post.data.title %}{{post.data.title}} ({% else %}Update at{% endif %}
+                <span class="text-info">{{post.date.toLocaleDateString()}}
+                    {{post.date.toLocaleTimeString()}}</span>
+                {% if post.data.title%} ) {%endif%}
+            </h6>
+            {{post.content | safe}}
+            <a href="{{post.url}}">Permalink</a>
+        </li>
+    {% endfor %}
+</ul>
