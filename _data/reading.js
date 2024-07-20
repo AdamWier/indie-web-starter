@@ -10,6 +10,7 @@ module.exports = async function () {
         let book = await EleventyFetch(base+key+'.json', {type: 'json', duration: "0s"})
         return {
             ...book,
+            key,
             author: response.reading_log_entries[0].work.author_names[0]
         }
     } catch (err) {
