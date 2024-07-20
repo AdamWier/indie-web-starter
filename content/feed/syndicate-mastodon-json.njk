@@ -13,7 +13,7 @@ permalink: /feed/syndicate-mastodon-json.json
 		"name": "{{ metadata.author.name }}",
 		"url": "{{ metadata.author.url }}"
 	},
-	"posts": [
+	"items": [
 		{%for post in collections.notes %}
 			{%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
 			{
