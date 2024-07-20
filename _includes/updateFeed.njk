@@ -1,6 +1,6 @@
 <ul class="list-group shadow-lg my-3">
     <li class="list-group-item list-group-item-action active">My latest updates</li>
-    {%for post in collections.allUpdates %}
+    {%for post in collections.allUpdates | limit(10) %}
         <li class="list-group-item">{{post.content | safe}}
             <div class="row">
                 <div class="col">
