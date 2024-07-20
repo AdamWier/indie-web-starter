@@ -1,7 +1,6 @@
 .avatar {
 	vertical-align: middle;
-	height: 25%;
-	width: 25%;
+	max-width: 180px;
 	border-radius: 25%;
 }
 ul {
