@@ -29,6 +29,7 @@ jobs:
           ignoreFirstRun: false
           cacheFile: "link-to-mastodon.json"
           cacheTimestampFile: "link-to-mastodon-timestamp.json"
+          globalDelayToots: 0
 
       # Make sure files are up to date if other commits have been pushed in the mean time
       - name: Pull any changes from Git
