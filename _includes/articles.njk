@@ -1,12 +1,28 @@
 <ul class="list-group shadow-lg my-3">
-    <li class="list-group-item list-group-item-action active">Latests posts directly to this website</li>
-    {%for post in collections.articles.reverse()%}
+    <li class="list-group-item list-group-item-action active">Blog posts</li>
+    {%for post in collections.articles.reverse() | limit(5) %}
         <li class="list-group-item">
             <h6 class="fw-bold">
-                {{post.data.title}} <span class="text-info">{{post.date.toLocaleDateString()}}{{post.date.toLocaleTimeString()}}</span>
+                {{post.data.title}}
             </h6>
-            {{post.content | safe}}
-            <a href="{{post.url}}">Permalink</a>
+            <div class="row">
+                {% if post.content.length > 200 %}
+                    {{post.content.slice(0, 200) | safe}}...
+            {% else %}
+                    {{post.content | safe }}
+                {% endif %}
+            </div>
+            <div class="row">
+                <div class="col">
+                    <span class="text-info fw-bold">
+                        {{post.date.toLocaleTimeString()}}
+                        {{post.date.toLocaleDateString()}}
+                    </span>
+                </div>
+                <div class="col text-end">
+                    <a href="{{post.url}}">Read more</a>
+                </div>
+            </div>
         </li>
     {% endfor %}
 </ul>
