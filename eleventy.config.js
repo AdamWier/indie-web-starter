@@ -116,7 +116,7 @@ module.exports = function(eleventyConfig) {
 	})
 
 	eleventyConfig.addCollection('allUpdates', collectionApi => {
-		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.mastodon, ...collectionApi.getAll()[0].data.webmentions].sort((a,b) => b.date - a.date)
+		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.webmentions].sort((a,b) => b.date - a.date)
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {
