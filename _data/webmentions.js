@@ -11,17 +11,17 @@ module.exports = async function () {
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        let promises = response.children.map(async (child, index) => {
-            if(child["in-reply-to"]){
-                const string = await EleventyFetch(child["in-reply-to"], {type: "text", duration: "0s"});
-                let parsed = Parser.mf2(string, {baseUrl: child["in-reply-to"]})
-                response.children[index].replyInfo = parsed;
-                return response.children
-            }
-            return response.children
-        })
-        let newChildren = await Promise.all(promises)
-        response.children = newChildren.flat()
+        // let promises = response.children.map(async (child, index) => {
+        //     if(child["in-reply-to"]){
+        //         const string = await EleventyFetch(child["in-reply-to"], {type: "text", duration: "0s"});
+        //         let parsed = Parser.mf2(string, {baseUrl: child["in-reply-to"]})
+        //         response.children[index].replyInfo = parsed;
+        //         return response.children
+        //     }
+        //     return response.children
+        // })
+        // let newChildren = await Promise.all(promises)
+        // response.children = newChildren.flat()
         //Needs improvement ? Add parser library?
         return response.children.map(child =>({
             ...child,
