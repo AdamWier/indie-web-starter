@@ -18,6 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Wait for deply
+        run: sleep 180s
+        shell: bash
+
       # Look for new toots to create from items in the JSON feed
       - name: Feed to Mastodon
         uses: nhoizey/github-action-feed-to-mastodon@v2
