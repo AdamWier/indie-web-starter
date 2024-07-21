@@ -22,9 +22,10 @@ module.exports = async function () {
         })
         let newChildren = await Promise.all(promises)
         response.children = newChildren.flat()
+        //Needs improvement ? Add parser library?
         return response.children.map(child =>({
             ...child,
-            content: child.content.html,
+            content: child.content?.html || child["like-of"] ? `${child.author?.name} liked <a href="${child["like-of"]}">${child["like-of"]}</a>` : `Web mention from ${child.author?.name}`,
             date: new Date(child.published)
         }))
     } catch (err) {
