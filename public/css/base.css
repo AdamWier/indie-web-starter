@@ -5,3 +5,7 @@ body {
 .grow-col {
 	flex: 4
 }
+
+.update-avatar-photo {
+	width: 1.5rem
+}
