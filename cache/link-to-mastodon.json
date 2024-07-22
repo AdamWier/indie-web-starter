@@ -2,12 +2,23 @@
   "https://www.mycabinetofcuriosities.com/articles/more-dreams/": {
     "id": "https://www.mycabinetofcuriosities.com/articles/more-dreams/",
     "url": "https://www.mycabinetofcuriosities.com/articles/more-dreams/",
-    "content_text": "New blog post: \"More dreams\" at https://www.mycabinetofcuriosities.com/articles/more-dreams/ #articles #dreams #blog #post #indieweb #syndication #posse",
+    "content_text": "New blog post: \"More dreams\" at https://www.mycabinetofcuriosities.com/articles/more-dreams/ #articles #dreams #blog #post #indieweb #syndication #possee",
     "language": "en",
     "date_published": "2024-07-20T07:33:00Z",
     "toots": [
       "https://mastodon.social/users/donthatedontkill/statuses/112819719393125060"
     ],
     "lastTootTimestamp": 1721492300499
+  },
+  "https://www.mycabinetofcuriosities.com/articles/the-dreams-continue/": {
+    "id": "https://www.mycabinetofcuriosities.com/articles/the-dreams-continue/",
+    "url": "https://www.mycabinetofcuriosities.com/articles/the-dreams-continue/",
+    "content_text": "New blog post: \"The dreams continue.\" at https://www.mycabinetofcuriosities.com/articles/the-dreams-continue/ #articles ##dreams #psychology #nightmares #interpretation #dreamsinterpretation #sleep #insomnia #hallucinations #blog #post #indieweb #syndication #possee",
+    "language": "en",
+    "date_published": "2024-07-22T13:27:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112830377397639846"
+    ],
+    "lastTootTimestamp": 1721654928966
   }
 }
