@@ -47,6 +47,11 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+	
+	eleventyConfig.addFilter("toLocaleTimeString", (date) => {
+		date.setHours(date.getHours() + 2)
+		return date.toLocaleTimeString()
+	})
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {

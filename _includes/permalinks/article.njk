@@ -19,7 +19,7 @@ layout: layouts/base.njk
                         </div>
                         <div class="col text-end">
                             <span hidden class="dt-published">{{ page.date | htmlDateString}}</span>
-                            {{page.date.toLocaleTimeString()}}
+                            {{page.date | toLocaleTimeString}}
                             {{page.date.toLocaleDateString()}}
                         </div>
                     </div>
