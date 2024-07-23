@@ -32,14 +32,29 @@
             </div>
             <div class="tab-pane fade" id="playing" role="tabpanel">
                 <div class="row">
-                    <div class="text-center">
-                        <div class="alert alert-dismissible alert-secondary my-2 p-1">
-                            <h6 class="alert-heading">Total playtime in the last two weeks</h6>
-                            <p class="mb-0 text-center">{{steam.totalMinutesMessage}}</p>
+                    <div class="col">
+                        <div class="row my-3">
+                            <div class="col-xl">
+                                <a href="https://www.igdb.com/games/bayonetta" target="_blank">
+                                    <h3 class="text-center">Bayonetta</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                {% image "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p92.webp",
+                                "Cover of Bayonetta",
+                                [130] %}
+                            </div>
                         </div>
                     </div>
-                    {%include "gamesCarousel.njk"%}
+                    <div class="col-xl">
+                        <p>
+                            A member of an ancient witch clan and possessing powers beyond the comprehension of mere mortals, Bayonetta faces-off against countless angelic enemies, many reaching epic proportions, in a game of 100% pure, unadulterated all-out action. Outlandish finishing moves are performed with balletic grace as Bayonetta flows from one fight to another. With magnificent over-the-top action taking place in stages that are a veritable theme park of exciting attractions, Bayonetta pushes the limits of the action genre, bringing to life its fast-paced, dynamic climax combat.
+                        </p>
+                    </div>
                 </div>
+
             </div>
             {# <div class="tab-pane fade" id="tinkering">
             <p>TINKERING</p>
