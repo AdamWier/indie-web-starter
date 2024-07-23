@@ -9,3 +9,11 @@ body {
 .update-avatar-photo {
 	width: 1.5rem
 }
+
+.caption-below{
+	position: static !important;
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+    color: unset !important;
+    text-align: unset !important;
+}

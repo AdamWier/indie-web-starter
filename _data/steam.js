@@ -10,15 +10,16 @@ module.exports = async function () {
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        const promises = response.response.games.map(async game => ({
+        const promises = response.response.games.map(async game => {
+            const storeInfo = (await EleventyFetch(createGameUrl(game.appid), {type: 'json', duration: '0s'}));
+            return {
             title: game.name,
             twoWeeksPlaytime: game.playtime_2weeks > 60 ? `${convertMinutesToHours(game.playtime_2weeks)} hours` : `${game.playtime_2weeks} minutes`,
-            imageUrl: getImageUrl(game.appid, game.img_icon_url),
+            imageUrl: storeInfo[game.appid].data.header_image,
             storePageUrl: getStorePageUrl(game.appid),
-            summary: (await EleventyFetch(createGameUrl(game.appid), {type: 'json', duration: '0s'}))[game.appid].data.short_description
-        }))
+            summary: storeInfo[game.appid].data.short_description
+        }})
         const gameInfo = await Promise.all(promises)
-        console.log(gameInfo)
         const totalMinutes = response.response.games.reduce((prev, current) => {
             return current.playtime_2weeks + prev
         }, 0);
