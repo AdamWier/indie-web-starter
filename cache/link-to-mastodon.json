@@ -20,5 +20,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112830377397639846"
     ],
     "lastTootTimestamp": 1721654928966
+  },
+  "https://www.mycabinetofcuriosities.com/articles/title/": {
+    "id": "https://www.mycabinetofcuriosities.com/articles/title/",
+    "url": "https://www.mycabinetofcuriosities.com/articles/title/",
+    "content_text": "New blog post: \"title\" at https://www.mycabinetofcuriosities.com/articles/title/ #articles #tags #blog #post #indieweb #syndication #possee",
+    "language": "en",
+    "date_published": "2024-07-24T17:48:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112842729030602739"
+    ],
+    "lastTootTimestamp": 1721843399826
   }
 }
