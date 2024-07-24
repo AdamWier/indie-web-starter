@@ -3,7 +3,7 @@
 	max-width: 180px;
 	border-radius: 25%;
 }
-ul {
+.no-bullet {
 	list-style-type: none;
 }
 .home-bullet:before {

@@ -10,9 +10,9 @@
             <li class="nav-item" role="presentation">
                 <a class="nav-link" data-bs-toggle="tab" href="#playing" aria-selected="false" role="tab">Playing</a>
             </li>
-            {# <li class="nav-item" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab"  aria-selected="false" role="tab" href="#tinkering">Tinkering</a>
-        </li> #}
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="tab"  aria-selected="false" role="tab" href="#tinkering">Tinkering</a>
+            </li>
         </ul>
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade show active" id="reading" role="tabpanel">
@@ -41,9 +41,52 @@
                     {%include "gamesCarousel.njk"%}
                 </div>
             </div>
-            {# <div class="tab-pane fade" id="tinkering">
-            <p>TINKERING</p>
-        </div> #}
+            <div class="tab-pane fade" id="tinkering">
+                <div class="row my-3">
+                    <div class="col">
+                        <h4>Apps I've created that I still use to this day!</h4>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/AdamWier/budget-tracker" target="_blank">
+                                    An app I made to help budget tracking in Rust
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AdamWier/mega-fitness-app" target="_blank">
+                                    An app for meal planning, macro tracking that can also make a shopping list!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AdamWier/habitca-gcal-syncer" target="_blank">
+                                    A command line app to synchronize my Habitica account to my gmail calendar
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/AdamWier/visual-schedule-watch-face-wearos" target="_blank">
+                                    A watch face for WearOS that provides a visual calendar and punctual alerts for people with time blindness
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Latest commits on Github</h4>
+                        <ul>
+                            {% for commitInfo in github | limit(3) %}
+                                <li>
+                                    {# <a href="{{commitInfo.commitUrl}}" target="_blank"> #}
+                                        {{commitInfo.message}}
+                                    {# </a> #}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://github.com/AdamWier" target="_blank" rel="me">My github profile</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
