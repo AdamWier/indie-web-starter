@@ -108,5 +108,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112839886821176744"
     ],
     "lastTootTimestamp": 1721800031057
+  },
+  "https://www.mycabinetofcuriosities.com/notes/this-is-nothing-short-of-amazing/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/this-is-nothing-short-of-amazing/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/this-is-nothing-short-of-amazing/",
+    "content_text": "This is nothing short of amazing! I haven't read extensively about it, but this was sent in the Open Food Facts Slack and I'm very interested! https://www.solein.com/ ​​​​​​​ #vegan #vegetarian #food #nutrition #openfoodfacts #thefuture #futurist #protein #meat #meatless #meatlessmondays #solarpunk #solar #solarenergy #ecology #environmentalism",
+    "language": "en",
+    "date_published": "2024-07-24T07:38:42Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112840338013236878"
+    ],
+    "lastTootTimestamp": 1721806915867
   }
 }
