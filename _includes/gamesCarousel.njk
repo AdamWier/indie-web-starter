@@ -1,4 +1,4 @@
-<div id="carousel" class="carousel slide carousel-dark">
+<div id="carousel" class="dw-100 carousel slide carousel-dark">
     <div class="carousel-indicators">
         {% for game in steam.gameInfo%}
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="{{loop.index0}}" class="{% if loop.index0 == 0 %}active{% endif %}" aria-current="{% if loop.index0 == 0 %}true{% endif %}" aria-label="Slide {{loop.index}}"></button>
