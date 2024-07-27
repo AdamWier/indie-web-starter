@@ -163,5 +163,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112852890235908913"
     ],
     "lastTootTimestamp": 1721998447553
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1722075868/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1722075868/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1722075868/",
+    "content_text": "I have to go gift shopping today. I always feel so bad at it. I never know what's a good idea. Wish me luck! #gifts #birthday #shopping #weekend #choices",
+    "language": "en",
+    "date_published": "2024-07-27T10:24:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112857976692212541"
+    ],
+    "lastTootTimestamp": 1722076060590
   }
 }
