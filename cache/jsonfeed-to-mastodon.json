@@ -207,5 +207,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112871330193579511"
     ],
     "lastTootTimestamp": 1722279819149
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1722406474/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1722406474/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1722406474/",
+    "content_text": "Finally.... A good night's sleep. #sleep #insomnia #sleepproblems #anxiety #dreams",
+    "language": "en",
+    "date_published": "2024-07-31T06:14:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112879643436332788"
+    ],
+    "lastTootTimestamp": 1722406668850
   }
 }
