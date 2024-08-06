@@ -251,5 +251,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112910317225888485"
     ],
     "lastTootTimestamp": 1722874713870
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1722924114/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1722924114/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1722924114/",
+    "content_text": "Another day... What horrors will it bring? #optimism",
+    "language": "en",
+    "date_published": "2024-08-06T06:01:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112913567455788772"
+    ],
+    "lastTootTimestamp": 1722924308261
   }
 }
