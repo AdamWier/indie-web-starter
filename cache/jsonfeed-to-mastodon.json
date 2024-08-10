@@ -328,5 +328,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112933603079738484"
     ],
     "lastTootTimestamp": 1723230027893
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723305610/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723305610/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723305610/",
+    "content_text": "Beach today. But tomorrow is going to be even hotter. May the gods have mercy on our souls. #beach #hot #weather #climatechange #hell #heatwave #wereinhell #thesunistryingtokillus",
+    "language": "en",
+    "date_published": "2024-08-10T16:00:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112938568911096343"
+    ],
+    "lastTootTimestamp": 1723305800236
   }
 }
