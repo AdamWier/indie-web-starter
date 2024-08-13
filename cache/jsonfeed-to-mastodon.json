@@ -339,5 +339,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112938568911096343"
     ],
     "lastTootTimestamp": 1723305800236
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723529660/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723529660/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723529660/",
+    "content_text": "I'm not feeling it today. I wish I could go back to bed. Or at least work from home. #exhaustion #tired #burntout #burnout #sleepy #sleep #sleepproblems",
+    "language": "en",
+    "date_published": "2024-08-13T06:14:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112953252509396297"
+    ],
+    "lastTootTimestamp": 1723529854106
   }
 }
