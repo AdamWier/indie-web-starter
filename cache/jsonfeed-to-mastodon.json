@@ -361,5 +361,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112955825626551641"
     ],
     "lastTootTimestamp": 1723569119775
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723657687/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723657687/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723657687/",
+    "content_text": "I'm ready for this four day weekend!! Considering maybe a little day trip to Vannes #vannes #france #pont #weekend #holiday #traveling #assumption #longweekend",
+    "language": "en",
+    "date_published": "2024-08-14T17:48:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112961642925098843"
+    ],
+    "lastTootTimestamp": 1723657881764
   }
 }
