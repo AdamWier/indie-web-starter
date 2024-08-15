@@ -18,7 +18,7 @@
                 <div class="row">
                     {% for photoItem in photos %}
                     <div class="col">
-                        <img src="data:{{photoItem.mimetype}};base64,{{photoItem.content | base64}}" class="img-fluid">
+                        <img src="{{photoItem.filename}}" class="u-photo img-fluid">
                     </div>
                     {% endfor %}
                 </div>
