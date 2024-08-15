@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photo)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -14,7 +14,15 @@
                 </div>
             {% endif %}
             <div class="col grow-col e-content">
-                {{content | safe}}
+                <div class="col">
+                    {% if photo.content%}
+                    <img src="data:{{photo.mimetype}};base64,{{photo.content | base64}}">
+                    {% endif %}
+                    {{photo.filename}}
+                </div>
+                <div class="col">
+                    {{content | safe}}
+                </div>
             </div>
         </div>
         <div class="row">

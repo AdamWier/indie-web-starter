@@ -11,7 +11,10 @@
             <div class="accordion-body p-0">
                 <ul class="list-group">
                     {%for post in collections.allUpdates | limit(10) %}
-                    {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url)}}
+                    {% if post.data.photo %}
+                    {{ post.data.photo | log}}
+                    {% endif %}
+                    {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url, false, post.data.photo[0])}}
                     {% endfor %}
                 </ul>
             </div>
