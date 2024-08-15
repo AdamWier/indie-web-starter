@@ -411,5 +411,22 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112966524252064669"
     ],
     "lastTootTimestamp": 1723732364989
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723734437/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723734437/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723734437/",
+    "content_text": "This deserves to be the second image I post to the site. #indieweb #gay #lesbian #meme #funny #queer #lgbti #lgbt #lgbtqia #photo",
+    "language": "en",
+    "date_published": "2024-08-15T15:07:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1723734436245.jpg",
+        "mime_type": "image/jpeg"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112966672713864755"
+    ],
+    "lastTootTimestamp": 1723734630431
   }
 }
