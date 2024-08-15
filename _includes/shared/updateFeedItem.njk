@@ -14,14 +14,17 @@
                 </div>
             {% endif %}
             <div class="col grow-col e-content">
-                <div class="col">
-                    {% if photo.content%}
-                    <img src="data:{{photo.mimetype}};base64,{{photo.content | base64}}">
-                    {% endif %}
-                    {{photo.filename}}
+                {% if photo.content %}
+                <div class="row">
+                    <div class="col">
+                        <img src="data:{{photo.mimetype}};base64,{{photo.content | base64}}" class="img-fluid">
+                    </div>
                 </div>
-                <div class="col">
-                    {{content | safe}}
+                {% endif %}
+                <div class="row">
+                    <div class="col">
+                        {{content | safe}}
+                    </div>
                 </div>
             </div>
         </div>
