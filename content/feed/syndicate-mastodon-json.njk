@@ -19,7 +19,7 @@ permalink: /feed/syndicate-mastodon-json.json
 			{
 				"id": "{{ absolutePostUrl }}",
 				"url": "{{ absolutePostUrl }}",
-				"content_text": "{{ post.content |removeHtml|replaceLineBreaks|trim|safe }}",
+				"content_text": {{ post.content |dump|removeHtml|safe|trim }},
 				"language": "{{ metadata.language }}",
 				"date_published": "{{ post.date | dateToRfc3339 }}"
 				{% if post.data.photo.length %},
