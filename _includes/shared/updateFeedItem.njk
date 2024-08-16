@@ -1,4 +1,4 @@
-{% macro updateFeedItem(metadata, date, content, url, includeAvatar, photos, replyTo)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -46,7 +46,7 @@
                 </span>
             </div>
             <div class="col text-end">
-                <a class="u-url" href="{{url | htmlBaseUrl(metadata.url)}}">Permalink</a>
+                <a class="u-url" href="{{url}}">Permalink</a>
             </div>
         </div>
     </li>
