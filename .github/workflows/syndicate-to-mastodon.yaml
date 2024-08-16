@@ -32,7 +32,7 @@ jobs:
           mastodonInstance: "https://mastodon.social"
           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: false
-          ignoreFirstRun: true
+          ignoreFirstRun: false
           globalDelayToots: 0
 
       # Make sure files are up to date if other commits have been pushed in the mean time

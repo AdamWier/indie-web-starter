@@ -32,7 +32,7 @@ jobs:
           mastodonInstance: "https://mastodon.social"
           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: false
-          ignoreFirstRun: true
+          ignoreFirstRun: false
           cacheFile: "link-to-mastodon.json"
           cacheTimestampFile: "link-to-mastodon-timestamp.json"
           globalDelayToots: 0
