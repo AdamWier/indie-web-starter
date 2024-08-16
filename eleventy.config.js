@@ -123,8 +123,12 @@ module.exports = function(eleventyConfig) {
 		return (new Date()).toISOString();
 	})
 
+	eleventyConfig.addNunjucksFilter("getVarFromString", function(varName) {
+		return this.getVariables()[varName];
+	  });
+
 	eleventyConfig.addCollection('allUpdates', collectionApi => {
-		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.webmentions, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
+		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.webmentions, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {

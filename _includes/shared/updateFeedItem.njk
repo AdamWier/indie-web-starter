@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -14,6 +14,9 @@
                 </div>
             {% endif %}
             <div class="col grow-col e-content">
+                {% if likeOf %}
+                I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
+                {% endif %}
                 {% if replyTo %}
                 <div class="row">
                     <div class="col">

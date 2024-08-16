@@ -11,7 +11,7 @@
             <div class="accordion-body p-0 h-feed">
                 <ul class="list-group">
                     {%for post in collections.allUpdates | limit(10) %}
-                        {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url, false, post.data.photo, post.data["in-reply-to"])}}
+                        {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url, false, post.data.photo, post.data["in-reply-to"], post.data["like-of"])}}
                     {% endfor %}
                 </ul>
             </div>

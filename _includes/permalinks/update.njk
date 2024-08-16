@@ -13,7 +13,7 @@ layout: layouts/base.njk
         <div class="list-group-item list-group-item-action active">
           Update
         </div>
-        {{ feedItemTemplate.updateFeedItem(page.date, content, page.url, true, photo, replyTo)}}
+        {{ feedItemTemplate.updateFeedItem(page.date, content, page.url, true, photo, "in-reply-to" | getVarFromString, "like-of" | getVarFromString)}}
         <div class="list-group-item list-group-item-action text-end">
           <a href="/">Back to main page</a>
         </div>
