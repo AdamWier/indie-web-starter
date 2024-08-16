@@ -1,4 +1,4 @@
-name: Create toots from feed items
+name: Link to mastodon
 on:
   push:
     branches:

@@ -1,8 +1,10 @@
-name: Create toots from feed items
+name: Syndicate to mastodon
 on:
   push:
     branches:
       - main
+    paths-ignore:
+      - uploads/**
 
 jobs:
   Feed2Mastodon:
