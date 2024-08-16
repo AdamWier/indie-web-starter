@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar, photos)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -14,6 +14,13 @@
                 </div>
             {% endif %}
             <div class="col grow-col e-content">
+                {% if replyTo %}
+                <div class="row">
+                    <div class="col">
+                        In reply to: <a href="{{replyTo}}">{{replyTo}}</a>
+                    </div>
+                </div>
+                {% endif %}
                 <div class="row">
                     <div class="col fs-5">
                         {{content | safe}}
