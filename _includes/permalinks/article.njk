@@ -18,7 +18,7 @@ layout: layouts/base.njk
                             {{title}}
                         </div>
                         <div class="col text-end">
-                            <span hidden class="dt-published">{{ page.date | htmlDateString}}</span>
+                            <span hidden class="dt-published">{{ page.date | dateToRfc3339}}</span>
                             {{page.date | toLocaleTimeString}}
                             {{page.date.toLocaleDateString()}}
                         </div>
