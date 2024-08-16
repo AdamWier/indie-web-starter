@@ -17,7 +17,9 @@ module.exports = async function () {
         const replyStatuses = await EleventyFetch(statusUrl+param, {type: "json", duration: "0s"});
         const replies = replyResponse.map(reply => ({
             ...reply,
-            inReplyTo: replyStatuses.find(replyStatus => replyStatus.id === reply.inReplyToId)?.url
+            data: {
+                ["in-reply-to"]: replyStatuses.find(replyStatus => replyStatus.id === reply.inReplyToId)?.url
+            }
         }))
         return {replies}
     } catch (err) {
