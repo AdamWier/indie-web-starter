@@ -404,7 +404,8 @@
     "attachments": [
       {
         "url": "https://www.mycabinetofcuriosities.com/1723724130387.jpg",
-        "mime_type": "image/jpeg"
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
       }
     ],
     "toots": [
@@ -421,12 +422,31 @@
     "attachments": [
       {
         "url": "https://www.mycabinetofcuriosities.com/1723734436245.jpg",
-        "mime_type": "image/jpeg"
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
       }
     ],
     "toots": [
       "https://mastodon.social/users/donthatedontkill/statuses/112966672713864755"
     ],
     "lastTootTimestamp": 1723734630431
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723788894/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723788894/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723788894/",
+    "content_text": "Finally finished Inscryption. What a great game. Obviously I don't want to say too much but Daniel Mullins never disappoints. #inscryption #danielmullins #danielmullinsgames #videogame #cards #cardgame #steam #videogames #games #gaming #indiegames #art",
+    "language": "en",
+    "date_published": "2024-08-16T06:14:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1723788890787.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Shot of the game Inscryption. Hands reaching out to grab the player."
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112970280572362512"
+    ],
+    "lastTootTimestamp": 1723789681817
   }
 }
