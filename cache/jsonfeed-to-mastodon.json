@@ -481,5 +481,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112973795460121414"
     ],
     "lastTootTimestamp": 1723843314777
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723854783/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723854783/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723854783/",
+    "content_text": "Just saw Glorious with a friend. There are several plot points I'm unclear on, and with my friend we went to YouTube to see some good analyses. Unfortunately, there aren't many. And in fact most people seem to not like the movie. I did. There's improvements to be had but it's a good time, especially for fans of cosmic horror. Anyone else seen this one?\n#horror #movies #films #cosmichorror #lovecraft #eldritch #indiefilm #independentfilm #shudder #glorious #monster #hplovecraft #scarymovie\n",
+    "language": "en",
+    "date_published": "2024-08-17T00:32:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1723854778757.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Glorious movie poster. a man looking through a hole "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112974553790760492"
+    ],
+    "lastTootTimestamp": 1723854885958
   }
 }
