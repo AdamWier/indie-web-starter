@@ -15,7 +15,7 @@
             {% endif %}
             <div class="col grow-col e-content">
                 {% if likeOf %}
-                I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
+                    I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
                 {% endif %}
                 {% if replyTo %}
                 <div class="row">
@@ -26,7 +26,7 @@
                 {% endif %}
                 <div class="row">
                     <div class="col fs-5">
-                        {{content | safe}}
+                        {{content | removeTags | safe}}
                     </div>
                 </div>
                 {% if photos.length %}
@@ -38,6 +38,9 @@
                     {% endfor %}
                 </div>
                 {% endif %}
+                <div class="row">
+                    {{ content | extractTags | safe }}
+                </div>
             </div>
         </div>
         <div class="row">

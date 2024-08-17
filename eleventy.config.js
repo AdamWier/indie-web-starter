@@ -105,6 +105,15 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter('tagify', tags => tags.map(tag => `#${tag}`).join(' '));
 
+	eleventyConfig.addFilter("removeTags", (content) => {
+		return content.split("<p>#")[0]
+	})
+
+	eleventyConfig.addFilter("extractTags", (content) => {
+		let tags = content.split("<p>#")[1];
+		return tags ? "<p>#"+tags : ""
+	})
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
