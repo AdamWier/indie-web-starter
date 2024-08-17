@@ -14,18 +14,22 @@
                 </div>
             {% endif %}
             <div class="col grow-col e-content">
-                {% if likeOf %}
-                    I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
-                {% endif %}
+                <div class="row text-break">
+                    <div class="col fw-normal">
+                        {% if likeOf %}
+                            I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
+                        {% endif %}
+                    </div>
+                </div>
                 {% if replyTo %}
-                <div class="row">
+                <div class="row text-break">
                     <div class="col">
                         In reply to: <a class="u-in-reply-to" href="{{replyTo}}" target="_blank">{{replyTo}}</a>
                     </div>
                 </div>
                 {% endif %}
                 <div class="row">
-                    <div class="col fs-5">
+                    <div class="col fw-normal">
                         {{content | removeTags | safe}}
                     </div>
                 </div>
