@@ -528,5 +528,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112981948692550920"
     ],
     "lastTootTimestamp": 1723967723153
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723972373/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723972373/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723972373/",
+    "content_text": "People when they meet me and hear my accent, in renfort: &quot;We can speak English if you want.&quot;\nMe, in French: &quot;Why would I want that?&quot;\nLike, can people just be normal?\n#france #usa #immigrant #expat #french #english #french #us #unitedstates #language #culture #baddate #dating #nothanks #annoyed\n",
+    "language": "en",
+    "date_published": "2024-08-18T09:12:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1723972369091.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "a photo of a boy looking annoyed "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112982258393835900"
+    ],
+    "lastTootTimestamp": 1723972448904
   }
 }
