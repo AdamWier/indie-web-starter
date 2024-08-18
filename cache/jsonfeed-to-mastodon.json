@@ -510,5 +510,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112975010869720635"
     ],
     "lastTootTimestamp": 1723861860459
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1723967645/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1723967645/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1723967645/",
+    "content_text": "Last night I started a new game: The Sexy Brutale. It was recommended for fans of Disco Elysium. What a delight! It has a unique visual style. And running around rooms, being sneaky and spying on people is quite fun! And I have questions! Why are we wearing masks? Why are people being murdered? Why is a lady coming out of a blood pool on the floor and giving me magical powers? NO ONE KNOWS!\n#discoelysium #thesexybrutale #videogames #games #detective #murdermystery #masquerade\n",
+    "language": "en",
+    "date_published": "2024-08-18T07:54:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1723967640760.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Cover of the game The Sexy Brutale. Multiple people wearing masquerade masks and looming over a model of a casino."
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112981948692550920"
+    ],
+    "lastTootTimestamp": 1723967723153
   }
 }
