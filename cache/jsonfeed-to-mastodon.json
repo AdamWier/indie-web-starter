@@ -546,5 +546,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112982258393835900"
     ],
     "lastTootTimestamp": 1723972448904
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1724093044/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1724093044/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1724093044/",
+    "content_text": "Just finished Willy's Wonderland. It was slightly underwhelming but any time they decide to let Nicholas Cage loose I'm here for it. Also the sheriff's voice was familiar but I couldn't place it. That's how I knew she was right to doubt my commitment to Sparkle Motion.\n#Willyswonderland #DonnieDarko #NicholasCage #movie #horror #horrormovie #slasher #film #independentfilm\n",
+    "language": "en",
+    "date_published": "2024-08-19T18:44:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1724093040125.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Willy&#39;s wonderland poster. Nick cage and the animatronics "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/112990166778693521"
+    ],
+    "lastTootTimestamp": 1724093121209
   }
 }
