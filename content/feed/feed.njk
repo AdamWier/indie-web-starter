@@ -14,7 +14,7 @@ permalink: /feed/feed.xml
 		<name>{{ metadata.author.name }}</name>
 		<email>{{ metadata.author.email }}</email>
 	</author>
-	{%- for post in collections.allOriginalContent | reverse %}
+	{%- for post in collections.allOriginalContent | reverse | limit(10) %}
 	{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title or "Update" }}</title>
