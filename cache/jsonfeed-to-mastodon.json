@@ -532,7 +532,7 @@
   "https://www.mycabinetofcuriosities.com/notes/1723972373/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1723972373/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1723972373/",
-    "content_text": "People when they meet me and hear my accent, in renfort: &quot;We can speak English if you want.&quot;\nMe, in French: &quot;Why would I want that?&quot;\nLike, can people just be normal?\n#france #usa #immigrant #expat #french #english #french #us #unitedstates #language #culture #baddate #dating #nothanks #annoyed\n",
+    "content_text": "People when they meet me and hear my accent, in English: &quot;We can speak English if you want.&quot;\nMe, in French: &quot;Why would I want that?&quot;\nLike, can people just be normal?\n#france #usa #immigrant #expat #french #english #french #us #unitedstates #language #culture #baddate #dating #nothanks #annoyed\n",
     "language": "en",
     "date_published": "2024-08-18T09:12:00Z",
     "attachments": [
@@ -586,5 +586,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112992789082289117"
     ],
     "lastTootTimestamp": 1724133134429
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1724261839/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1724261839/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1724261839/",
+    "content_text": "Spent the evening upgrading the small program I use to sync Habitica with my Google calendar every week. Fixed a bug where certain items were ignored and filtered out requests that were unnecessary. Satisfying work. And in python, which I don't use often. Always feels good to implement a few things you've always meant to do.\n#coding #python #habitica #google #habitica #calendar #planning #productivity #bug #feature #programming #api #opensource #feelsgood #meme\n",
+    "language": "en",
+    "date_published": "2024-08-21T17:37:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1724261836465.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "feels good meme. a drawing of a man looking content"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113001237956284900"
+    ],
+    "lastTootTimestamp": 1724262054283
   }
 }
