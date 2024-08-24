@@ -626,5 +626,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113015347320649291"
     ],
     "lastTootTimestamp": 1724477345938
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1724481267/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1724481267/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1724481267/",
+    "content_text": "I'm ready to go! Here I come Vannes!\n(Felt cute. Won't delete later.)\n#vannes #france #selfie #egoportrait #traveling #daytrip #train #sncf #gay #lgbt #lgbtq #lgbtqia #gayselfie\n",
+    "language": "en",
+    "date_published": "2024-08-24T06:34:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1724481262495.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "me posing like &quot;how you doin?&quot; in my apartment with the windows open and a rainbow flag hanging out of one window"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113015609181145886"
+    ],
+    "lastTootTimestamp": 1724481341447
   }
 }
