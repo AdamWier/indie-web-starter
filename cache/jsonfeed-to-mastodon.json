@@ -666,5 +666,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113019648348116661"
     ],
     "lastTootTimestamp": 1724542974248
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1724594838/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1724594838/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1724594838/",
+    "content_text": "#silentsunday\n",
+    "language": "en",
+    "date_published": "2024-08-25T14:07:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1724594833918.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "a smurf with a bandana covering their face about to throw a flower"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113023052338483637"
+    ],
+    "lastTootTimestamp": 1724594916280
   }
 }
