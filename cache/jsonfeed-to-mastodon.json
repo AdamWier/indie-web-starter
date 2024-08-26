@@ -684,5 +684,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113023052338483637"
     ],
     "lastTootTimestamp": 1724594916280
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1724701358/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1724701358/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1724701358/",
+    "content_text": "I had such a day.\n",
+    "language": "en",
+    "date_published": "2024-08-26T19:42:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113030033041742670"
+    ],
+    "lastTootTimestamp": 1724701432035
   }
 }
