@@ -728,5 +728,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113052216874105065"
     ],
     "lastTootTimestamp": 1725039930558
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1725072892/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1725072892/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1725072892/",
+    "content_text": "I don't want to fall back again, back into the easy days\nhttps://youtu.be/MDRrSqgtFw4?si=PoG1m9M78Yc3pI_8\n",
+    "language": "en",
+    "date_published": "2024-08-31T02:54:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113054381776384394"
+    ],
+    "lastTootTimestamp": 1725072964231
   }
 }
