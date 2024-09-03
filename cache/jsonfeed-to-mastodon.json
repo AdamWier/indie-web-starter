@@ -750,5 +750,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113061780275828016"
     ],
     "lastTootTimestamp": 1725185856429
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1725366515/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1725366515/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1725366515/",
+    "content_text": "Tinder is out of control with these notifications.\nThe answer is no Tinder. You're an app. And I have more to do than pointless chat with weird strangers all days.\n(Except here. You're all cool on Mastodon.)\n#tinder #mobile #app #mobileapp #bigtech #mastodon #dating #onlinedating #harassment #notification\n",
+    "language": "en",
+    "date_published": "2024-09-03T12:28:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1725366512720.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Tinder notification reading &quot;Adam can you please stop what you&#39;re doing and grace us with your presence?&quot;"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113073624892299335"
+    ],
+    "lastTootTimestamp": 1725366590971
   }
 }
