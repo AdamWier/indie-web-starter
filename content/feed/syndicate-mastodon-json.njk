@@ -14,7 +14,7 @@ permalink: /feed/syndicate-mastodon-json.json
 		"url": "{{ metadata.author.url }}"
 	},
 	"items": [
-		{%for post in collections.notes %}
+		{%for post in collections.notes| reverse | limit(10) %}
 			{%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
 			{
 				"id": "{{ absolutePostUrl }}",
@@ -28,7 +28,7 @@ permalink: /feed/syndicate-mastodon-json.json
 						{
 							"url": "{{metadata.url}}{{photoItem.filename}}",
 							"mime_type": "{{photoItem.mimetype}}",
-							"_alt_text": "{{post.data["photo-alt"]}}"
+							"_alt_text": {{post.data["photo-alt"][loop.index0] |dump|safe|trim}}
 						}
 						{% if loop.index !== post.data.photo.length %}
 						,
