@@ -16,6 +16,8 @@ const eleventyGoogleFonts = require("eleventy-google-fonts");
 
 const stripHtml = require('striptags');
 
+var he = require('he');
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	dotenv.config()
@@ -57,6 +59,10 @@ module.exports = function(eleventyConfig) {
 		date.setHours(date.getHours() + 2)
 		return date.toLocaleTimeString()
 	})
+
+	eleventyConfig.addFilter('escapeQuotes', string => string.replace(/(?<!^)\"(?!$)/g, "\\\""))
+
+	eleventyConfig.addFilter('decodeHtmlEntities', string => he.decode(string))
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
