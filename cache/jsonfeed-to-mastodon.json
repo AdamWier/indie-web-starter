@@ -721,7 +721,7 @@
   "https://www.mycabinetofcuriosities.com/notes/1725039857/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1725039857/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1725039857/",
-    "content_text": "Part 1 of my little &quot;manifesto&quot; is almost ready. Is it good? No. Is it unique? Also no. Is it sincere? Yes.\nIt's a mishmash of Buddhist, anarchist and humanist thought.\nAn inspirations was https://youtu.be/TWVmcuqpIB0 check it out as a preview. Also add http://mycabinetofcuriosities.com to your RSS or microformat reader for the update.\n#writing #nonfiction #politics #religion #ecology #humanism #buddhism #zen #leftism #anarchism #communism #degrowth #revolution #paultillich #indieweb\n",
+    "content_text": "Part 1 of my little \"manifesto\" is almost ready. Is it good? No. Is it unique? Also no. Is it sincere? Yes.\nIt's a mishmash of Buddhist, anarchist and humanist thought.\nAn inspirations was https://youtu.be/TWVmcuqpIB0 check it out as a preview. Also add http://mycabinetofcuriosities.com to your RSS or microformat reader for the update.\n#writing #nonfiction #politics #religion #ecology #humanism #buddhism #zen #leftism #anarchism #communism #degrowth #revolution #paultillich #indieweb\n",
     "language": "en",
     "date_published": "2024-08-30T17:44:00Z",
     "toots": [
@@ -797,5 +797,33 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113086758139577652"
     ],
     "lastTootTimestamp": 1725566988482
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1725707601/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1725707601/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1725707601/",
+    "content_text": "Today in Nantes I was at the protest against the new prime minister, Michel Barnier, a rightwing homophobe chosen despite the Nouveau Front Populaire having a plurality in the government. Fuck Macron. Fuck Barnier. And fuck this apparent disregard for the voice & will of the French people\nVideos in comments b/c my site can't handle video yet\n#nantes #protest #politics #france #francepol #macron #barnier #nfp #acab #antifa #leftism #leftist #communism #anarchism #indieweb #manif #manifestation\n",
+    "language": "en",
+    "date_published": "2024-09-07T11:13:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1725707596731.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Protestors sitting on the tram in front of riot police blocking them"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1725707596618.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Protestors in the street"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1725707596471.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Protestors in the street, purple smoke in the air"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113097564937338273"
+    ],
+    "lastTootTimestamp": 1725731887291
   }
 }
