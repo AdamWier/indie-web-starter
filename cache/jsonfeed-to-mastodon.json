@@ -801,7 +801,7 @@
   "https://www.mycabinetofcuriosities.com/notes/1725707601/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1725707601/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1725707601/",
-    "content_text": "Today in Nantes I was at the protest against the new prime minister, Michel Barnier, a rightwing homophobe chosen despite the Nouveau Front Populaire having a plurality in the government. Fuck Macron. Fuck Barnier. And fuck this apparent disregard for the voice & will of the French people\nVideos in comments b/c my site can't handle video yet\n#nantes #protest #politics #france #francepol #macron #barnier #nfp #acab #antifa #leftism #leftist #communism #anarchism #indieweb #manif #manifestation\n",
+    "content_text": "Today in Nantes I was at the protest against the new prime minister, Michel Barnier, a rightwing homophobe chosen despite the Nouveau Front Populaire having a plurality in the government. Fuck Macron. Fuck Barnier. And fuck this apparent disregard for the voice & will of the French people\n#nantes #protest #politics #france #francepol #macron #barnier #nfp #acab #antifa #leftism #leftist #communism #anarchism #indieweb #manif #manifestation\n",
     "language": "en",
     "date_published": "2024-09-07T11:13:00Z",
     "attachments": [
@@ -825,5 +825,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113097564937338273"
     ],
     "lastTootTimestamp": 1725731887291
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1725808548/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1725808548/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1725808548/",
+    "content_text": "#silentsunday\n",
+    "language": "en",
+    "date_published": "2024-09-08T15:15:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1725808543438.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Castle courtyard in Vannes, France"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113102594094127751"
+    ],
+    "lastTootTimestamp": 1725808625855
   }
 }
