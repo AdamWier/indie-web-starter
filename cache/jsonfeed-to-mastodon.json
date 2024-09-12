@@ -865,5 +865,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113111647683783363"
     ],
     "lastTootTimestamp": 1725946772687
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1726141463/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1726141463/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1726141463/",
+    "content_text": "How was it??\n",
+    "language": "en",
+    "date_published": "2024-09-12T11:44:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113124411636919698"
+    ],
+    "lastTootTimestamp": 1726141535161
   }
 }
