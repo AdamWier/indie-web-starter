@@ -876,5 +876,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113124411636919698"
     ],
     "lastTootTimestamp": 1726141535161
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1726328641/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1726328641/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1726328641/",
+    "content_text": "Himbo's first computer assembly. Here we goooooo\n#pc #pcgaming #computer #computers #computergames #hardware #computerhardware #computerbuild #diy #radeon #ryzen #gaming #gamer #himbo\n",
+    "language": "en",
+    "date_published": "2024-09-14T15:43:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1726328639261.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "computer parts"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113136678712715065"
+    ],
+    "lastTootTimestamp": 1726328715937
   }
 }
