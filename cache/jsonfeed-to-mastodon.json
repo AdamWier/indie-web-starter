@@ -894,5 +894,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113136678712715065"
     ],
     "lastTootTimestamp": 1726328715937
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1726585234/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1726585234/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1726585234/",
+    "content_text": "Been a bit quiet. Feeling a bit overwhelmed. But I left work a bit early and decided to finish the afternoon with some bell hooks and beer en terrasse.\n#bellhooks #beer #afterwork #nantes #reading #love #allaboutlove #polyamory #feminism #relationshipanarchy #introspection #therapy\n",
+    "language": "en",
+    "date_published": "2024-09-17T15:00:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1726585231628.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A beer and an e reader slowing the start of chapter four of All About Love on a table next to the castle in Nantes "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113153494993854776"
+    ],
+    "lastTootTimestamp": 1726585312004
   }
 }
