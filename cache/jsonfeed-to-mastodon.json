@@ -934,5 +934,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113162646811828772"
     ],
     "lastTootTimestamp": 1726724957642
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1726775832/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1726775832/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1726775832/",
+    "content_text": "Literally just yelled at my screen \"this fucking guy!!!\"\nWell played, developers.\nIykyk.\n#lisa #lisathepainful #indiedev #indiegames #videogames #iykyk #thisfuckingguy\n",
+    "language": "en",
+    "date_published": "2024-09-19T19:57:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1726775827877.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113165985800073463"
+    ],
+    "lastTootTimestamp": 1726775906541
   }
 }
