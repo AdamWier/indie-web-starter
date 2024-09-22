@@ -23,3 +23,27 @@
 	content: "\f0b1";
 	margin: 0 5px 0 -15px;
 }
+
+.mastodon-icon:before {
+	font-family: "FontAwesome";
+	content: "\f4f6";
+	margin: 0 5px 0 -15px;
+}
+
+.github-icon:before {
+	font-family: "FontAwesome";
+	content: "\f09b";
+	margin: 0 5px 0 -15px;
+}
+
+.facebook-icon:before {
+	font-family: "FontAwesome";
+	content: "\f09a";
+	margin: 0 5px 0 -15px;
+}
+
+.rss-icon:before {
+	font-family: "FontAwesome";
+	content: "\f09e";
+	margin: 0 5px 0 -15px;
+}
