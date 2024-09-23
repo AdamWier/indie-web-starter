@@ -14,7 +14,7 @@ permalink: /feed/link-mastodon-json.json
 		"url": "{{ metadata.author.url }}"
 	},
 	"items": [
-		{%for article in collections.articles | reverse | limit(10) %}
+		{%for article in collections.blogPosts | reverse | limit(10) %}
 			{%- set absolutePostUrl = article.url | htmlBaseUrl(metadata.url) %}
 			{
 				"id": "{{ absolutePostUrl }}",

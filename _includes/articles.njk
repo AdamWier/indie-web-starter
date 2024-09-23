@@ -1,6 +1,6 @@
 <ul class="list-group shadow-lg my-3">
     <li class="list-group-item list-group-item-action active fw-normal">Blog posts</li>
-    {%for post in collections.articles.reverse() | limit(5) %}
+    {%for post in collections.blogPosts.reverse() | limit(5) %}
         <li class="list-group-item">
             <h6 class="fw-bold">
                 {{post.data.title}}

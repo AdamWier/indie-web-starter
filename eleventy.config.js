@@ -147,8 +147,10 @@ module.exports = function(eleventyConfig) {
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {
-		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getFilteredByTag('articles')].sort((a,b) => b.date - a.date)
+		return [...collectionApi.getFilteredByTag('notes'), ...collectionApi.getFilteredByTag('articles').filter(article => !article.data['read-of'])].sort((a,b) => b.date - a.date)
 	})
+
+	eleventyConfig.addCollection('blogPosts', collectionApi => collectionApi.getFilteredByTag('articles').filter(article => !article.data['read-of']))
 
 	// Features to make your build faster (when you need them)
 
