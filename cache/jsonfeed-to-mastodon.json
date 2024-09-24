@@ -974,5 +974,31 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113186057230099644"
     ],
     "lastTootTimestamp": 1727082172194
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727206933/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727206933/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727206933/",
+    "content_text": "This fucking guy....\n#lisa #lisathepainful #videogames #indiegames\n",
+    "language": "en",
+    "date_published": "2024-09-24T19:42:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1727206923486.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
+      }
+    ],
+    "toots": []
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727201731/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727201731/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727201731/",
+    "content_text": "The tyranny of the algorithm. The one last site that I couldn't tear myself away from but had one was YouTube. I recently learned YouTube channels have RSS feeds. I am finally free. There is no algorithm on my social media now. And let me tell you, I am unbothered, moisturized, happy, in my lane, focused, flourishing.\n(You all are great here on Mastodon by the way.)\n#socialmedia #indieweb #rss #atom #rssreader #youtube #algorithm #internet #smallinternet #fediverse #mastodon #mentalhealth\n",
+    "language": "en",
+    "date_published": "2024-09-24T18:15:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113194238332709538"
+    ],
+    "lastTootTimestamp": 1727207006047
   }
 }
