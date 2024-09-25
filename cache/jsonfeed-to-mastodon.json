@@ -1003,5 +1003,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113194238332709538"
     ],
     "lastTootTimestamp": 1727207006047
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727290152/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727290152/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727290152/",
+    "content_text": "I was hired somewhere where we used mariadb for our mobile app. It was buggy as hell.... We changed DBS and never looked back\n",
+    "language": "en",
+    "date_published": "2024-09-25T18:49:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113199692184454519"
+    ],
+    "lastTootTimestamp": 1727290225161
   }
 }
