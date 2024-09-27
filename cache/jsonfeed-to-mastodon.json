@@ -1014,5 +1014,46 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113199692184454519"
     ],
     "lastTootTimestamp": 1727290225161
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727421064/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727421064/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727421064/",
+    "content_text": "I've been sad and feeling a little hopeless lately. Life getting me down. Doubting a bit my outlook on life, way of life, something like that. And so I decided to play the best game for depressed people: Death Stranding. This game found me during the pandemic during another sort of existential crisis. It holds a special place in my heart and I was glad to go back to its terrifying and beautiful world to see my friend Sam again\n#deathstranding #videogames #mentalhealth #kojima #keeponkeepingon\n",
+    "language": "en",
+    "date_published": "2024-09-27T07:10:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1727421058093.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "my porter rank stats"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1727421057974.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Sam covered in snow delivering a package"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1727421057850.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "sam and bb in thermal baths"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1727421057712.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "sam washing himself in a thermal bath"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113208271808848030"
+    ],
+    "lastTootTimestamp": 1727421139886
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727290182/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727290182/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727290182/",
+    "content_text": "Get Out 2: Chuck's Story\n",
+    "language": "en",
+    "date_published": "2024-09-25T18:49:00Z",
+    "toots": []
   }
 }
