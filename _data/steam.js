@@ -5,7 +5,6 @@ const convertMinutesToHours = (minutes) => Math.round(minutes / 60 * 100) / 100
 module.exports = async function () {
     const url = `https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=${process.env.STEAM_API_KEY}&steamid=76561198074191549&format=json`
     const createGameUrl = (appId) => `https://store.steampowered.com/api/appdetails?appids=${appId}&l=english`
-    const getImageUrl = (appId, hash) => `http://media.steampowered.com/steamcommunity/public/images/apps/${appId}/${hash}.jpg`
     const getStorePageUrl = (appId) => `https://store.steampowered.com/agecheck/app/${appId}`
 
     try {
@@ -15,9 +14,9 @@ module.exports = async function () {
             return {
             title: game.name,
             twoWeeksPlaytime: game.playtime_2weeks > 60 ? `${convertMinutesToHours(game.playtime_2weeks)} hours` : `${game.playtime_2weeks} minutes`,
-            imageUrl: storeInfo[game.appid].data.header_image,
+            imageUrl: storeInfo[game.appid].data?.header_image,
             storePageUrl: getStorePageUrl(game.appid),
-            summary: storeInfo[game.appid].data.short_description
+            summary: storeInfo[game.appid].data?.short_description
         }})
         const gameInfo = await Promise.all(promises)
         const totalMinutes = response.response.games.reduce((prev, current) => {
