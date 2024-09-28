@@ -1077,5 +1077,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113212380690246287"
     ],
     "lastTootTimestamp": 1727483836368
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1727484080/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1727484080/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1727484080/",
+    "content_text": "This is weird af\n",
+    "language": "en",
+    "date_published": "2024-09-28T00:41:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113212401461680133"
+    ],
+    "lastTootTimestamp": 1727484153285
   }
 }
