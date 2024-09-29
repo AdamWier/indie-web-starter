@@ -36,6 +36,10 @@ module.exports = function(eleventyConfig) {
 		return Buffer.from(url).toString('base64');
   });
 
+  eleventyConfig.addFilter("excludeReplyTo", posts =>
+	posts.filter( post =>!post.data["in-reply-to"])
+  )
+
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
