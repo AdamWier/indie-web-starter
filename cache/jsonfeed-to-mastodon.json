@@ -1135,5 +1135,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113253932254515908"
     ],
     "lastTootTimestamp": 1728117862955
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1728121980/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1728121980/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1728121980/",
+    "content_text": "Just did my 3rd block ever on Mastodon. 1st was being needlessly rude, 2nd was for saying I deserved to die in a terrorist attack (yikes), and this one was for arrogant unsolicited advice. I believe you should not give strangers advice unless they ask for it. Ideally you should not give anyone advice. What you should do instead, if anything, is ask them questions to help them figure out what would help them. But I guess that doesn't give people the same ego boost now does it?\n#mastodon #advice\n",
+    "language": "en",
+    "date_published": "2024-10-05T09:52:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113254206837232536"
+    ],
+    "lastTootTimestamp": 1728122052698
   }
 }
