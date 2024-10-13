@@ -28,7 +28,7 @@ permalink: /feed/syndicate-mastodon-json.json
 						{
 							"url": "{{metadata.url}}{{photoItem.filename}}",
 							"mime_type": "{{photoItem.mimetype}}",
-							"_alt_text": {{post.data["photo-alt"][loop.index0] |dump|safe|trim}}
+							"_alt_text": {{post.data["photo-alt"][loop.revindex0] |dump|safe|trim}}
 						}
 						{% if loop.index !== post.data.photo.length %}
 						,
