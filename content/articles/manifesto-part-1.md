@@ -46,4 +46,4 @@ I will be sharing further essays at a snail's pace on this vague idea I have bee
 
 [^2]: My spellcheck tells me this is not a word. Nice try you capitalist fucks! :wink:
 
-[^3]: In Mexie's video she attributes this idea to Adrian Maree Brown. I found a similar quote from Toni Cade Bambara. I'm not sure who to attribute with creating this idea, if there's anyone to attribute at all.
+[^3]: In Mexie's video she attributes this idea to adrienne maree brown. I found a similar quote from Toni Cade Bambara. I'm not sure who to attribute with creating this idea, if there's anyone to attribute at all.
