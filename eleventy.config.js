@@ -18,6 +18,10 @@ const stripHtml = require('striptags');
 
 var he = require('he');
 
+const markdownItFootnote = require("markdown-it-footnote");
+const markdownItEmoji = require("markdown-it-emoji").full;
+const mdIterator = require('markdown-it-for-inline')
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	dotenv.config()
@@ -126,7 +130,14 @@ module.exports = function(eleventyConfig) {
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
-		mdLib.use(markdownItAnchor, {
+		mdLib.use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
+			const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
+			
+			if (href && (!href.includes('mycabinetofcuriosities.com') && !href.startsWith('/') && !href.startsWith('#'))) {
+			  tokens[idx].attrPush([ 'target', '_blank' ])
+			  tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
+			}
+		  }).use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
 				class: "header-anchor",
@@ -135,7 +146,8 @@ module.exports = function(eleventyConfig) {
 			}),
 			level: [1,2,3,4],
 			slugify: eleventyConfig.getFilter("slugify")
-		});
+		}).use(markdownItFootnote)
+		.use(markdownItEmoji);
 	});
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
