@@ -3,9 +3,9 @@ type: h-entry
 title: "A Manifesto? - Part 1: New Ways of Being"
 tags:
   - manifesto
-date: '2024-10-13T14:06:00+0200'
+date: '2024-10-13T16:06:00+0200'
 post-status: published
-updated: '2024-10-13T14:06:00+0200'
+updated: '2024-10-13T16:06:00+0200'
 client_id: ''
 ---
 I have an idea rattling around in my head. An embryo of an idea. A little intellectual itch nagging at me. A perpetual refrain when my mind idles and looks for the nearest thing to alight on. A notion I've been vaguely referring to as “new ways of being.” 
