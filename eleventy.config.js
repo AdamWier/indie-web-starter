@@ -21,10 +21,13 @@ var he = require('he');
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItEmoji = require("markdown-it-emoji").full;
 const mdIterator = require('markdown-it-for-inline')
+const readingTime = require('eleventy-plugin-reading-time');
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	dotenv.config()
+
+	eleventyConfig.addPlugin(readingTime);
 
 	eleventyConfig.addPlugin(eleventyGoogleFonts);
 	

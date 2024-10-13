@@ -23,6 +23,11 @@ layout: layouts/base.njk
                             {{page.date.toLocaleDateString()}}
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col">
+                            <span class="badge rounded-pill bg-success">Reading time: {{ content | readingTime }}</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="e-content card-body">
                     {{ content | safe}}
