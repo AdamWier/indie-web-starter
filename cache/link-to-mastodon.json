@@ -31,5 +31,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/112842729030602739"
     ],
     "lastTootTimestamp": 1721843399826
+  },
+  "https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/": {
+    "id": "https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/",
+    "url": "https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/",
+    "content_text": "New blog post: \"A Manifesto? - Part 1: New Ways of Being\" at https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/ #articles #manifesto #blog #post #indieweb #syndication #possee",
+    "language": "en",
+    "date_published": "2024-10-13T12:06:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113300778014012587"
+    ],
+    "lastTootTimestamp": 1728832672553
   }
 }
