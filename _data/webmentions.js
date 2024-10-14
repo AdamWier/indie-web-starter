@@ -30,7 +30,7 @@ module.exports = async function () {
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        return response.children.map(child =>(console.log(child.content, child.author, child) || {
+        return response.children.map(child =>({
             ...child,
             statement: `${child.author.name} ${verb[child["wm-property"]]} ${child[child["wm-property"]]}`,
             content: child.content?.html || child["like-of"] ? fillInTemplate(child) : `Web mention from ${child.author?.name}`,
