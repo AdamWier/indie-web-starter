@@ -1025,22 +1025,22 @@
       {
         "url": "https://www.mycabinetofcuriosities.com/1727421058093.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "my porter rank stats"
+        "_alt_text": "sam washing himself in a thermal bath"
       },
       {
         "url": "https://www.mycabinetofcuriosities.com/1727421057974.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "Sam covered in snow delivering a package"
+        "_alt_text": "sam and bb in thermal baths"
       },
       {
         "url": "https://www.mycabinetofcuriosities.com/1727421057850.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "sam and bb in thermal baths"
+        "_alt_text": "Sam covered in snow delivering a package"
       },
       {
         "url": "https://www.mycabinetofcuriosities.com/1727421057712.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "sam washing himself in a thermal bath"
+        "_alt_text": "my porter rank stats"
       }
     ],
     "toots": [
@@ -1164,5 +1164,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113254384440772236"
     ],
     "lastTootTimestamp": 1728124762918
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729020046/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729020046/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729020046/",
+    "content_text": "I don't understand what I'm feeling. Depression? Exhaustion? Heartbreak? Maybe even fear? Dissatisfaction? Something just isn't quite right. I'm not sure what to do about it because I don't know what it is. It's so subtle I can hardly hear it but it's constantly there. Been going on for days, I think even weeks.\n#mentalhealth #depression #exhaustion #love #proprioception #alexithymia #neurodivergent #actuallyautistic #scared\n",
+    "language": "en",
+    "date_published": "2024-10-15T19:20:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113313062696120266"
+    ],
+    "lastTootTimestamp": 1729020122089
   }
 }
