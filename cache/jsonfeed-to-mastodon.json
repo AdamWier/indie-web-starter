@@ -1193,5 +1193,38 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113315836836097178"
     ],
     "lastTootTimestamp": 1729062452249
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729178469/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729178469/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729178469/",
+    "content_text": "Happy to be at the Dev Fest today and tomorrow! It comes once a year. Like Christmas! I always get to learn so many things and test out neighboring knowledge areas. And tonight.... Afterparty! 🥳🍻🎉\nHere's the talks and codelabs I went to today.\n#devfest #nantes #devfestnantes #dev #developer #softwaredevelopment #development #programming #programmer #coder #coding #kubernetes #go #tinygo #frontend #backend #ai #artificalintelligence #devops #iot #tech\n",
+    "language": "en",
+    "date_published": "2024-10-17T15:21:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729178460938.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery)50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery ) 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta\n17:50\nSurvie dans les ténèbres du rendu frontend: une\nexploration terrifante\nWeb20 minutes/\nBelem\nAlan Duchene, Jimmy Kasprzak"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729178460867.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "14:00\nDu cauchemar au conte de fée : Démystifions une\narchitecture conteneurisée avec Kubernetes\nCloud & DevOps\n120 minutes /\nL'Atelier\nAmbre Person, Gwenaël Bec\n16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery 50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729178460800.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "09:00\nKeynote d'ouverture\nDiscovery 50 minutes /\nJules Verne\nMehdi Moussaid\n10:00\nTrucs et astuces data pour devenir le prochain\nSherlock Holmes!\nDiscovery\n50 minutes/\nTitan\nAntoine Bonneau, Guillaume Renaudin\n11:10\nTinyGo, petit mais costaud!\nloT & Hardware\n50 minutes /\nTour Bretagne\nAurélie Vache, Thierry Chantier"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729178460726.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Speaker on stage at the keynote"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113323445166856613"
+    ],
+    "lastTootTimestamp": 1729178546333
   }
 }
