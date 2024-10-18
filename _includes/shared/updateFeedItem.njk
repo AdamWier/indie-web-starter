@@ -35,7 +35,7 @@
                 </div>
                 {% if photos.length %}
                 <div class="row my-2">
-                    {% for photoItem in photos %}
+                    {% for photoItem in photos | reverse %}
                     <div class="col">
                         <img src="/{{photoItem.filename}}" class="u-photo img-fluid">
                     </div>

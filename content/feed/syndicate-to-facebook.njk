@@ -23,7 +23,7 @@ permalink: /feed/syndicate-to-facebook.xml
 		<updated>{{ post.date | dateToRfc3339 }}</updated>
 		<id>{{ absolutePostUrl }}</id>
 		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
-		{% for photoItem in post.data.photo %}
+		{% for photoItem in post.data.photo |reverse %}
 			<content:encoded><![CDATA[<img src="/{{ photoItem.filename}}" />]]></content:encoded>
 		{% endfor %}
 	</entry>

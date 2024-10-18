@@ -24,11 +24,11 @@ permalink: /feed/syndicate-mastodon-json.json
 				"date_published": "{{ post.date | dateToRfc3339 }}"
 				{% if post.data.photo.length %},
 					"attachments": [
-					{% for photoItem in post.data.photo %}
+					{% for photoItem in post.data.photo | reverse %}
 						{
 							"url": "{{metadata.url}}{{photoItem.filename}}",
 							"mime_type": "{{photoItem.mimetype}}",
-							"_alt_text": {{post.data["photo-alt"][loop.revindex0] |dump|safe|trim}}
+							"_alt_text": {{post.data["photo-alt"][loop.index0] |dump|safe|trim}}
 						}
 						{% if loop.index !== post.data.photo.length %}
 						,
