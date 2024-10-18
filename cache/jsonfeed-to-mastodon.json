@@ -1202,14 +1202,9 @@
     "date_published": "2024-10-17T15:21:00Z",
     "attachments": [
       {
-        "url": "https://www.mycabinetofcuriosities.com/1729178460938.jpg",
+        "url": "https://www.mycabinetofcuriosities.com/1729178460726.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery)50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery ) 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta\n17:50\nSurvie dans les ténèbres du rendu frontend: une\nexploration terrifante\nWeb20 minutes/\nBelem\nAlan Duchene, Jimmy Kasprzak"
-      },
-      {
-        "url": "https://www.mycabinetofcuriosities.com/1729178460867.jpg",
-        "mime_type": "image/jpeg",
-        "_alt_text": "14:00\nDu cauchemar au conte de fée : Démystifions une\narchitecture conteneurisée avec Kubernetes\nCloud & DevOps\n120 minutes /\nL'Atelier\nAmbre Person, Gwenaël Bec\n16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery 50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta"
+        "_alt_text": "Speaker on stage at the keynote"
       },
       {
         "url": "https://www.mycabinetofcuriosities.com/1729178460800.jpg",
@@ -1217,9 +1212,14 @@
         "_alt_text": "09:00\nKeynote d'ouverture\nDiscovery 50 minutes /\nJules Verne\nMehdi Moussaid\n10:00\nTrucs et astuces data pour devenir le prochain\nSherlock Holmes!\nDiscovery\n50 minutes/\nTitan\nAntoine Bonneau, Guillaume Renaudin\n11:10\nTinyGo, petit mais costaud!\nloT & Hardware\n50 minutes /\nTour Bretagne\nAurélie Vache, Thierry Chantier"
       },
       {
-        "url": "https://www.mycabinetofcuriosities.com/1729178460726.jpg",
+        "url": "https://www.mycabinetofcuriosities.com/1729178460867.jpg",
         "mime_type": "image/jpeg",
-        "_alt_text": "Speaker on stage at the keynote"
+        "_alt_text": "14:00\nDu cauchemar au conte de fée : Démystifions une\narchitecture conteneurisée avec Kubernetes\nCloud & DevOps\n120 minutes /\nL'Atelier\nAmbre Person, Gwenaël Bec\n16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery 50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729178460938.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "16:20\nLes Méta-Lois, vous ne leur échapperez pas\nDiscovery)50 minutes /\nTour Bretagne\nStéphane Trebel\n17:20\nParlons d'entretiens techniques\nDiscovery ) 20 minutes /\nTour Bretagne\nAne Diaz De Tuesta\n17:50\nSurvie dans les ténèbres du rendu frontend: une\nexploration terrifante\nWeb20 minutes/\nBelem\nAlan Duchene, Jimmy Kasprzak"
       }
     ],
     "toots": [
@@ -1237,5 +1237,38 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113325046799253034"
     ],
     "lastTootTimestamp": 1729202985366
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729238522/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729238522/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729238522/",
+    "content_text": "Day two of nerding out! Let's gooooooo\n#devfest #nantes #devfestnantes #dev #developer #softwaredevelopment #development #programming #programmer #coder #coding #kubernetes #go #tinygo #frontend #backend #ai #artificalintelligence #devops #iot #tech\n",
+    "language": "en",
+    "date_published": "2024-10-18T08:01:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729238515812.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Entrance to the Cité des Congrès in Nantes"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729238515884.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "09:00\nCyber Resilience Act: 21 mois pour y preparer vos\nchaînes DevSecOps\nSECURITY) 50 minutes /\nTour Bretagne\nDavid Robin\n10:10\nJ'ai une idée pour réduire l'empreinte\nenvironnementale du numérique par 4\nDiscovery50 minutes /\nJules Verne\nTristan Nitot\n11:20\nBug Bounty: Révolutionner la détection des\nvulnérabilités dans votre SI et passer à l'échelle"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729238515941.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "14:00\nPlatform Engineering Day-2: Unifier vos outils\navec Backstage\nCloud & DevOps\n50 minutes /\nTitan\nJulien Hery\n15:10\nMongoDB en scale-up : comment sortir d'un enfer\nmonolithique\nCloud & DevOps\n50 minutes /D\nBelem\nAlexis \"Horgix\" Chotard, Laurentiu Capatina\n16:20\n/e/OS, mon smartphone Android sans Google\nMobile 20 minutes /\nTour Bretagne\nBenoît Masson\nDe"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729238516001.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "16:20\n(e/OS, mon smartphone Android sans Google\nMobile20 minutes /\nTour Bretagne\nBenoît Masson\n16:50\nLibérer la magie avec Dapr : Créer les solutions\nportables de demain\nCloud & DevOps) 20 minutes /\nBelem\nJohn Dennison, Tony Jarriault\nX\n17:20\nKeynote de fermeture\nDiscovery 50 minutes/\nJules Verne\nSecret\nDe"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113327380815002656"
+    ],
+    "lastTootTimestamp": 1729238599285
   }
 }
