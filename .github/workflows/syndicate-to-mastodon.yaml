@@ -55,7 +55,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Add syndication link
-        uses: AdamWier/micropub-action@8e3754d0a28dc364d98754a9316bcd9c11c26bd6
+        uses: AdamWier/micropub-action@76bf5bd2cdd8e8923ddf29dd110de87ad3451dbd
         if: ${{ needs.Feed2Mastodon.outputs.tootUrl }}
         with:
           endpoint: "https://jovial-cocada-8ea186.netlify.app/.netlify/functions/micropub"
