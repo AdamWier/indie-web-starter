@@ -65,6 +65,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+
+	eleventyConfig.addFilter("removeStatuses", string => string.replace("/users/donthatedontkill/statuses", "/@donthatedontkill"))
 	
 	eleventyConfig.addFilter("toLocaleTimeString", (date) => {
 		date.setHours(date.getHours() + 2)

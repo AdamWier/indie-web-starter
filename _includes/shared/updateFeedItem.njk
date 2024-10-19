@@ -59,7 +59,7 @@
             </div>
             <div class="col text-end">
                 {% if syndication %}
-                    <a hidden class="u-syndication" href="{{syndication}}"></a>
+                    <a hidden class="u-syndication" href="{{syndication | removeStatuses}}"></a>
                 {%endif %}
                 <a class="u-url" href="{{url}}">Permalink</a>
             </div>
