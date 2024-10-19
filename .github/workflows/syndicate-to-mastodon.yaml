@@ -55,7 +55,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Add syndication link
-        uses: AdamWier/micropub-action@49796eefa5a5ed2e08143e48996aa255c89c353a
+        uses: AdamWier/micropub-action@b2d080b1ccdebe5936ffcd87c0d6a38db5fe38bd
         if: ${{ needs.Feed2Mastodon.outputs.tootUrl }}
         with:
           endpoint: "https://example.com/micropub"
