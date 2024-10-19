@@ -1314,5 +1314,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113335100629721933"
     ],
     "lastTootTimestamp": 1729356394035
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729357529/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729357529/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729357529/",
+    "content_text": "Anyone have any experience with posteo? I'd love to hear your feedback.\n(And by extension, I'm open to other email provider recommendations.)\nhttps://posteo.de\n#internet #email #indieweb #google #degoogling #recommendations #advice\n",
+    "language": "en",
+    "date_published": "2024-10-19T17:05:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113335179881476335"
+    ],
+    "lastTootTimestamp": 1729357603389
   }
 }
