@@ -53,7 +53,7 @@ jobs:
     needs: Feed2Mastodon
     steps:
       - name: Add syndication link
-        uses: AdamWier/micropub-action
+        uses: AdamWier/micropub-action@df10c9de11ebc7dbe15170fb7dc3146fadcf68c9
         if: ${{ needs.Feed2Mastodon.outputs.tootUrl }}
         with:
           endpoint: "https://example.com/micropub"
