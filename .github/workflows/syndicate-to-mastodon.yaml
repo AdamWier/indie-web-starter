@@ -54,6 +54,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: 'master'
       - name: Add syndication link
         uses: AdamWier/micropub-action@7d42b56fe3094db1c2d296f51ed85155e2ab70d4
         if: needs.Feed2Mastodon.outputs.tootUrl != 'false'
