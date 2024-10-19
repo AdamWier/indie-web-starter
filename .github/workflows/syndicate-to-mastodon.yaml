@@ -8,6 +8,9 @@ on:
 
 jobs:
   Feed2Mastodon:
+    outputs:
+      tootUrl: ${{ steps.feed.outputs.tootUrl }}
+
     runs-on: ubuntu-latest
 
     permissions:
@@ -26,6 +29,7 @@ jobs:
 
       # Look for new toots to create from items in the JSON feed
       - name: Feed to Mastodon
+        id: feed 
         uses: nhoizey/github-action-feed-to-mastodon@v2
         with:
           feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
@@ -43,3 +47,15 @@ jobs:
       # See https://github.com/stefanzweifel/git-auto-commit-action#readme
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
+
+  UpdateSyndication:
+    runs-on: ubuntu-latest
+    needs: Feed2Mastodon
+    steps:
+      - name: Add syndication link
+        uses: AdamWier/micropub-action@v1
+        if: ${{ needs.Feed2Mastodon.outputs.tootUrl }}
+        with:
+          endpoint: "https://example.com/micropub"
+          token: ${{ secrets.MICROPUB_TOKEN }}
+          feedUrl: ${{ needs.Feed2Mastodon.outputs.tootUrl }}

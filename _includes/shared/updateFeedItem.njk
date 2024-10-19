@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf, syndication)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -52,15 +52,15 @@
         <div class="row">
             <div class="col">
                 <span hidden class="dt-published">{{ date | dateToRfc3339}}</span>
-                {% if photos.length === 4 %}
-                <a hidden class="u-syndication" href="https://mastodon.social/@donthatedontkill/113327380815002656"></a>
-                {%endif %}
                 <span class="text-info fw-bold">
                     {{date | toLocaleTimeString }}
                     {{date.toLocaleDateString()}}
                 </span>
             </div>
             <div class="col text-end">
+                {% if syndication === 4 %}
+                    <a hidden class="u-syndication" href="{{syndication}}"></a>
+                {%endif %}
                 <a class="u-url" href="{{url}}">Permalink</a>
             </div>
         </div>
