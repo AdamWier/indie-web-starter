@@ -8,6 +8,9 @@ on:
 
 jobs:
   Feed2Mastodon:
+    outputs:
+      tootUrl: ${{ steps.feed.outputs.tootUrl }}
+
     runs-on: ubuntu-latest
 
     permissions:
