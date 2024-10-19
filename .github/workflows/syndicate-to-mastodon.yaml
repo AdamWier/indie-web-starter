@@ -8,9 +8,6 @@ on:
 
 jobs:
   Feed2Mastodon:
-    outputs:
-      tootUrl: ${{ steps.feed.outputs.tootUrl }}
-
     runs-on: ubuntu-latest
 
     permissions:
@@ -60,4 +57,4 @@ jobs:
         with:
           endpoint: "https://example.com/micropub"
           token: ${{ secrets.MICROPUB_TOKEN }}
-          feedUrl: ${{ needs.Feed2Mastodon.outputs.tootUrl }}
+          feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
