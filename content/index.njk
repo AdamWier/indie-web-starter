@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 {# <h2>This site implements: micropub, microsub, indieauth, microformats and webmentions</h2> #}
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-3">
       <div class="row">
         <div class="col">
           {% include '_includes/hcard.njk' %}
@@ -21,13 +21,15 @@ eleventyExcludeFromCollections: true
           <a href="https://xn--sr8hvo.ws/next">→</a>
         </div>
       </div>
+    </div>
+    <div class="col-md-5">
       <div class="row">
         <div class="col">
           {% include '_includes/updateFeed.njk' %}
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div col="row">
         <div class="col">
           {% include '_includes/articles.njk' %}
@@ -42,30 +44,3 @@ eleventyExcludeFromCollections: true
     </div>
   </div>
 </div>
-
-    {# <div>
-  
-</div>
-
-</section>
-<section>
-  <ul class="webmentions links" id="http://mycabinetofcuriosities.com">
-  {% for child in webmentions.children %}
-    <ul>* {{ child.content.text }}</ul>
-    {% if child["in-reply-to"]%} <div class="reply" data-link="{{child["in-reply-to"]}}">{{child.replyInfo.items[0].properties.author[0].properties.name}} replied </div>{% endif %}
-    <p>
-  {%- endfor %}
-  <article class="h-entry">
-    <a rel="author" class="p-author h-card" href="…"><div class="p-name">ME</div>
-        <img class="u-photo" alt="A picture of me in a hat, undershirt, black pants, leaning over the camera by the window" loading="lazy" decoding="async" src="./img/me.jpg" width="769" height="960">
-    </a>
-  <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
-
-  <a class="u-url" href="https://mycabinetofcuriosities.com/my-first-post">
-    Published <time class="dt-published">2024-07-14 10:25:37+0000</time>
-  </a>
-  <a rel="syndication" class="u-syndication" href="http://facebook.com/orsomething">Fake syndication</a>
-  <div class="p-category">Test</div>
-</article>
-</ul> #}
-    {# </section> #}
