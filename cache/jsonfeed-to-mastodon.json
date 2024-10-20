@@ -1325,5 +1325,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113335179881476335"
     ],
     "lastTootTimestamp": 1729357603389
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729391424/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729391424/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729391424/",
+    "content_text": "I'm not far from being able to finally \"buy\" an apartment but I will nonetheless miss living in the smack dab middle of the city. You know, for convience's sake. I say as I return drunkenly to my apartment. Goodnight.\n",
+    "language": "en",
+    "date_published": "2024-10-20T02:30:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113337401103811559"
+    ],
+    "lastTootTimestamp": 1729391496434
   }
 }
