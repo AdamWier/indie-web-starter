@@ -1398,5 +1398,31 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113369607118986859"
     ],
     "lastTootTimestamp": 1729882921307
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1730095833/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1730095833/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1730095833/",
+    "content_text": "My hot take for today is.... Honestly, I think the Amish got a few things right.\n#hottake #opinion #amish #technology #future #futurism #futureanxiety #anxiety #ai #artificalintelligence\n",
+    "language": "en",
+    "date_published": "2024-10-28T06:10:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113383565221542635"
+    ],
+    "lastTootTimestamp": 1730095905105
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1729963729/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1729963729/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1729963729/",
+    "content_text": "Surprise, surprise....\n#elonmusk #trump #donaldtrump #immigration #immigrant #immigrants #uspol #politics #visa #borders #us #usa\n",
+    "language": "en",
+    "date_published": "2024-10-26T17:28:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1729963725397.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Elon Musk Worked\nIllegally In U.S. At Start\nOf Career: The\nWashington Post\nL75%\nC12%\nR13%\nElon Musk worked illegally on a student visa and\nfaced concerns he would be *deported\" when he\nstarted life in the United States, a report revealed\nSaturday. The billionaire South African-born\nimmigrant also admitted in an email that he \"had no\nlegal right to stay in the country\" when he ditched his\nstudies and founded a company which he later sold\nfor more than $300 million, The Washington Post\nreported"
+      }
+    ],
+    "toots": []
   }
 }
