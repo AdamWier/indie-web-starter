@@ -1456,5 +1456,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113389395684247504"
     ],
     "lastTootTimestamp": 1730184870855
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1730234380/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1730234380/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1730234380/",
+    "content_text": "Something's gotta change but I don't know what\n",
+    "language": "en",
+    "date_published": "2024-10-29T20:39:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113392645149395542"
+    ],
+    "lastTootTimestamp": 1730234453668
   }
 }
