@@ -1489,5 +1489,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113398801065010474"
     ],
     "lastTootTimestamp": 1730328385520
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1730369953/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1730369953/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1730369953/",
+    "content_text": "I'm trying very hard to find the Halloween magic deep down inside me but it's not happening....\n#Halloween #party #mentalhealth\n",
+    "language": "en",
+    "date_published": "2024-10-31T10:19:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113401530022307540"
+    ],
+    "lastTootTimestamp": 1730370026135
   }
 }
