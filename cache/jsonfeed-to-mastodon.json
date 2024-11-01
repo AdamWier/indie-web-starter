@@ -1500,5 +1500,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113401530022307540"
     ],
     "lastTootTimestamp": 1730370026135
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1730476807/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1730476807/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1730476807/",
+    "content_text": "When you fight the boss vs when he joins your party\nHappy Halloween!\n#Halloween #happyHalloween #costume #party #videogames #orc #worldofwarcraft #rpg #dnd #dungeonsanddragons #makeup #fantasy #gay #queer #lgbt #lgbtq #lgbtqia #funtimes\n",
+    "language": "en",
+    "date_published": "2024-11-01T16:00:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1730476803937.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man dressed as an orc grimacing "
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1730476804052.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "The same person now giving a peace sign"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113408532962840005"
+    ],
+    "lastTootTimestamp": 1730476882707
   }
 }
