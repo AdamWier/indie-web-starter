@@ -1523,5 +1523,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113408532962840005"
     ],
     "lastTootTimestamp": 1730476882707
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1730535173/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1730535173/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1730535173/",
+    "content_text": "I have to clean today. It feels so overwhelming but I know it's only going to take an hour or so once I get into it. I'll start by taking a shower. I still have a bit of green on me. (I was in a recovery coma all day yesterday.)\n#party #cleaning #postparty #afterparty\n",
+    "language": "en",
+    "date_published": "2024-11-02T08:12:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113412357810317304"
+    ],
+    "lastTootTimestamp": 1730535245052
   }
 }
