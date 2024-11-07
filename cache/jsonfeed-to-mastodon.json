@@ -1556,5 +1556,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113443009534418965"
     ],
     "lastTootTimestamp": 1731002953280
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731011460/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731011460/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731011460/",
+    "content_text": "Keep on keeping on.\n#discoelysium #deathstanding #solidarity #politics #leftism #uspol #usa #trump #presidential elections #radicaloptimism\n",
+    "language": "en",
+    "date_published": "2024-11-07T20:30:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1731011456668.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "How *not* to lose? It is impossible not to. The world is balanced on the edge of a knife. It’s a game of frayed nerves. You’re pushed on by numbers and punitive measures: pain, rejection, and unpaid bills. You can either play or you can crawl under a boat and waste away -- turn into salt or a flock of seagulls. Your enemies would *love* that. Or you can fight. The only way to load the dice is to keep on fighting."
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113443572062979397"
+    ],
+    "lastTootTimestamp": 1731011536831
   }
 }
