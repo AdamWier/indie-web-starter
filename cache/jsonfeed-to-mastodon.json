@@ -1585,5 +1585,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113446829494132751"
     ],
     "lastTootTimestamp": 1731061241247
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731135697/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731135697/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731135697/",
+    "content_text": "Well that's a first!\nAnd despite feeling a little dehydrated, I'm actually waking up relatively refreshed.\n#sleep #sleepproblems #health #insomnia #dreams\n",
+    "language": "en",
+    "date_published": "2024-11-09T07:01:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1731135694346.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Screen capture showing an excellent level sleep score "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113451737092449079"
+    ],
+    "lastTootTimestamp": 1731136125201
   }
 }
