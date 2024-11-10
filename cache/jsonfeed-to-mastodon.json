@@ -1621,5 +1621,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113458136821507052"
     ],
     "lastTootTimestamp": 1731233777309
+  },
+  "https://www.mycabinetofcuriosities.com/notes/one-major-step-out-of-google/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/one-major-step-out-of-google/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/one-major-step-out-of-google/",
+    "content_text": "One major step out of Google achieved: Drive and Keep replaced. Total cost: 0/month (other than the physical material for stocking data)\nStill working on recoding an app I use for Posteo's calendar, which is harder than it looks but far from impossible.\n#degoogle #indieweb #selfhosting #dev #development #applicationdevelopment #technofeudalism #posteo #drive #googledrive #keep #googlekeep\n",
+    "language": "en",
+    "date_published": "2024-11-10T10:24:29Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113458173749628799"
+    ],
+    "lastTootTimestamp": 1731234340861
   }
 }
