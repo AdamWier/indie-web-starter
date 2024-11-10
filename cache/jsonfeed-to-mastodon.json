@@ -1603,5 +1603,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113451737092449079"
     ],
     "lastTootTimestamp": 1731136125201
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731233701/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731233701/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731233701/",
+    "content_text": "#silentsunday\n",
+    "language": "en",
+    "date_published": "2024-11-10T10:14:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1731233698883.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A street, somewhere on the outskirts of Nantes"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113458136821507052"
+    ],
+    "lastTootTimestamp": 1731233777309
   }
 }
