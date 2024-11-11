@@ -1632,5 +1632,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113458173749628799"
     ],
     "lastTootTimestamp": 1731234340861
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731277501/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731277501/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731277501/",
+    "content_text": "Claymation can be so unintentionally creepy sometimes\n#claymation #uncannyvalley #horror #thoughts\n",
+    "language": "en",
+    "date_published": "2024-11-10T22:25:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113463677709016954"
+    ],
+    "lastTootTimestamp": 1731318324595
   }
 }
