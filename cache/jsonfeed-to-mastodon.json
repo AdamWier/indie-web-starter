@@ -1643,5 +1643,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113463677709016954"
     ],
     "lastTootTimestamp": 1731318324595
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731351439/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731351439/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731351439/",
+    "content_text": "I'm not sure if there's a term that exists for what I'm doing in this age of technofeudalism. There probably is. But a term I use in my mind is \"digital homesteading.\" And I'm surprised how many people seem actually interested. It's, of course, all about making it accessible to non tech people.\n#digitalhomesteading #indieweb #fediverse #technofeudalism #smallweb #selfhosting #opensource #leftism #communism #anarchism #foss #anarchy #anarchocommunist #syncthing #joplin #degoogle #google\n",
+    "language": "en",
+    "date_published": "2024-11-11T18:57:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113465861834249313"
+    ],
+    "lastTootTimestamp": 1731351652567
   }
 }
