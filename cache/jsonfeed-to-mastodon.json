@@ -1676,5 +1676,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113466418001701915"
     ],
     "lastTootTimestamp": 1731360138067
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1731543234/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1731543234/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1731543234/",
+    "content_text": "I saw The Substance and I think I'm traumatized for life now.\n#the substance #movies #film #horrormovie #bodyhorror #thriller #scarymovie #horror #traumatized #cinema #horrorfilm #horrorfilms #horrormovie #demimoore #MargaretQualley\n",
+    "language": "en",
+    "date_published": "2024-11-14T00:13:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1731543231742.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Movie poster of The Substance"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113478422337073502"
+    ],
+    "lastTootTimestamp": 1731543309808
   }
 }
