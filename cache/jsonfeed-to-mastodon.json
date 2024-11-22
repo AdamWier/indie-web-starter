@@ -1716,5 +1716,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113516144463014094"
     ],
     "lastTootTimestamp": 1732118906432
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732313675/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732313675/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732313675/",
+    "content_text": "I'm tired of feeling shat upon\n",
+    "language": "en",
+    "date_published": "2024-11-22T22:14:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113528917063136279"
+    ],
+    "lastTootTimestamp": 1732313798114
   }
 }
