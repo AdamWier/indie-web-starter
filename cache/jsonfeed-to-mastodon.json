@@ -1727,5 +1727,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113528917063136279"
     ],
     "lastTootTimestamp": 1732313798114
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732568764/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732568764/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732568764/",
+    "content_text": "I haven't been posting much lately. I'm not really going through a good moment in life but I can't totally articulate what's wrong. I'm having more trouble than usual relating to people around me and I just don't have a lot of gumption. I did make vegan fried chicken today for the first time and it was pretty good. I also went to the planetarium yesterday and the guy narrating was pretty funny. So you know, it's not all bad news.\n#mentalhealth #depression #anxiety #actuallyautistic #vegan\n",
+    "language": "en",
+    "date_published": "2024-11-25T21:06:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1732568761429.png",
+        "mime_type": "image/png",
+        "_alt_text": "\"roses are red, you have a nice face, I'm going to the one place that hasn't been corrupted by communism: space!\" Tim curry's face"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113545631739283583"
+    ],
+    "lastTootTimestamp": 1732568843926
   }
 }
