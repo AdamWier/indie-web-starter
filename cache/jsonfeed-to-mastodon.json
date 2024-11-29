@@ -1756,5 +1756,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113556766056594129"
     ],
     "lastTootTimestamp": 1732738740163
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732903079/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732903079/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732903079/",
+    "content_text": "I'm visiting Rennes for the first time. Traveling by myself, which is generally my preference. One reason I like that is because I'll naturally start to people watch and eavesdrop a bit. The bartender is talking to a friend at the bar and he said, \"I had no one to have raclette with so I just had it all by myself!\" A man after my own heart. You don't need anyone to enjoy cheese! Sometimes it's even better to enjoy the cheese alone! Hi ho the dairy-o!\n#rennes #raclette #france #travelling\n",
+    "language": "en",
+    "date_published": "2024-11-29T17:57:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113567541036816347"
+    ],
+    "lastTootTimestamp": 1732903153193
   }
 }
