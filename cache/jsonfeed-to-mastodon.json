@@ -1785,5 +1785,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113567617625238046"
     ],
     "lastTootTimestamp": 1732904321856
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732913426/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732913426/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732913426/",
+    "content_text": "Bless you Rennes\n#rennes #acab #leftism #france #bretagne\n",
+    "language": "en",
+    "date_published": "2024-11-29T20:50:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1732913424246.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "ACAB spray painted on a cross walk"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113568219232254402"
+    ],
+    "lastTootTimestamp": 1732913501628
   }
 }
