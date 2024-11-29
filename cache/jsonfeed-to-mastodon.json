@@ -1803,5 +1803,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113568219232254402"
     ],
     "lastTootTimestamp": 1732913501628
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732914511/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732914511/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732914511/",
+    "content_text": "I do not know how I got this piece of saucisson on me but I feel like Winona Ryder in Edward Scissorhands when he was cutting the ice sculpture and she was dancing in the little flakes.\n#Bretagne\n",
+    "language": "en",
+    "date_published": "2024-11-29T21:08:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113568290219238477"
+    ],
+    "lastTootTimestamp": 1732914584799
   }
 }
