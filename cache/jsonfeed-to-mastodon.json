@@ -1825,5 +1825,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113568377077873587"
     ],
     "lastTootTimestamp": 1732915910192
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1732961938/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1732961938/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1732961938/",
+    "content_text": "\"I don't know where the sunbeams end and the starlight begins, it's all a mystery'\n",
+    "language": "en",
+    "date_published": "2024-11-30T10:18:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113571398426518466"
+    ],
+    "lastTootTimestamp": 1732962012281
   }
 }
