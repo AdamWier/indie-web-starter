@@ -1836,5 +1836,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113571398426518466"
     ],
     "lastTootTimestamp": 1732962012281
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1733117609/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1733117609/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1733117609/",
+    "content_text": "I'm not doing great this morning. Woke up but couldn't get myself out of bed. Glad I'm going to see my psychologist today. Seems like a good day for it.\n#mentalhealth #depression #anxiety #emptyness\n",
+    "language": "en",
+    "date_published": "2024-12-02T05:33:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113581649151997142"
+    ],
+    "lastTootTimestamp": 1733118425951
   }
 }
