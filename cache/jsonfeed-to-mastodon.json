@@ -1847,5 +1847,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113581649151997142"
     ],
     "lastTootTimestamp": 1733118425951
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1733373254/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1733373254/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1733373254/",
+    "content_text": "Bye, bitch\n#barnier #france #primeminister #pm #noconfidence #politics #macrondemission #macron\n",
+    "language": "en",
+    "date_published": "2024-12-05T04:34:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113599109259787162"
+    ],
+    "lastTootTimestamp": 1733384846056
   }
 }
