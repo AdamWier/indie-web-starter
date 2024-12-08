@@ -1880,5 +1880,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113608406739652308"
     ],
     "lastTootTimestamp": 1733526714327
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1733660291/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1733660291/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1733660291/",
+    "content_text": "Yes.\n#slaytheprincess #videogames #games #words #speaking #actuallyautistic #neurodivergent #communication\n",
+    "language": "en",
+    "date_published": "2024-12-08T12:18:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1733660287703.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "\"I'm sorry Words are difficult for me. They never fully weave what\nI wish to say If you do not like my answers then you need not ask me\nquestions.\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113617165752896994"
+    ],
+    "lastTootTimestamp": 1733660366286
   }
 }
