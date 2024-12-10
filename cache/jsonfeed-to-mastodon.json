@@ -1898,5 +1898,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113617165752896994"
     ],
     "lastTootTimestamp": 1733660366286
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1733810284/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1733810284/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1733810284/",
+    "content_text": "The fast-food worker who identified him is a class traitor. Sorry not sorry.\n",
+    "language": "en",
+    "date_published": "2024-12-10T05:58:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113626995537904024"
+    ],
+    "lastTootTimestamp": 1733810356864
   }
 }
