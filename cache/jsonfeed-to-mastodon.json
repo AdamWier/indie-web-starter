@@ -1920,5 +1920,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113640969887276236"
     ],
     "lastTootTimestamp": 1734023588531
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734074433/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734074433/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734074433/",
+    "content_text": "My motivation is in the toilet today. I'm not sure today will be all that productive. Can I go back to bed? It really would be better for everyone.\n#sleep #work #weekend #insomnia\n",
+    "language": "en",
+    "date_published": "2024-12-13T07:20:33Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113644306855859198"
+    ],
+    "lastTootTimestamp": 1734074506667
   }
 }
