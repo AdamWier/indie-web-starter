@@ -164,6 +164,7 @@ module.exports = function(eleventyConfig) {
 	  });
 
 	eleventyConfig.addCollection("webmentionsByPost", collectionApi => {
+		console.log(collectionApi.getAll()[0].data)
 		let webmentions = collectionApi.getAll()[0].data.webmentions.all;
 		const getRelated = (target, arr) => arr.filter(wm => wm["wm-target"] === target);
 		const targets = webmentions.map(wb => wb["wm-target"]);

@@ -28,7 +28,7 @@ module.exports = async function () {
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        let all = replies.children;
+        let all = response.children;
         let others = response.children.filter(child => verb[child["wm-property"]]).map(child =>({
             ...child,
             statement: `${child.author.name} ${verb[child["wm-property"]]} ${child[child["wm-property"]]}`,
