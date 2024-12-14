@@ -163,8 +163,21 @@ module.exports = function(eleventyConfig) {
 		return this.getVariables()[varName];
 	  });
 
+	eleventyConfig.addCollection("webmentionsByPost", collectionApi => {
+		let webmentions = collectionApi.getAll()[0].data.webmentions.all;
+		const getRelated = (target, arr) => arr.filter(wm => wm["wm-target"] === target);
+		const targets = webmentions.map(wb => wb["wm-target"]);
+		let likes = webmentions.filter(mention => mention["like-of"]);
+		let shares = webmentions.filter(mention => mention["repost-of"])
+		let replies = webmentions.filter(mention => mention["in-reply-of"])
+
+		return Object.fromEntries(targets.map(target => [target.split("https://mycabinetofcuriosities.com")[1], {likes: getRelated(target, likes), shares: getRelated(target, shares), replies: getRelated(target,replies)}]));
+	})
+
 	eleventyConfig.addCollection('allUpdates', collectionApi => {
-		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...collectionApi.getAll()[0].data.webmentions, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
+		const mentions = collectionApi.getAll()[0].data.webmentions.others;
+
+		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...mentions, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {

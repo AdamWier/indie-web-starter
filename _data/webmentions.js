@@ -6,9 +6,7 @@ const API_ORIGIN = 'https://webmention.io/api/mentions.jf2'
 
 
 const verb = {
-    "like-of": "liked",
     "in-reply-to": "replied to",
-    "repost-of": "reposted",
     "bookmark-of": "bookmarked",
     "mention-of": "mentioned",
     "rsvp": "rsvped to"
@@ -30,12 +28,16 @@ module.exports = async function () {
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        return response.children.map(child =>({
+        let all = replies.children;
+        let others = response.children.filter(child => verb[child["wm-property"]]).map(child =>({
             ...child,
             statement: `${child.author.name} ${verb[child["wm-property"]]} ${child[child["wm-property"]]}`,
             content: child.content?.html || child["like-of"] ? fillInTemplate(child) : `Web mention from ${child.author?.name}`,
             date: new Date(child.published)
         }))
+        return {
+            all, others
+        }
     } catch (err) {
         console.error(err)
         return null

@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf, syndication)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf, syndication, webmentions)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -45,6 +45,27 @@
                     {% endfor %}
                 </div>
                 {% endif %}
+                <div class="row my-1">
+                    <div class="col">
+                        {% if webmentions[url].likes%}
+                            Liked by: {% for like in webmentions[url].likes %}
+                            <a href="{{like.author.url}}" target="_blank">
+                                <img data-toggle="tooltip" title="{{like.author.name}}" src="{{like.author.photo}}" class="img-fluid update-avatar-photo" />
+                            </a>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="col">
+                        {% if webmentions[url].shares%}
+                            Shared by: 
+                            {% for share in webmentions[url].shares %}
+                                <a href="{{share.author.url}}" target="_blank">
+                                    <img data-toggle="tooltip" title="{{share.author.name}}"  src="{{share.author.photo}}" class="img-fluid update-avatar-photo" />
+                                </a>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
                 <div class="row">
                     {{ content | extractTags | safe }}
                 </div>
