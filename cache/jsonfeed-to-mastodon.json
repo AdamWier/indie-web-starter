@@ -1931,5 +1931,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113644306855859198"
     ],
     "lastTootTimestamp": 1734074506667
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734137138/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734137138/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734137138/",
+    "content_text": "What even is this life?\n(This is not a sad post.)\n",
+    "language": "en",
+    "date_published": "2024-12-14T00:45:38Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113648416302785390"
+    ],
+    "lastTootTimestamp": 1734137211778
   }
 }
