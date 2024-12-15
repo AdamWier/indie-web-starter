@@ -1942,5 +1942,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113648416302785390"
     ],
     "lastTootTimestamp": 1734137211778
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734248644/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734248644/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734248644/",
+    "content_text": "I wish I had remembered to turn off my alarm but I guess it's fine. I might be tired but I'll find my way out of bed today because today for lunch is..... RACLETTE!!!\n#raclette #cheese #food #sleep #tired #weekend #internationalracletteday #late #france #switzerland\n",
+    "language": "en",
+    "date_published": "2024-12-15T07:43:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1734248638980.png",
+        "mime_type": "image/png",
+        "_alt_text": "A spatula removing cheese from a raclette pan"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113655724226507038"
+    ],
+    "lastTootTimestamp": 1734248722048
   }
 }
