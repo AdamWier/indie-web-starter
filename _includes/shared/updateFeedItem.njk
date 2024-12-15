@@ -47,7 +47,7 @@
                 {% endif %}
                 <div class="row my-1">
                     <div class="col">
-                        {% if webmentions[url].likes%}
+                        {% if webmentions[url].likes.length%}
                             Liked by: {% for like in webmentions[url].likes %}
                             <a href="{{like.author.url}}" target="_blank">
                                 <img data-toggle="tooltip" title="{{like.author.name}}" src="{{like.author.photo}}" class="img-fluid update-avatar-photo" />
@@ -56,7 +56,7 @@
                         {% endif %}
                     </div>
                     <div class="col">
-                        {% if webmentions[url].shares%}
+                        {% if webmentions[url].shares.length%}
                             Shared by: 
                             {% for share in webmentions[url].shares %}
                                 <a href="{{share.author.url}}" target="_blank">
