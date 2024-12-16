@@ -1960,5 +1960,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113655724226507038"
     ],
     "lastTootTimestamp": 1734248722048
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734333327/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734333327/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734333327/",
+    "content_text": "No gym this morning. 😦 My sleep cycle was all out of wack and at midnight, I felt still wide awake. But good on me for realizing that, sleeping in and now I feel relatively well as I start work today. So you know, win some, lose some. 🫠\n",
+    "language": "en",
+    "date_published": "2024-12-16T07:15:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113661273879229154"
+    ],
+    "lastTootTimestamp": 1734333402886
   }
 }
