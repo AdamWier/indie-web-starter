@@ -1982,5 +1982,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113666753907638604"
     ],
     "lastTootTimestamp": 1734417021611
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734438213/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734438213/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734438213/",
+    "content_text": "Thank goodness for Brian Eno on this extremely stressful work day.\n#work #stress #brianeno #music #discreetmusic #ambient #ambientmusic\n",
+    "language": "en",
+    "date_published": "2024-12-17T12:23:33Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113668147674280845"
+    ],
+    "lastTootTimestamp": 1734438288701
   }
 }
