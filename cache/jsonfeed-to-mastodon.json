@@ -1993,5 +1993,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113668147674280845"
     ],
     "lastTootTimestamp": 1734438288701
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734506635/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734506635/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734506635/",
+    "content_text": "I just can't get out the door this morning. I wanna go back to beeeeed. But at least I have no meetings today, just writing code alone at the office. 👨‍💻\n",
+    "language": "en",
+    "date_published": "2024-12-18T07:23:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113672631757136817"
+    ],
+    "lastTootTimestamp": 1734506710310
   }
 }
