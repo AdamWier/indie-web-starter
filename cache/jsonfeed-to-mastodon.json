@@ -2004,5 +2004,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113672631757136817"
     ],
     "lastTootTimestamp": 1734506710310
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734549781/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734549781/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734549781/",
+    "content_text": "I'm in need of communication advice. I often need to ask a series of yes/no questions to understand something but people often respond with a very long answer to the first question and there is neither yes or no (or maybe or I don't know) in the long answer. How can I politely tell them to stay on topic and to please just answer my question? Should I interrupt their long answer? I try to wait till the end, but then I have to hold a lot in my head, which is hard for me\n#actuallyautistic #advice\n",
+    "language": "en",
+    "date_published": "2024-12-18T19:23:01Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113675459271303767"
+    ],
+    "lastTootTimestamp": 1734549854794
   }
 }
