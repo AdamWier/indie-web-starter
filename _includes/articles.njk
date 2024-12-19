@@ -6,8 +6,8 @@
                 {{post.data.title}}
             </h6>
             <div class="row">
-                {% if post.content.length > 200 %}
-                    {{post.content.slice(0, 200) | safe}}...
+                {% if post.content.length | safe > 200 %}
+                    {{post.content.slice(0, 201) | safe}}...
             {% else %}
                     {{post.content | safe }}
                 {% endif %}
