@@ -37,10 +37,21 @@
     "url": "https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/",
     "content_text": "New blog post: \"A Manifesto? - Part 1: New Ways of Being\" at https://www.mycabinetofcuriosities.com/articles/manifesto-part-1/ #articles #manifesto #blog #post #indieweb #syndication #possee",
     "language": "en",
-    "date_published": "2024-10-13T12:06:00Z",
+    "date_published": "2024-10-13T14:06:00Z",
     "toots": [
       "https://mastodon.social/users/donthatedontkill/statuses/113300778014012587"
     ],
     "lastTootTimestamp": 1728832672553
+  },
+  "https://www.mycabinetofcuriosities.com/articles/slump-poem/": {
+    "id": "https://www.mycabinetofcuriosities.com/articles/slump-poem/",
+    "url": "https://www.mycabinetofcuriosities.com/articles/slump-poem/",
+    "content_text": "New blog post: \"Slump (A poem)\" at https://www.mycabinetofcuriosities.com/articles/slump-poem/ #articles #poem #blog #post #indieweb #syndication #possee",
+    "language": "en",
+    "date_published": "2024-12-19T14:26:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113680704862698706"
+    ],
+    "lastTootTimestamp": 1734629896188
   }
 }
