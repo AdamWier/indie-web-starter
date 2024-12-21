@@ -2048,5 +2048,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113685053339136499"
     ],
     "lastTootTimestamp": 1734696249228
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734739209/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734739209/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734739209/",
+    "content_text": "Flashing back to when my French coworkers asked me if I heard about \"the guy who killed the CEO\" and I responded \"oh you mean the hero of our nation?\"\n#luigimangione\n",
+    "language": "en",
+    "date_published": "2024-12-21T00:00:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113687873760030948"
+    ],
+    "lastTootTimestamp": 1734739284820
   }
 }
