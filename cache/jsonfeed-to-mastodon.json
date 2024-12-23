@@ -2088,5 +2088,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113690803665744753"
     ],
     "lastTootTimestamp": 1734783991725
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1734982099/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1734982099/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1734982099/",
+    "content_text": "In case you were needing suggestions, Brian Eno's music is great for journaling.\n#brianeno #music #journaling #journal #writing #mentalhealth #thinking\n",
+    "language": "en",
+    "date_published": "2024-12-23T19:28:18Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113703832132529857"
+    ],
+    "lastTootTimestamp": 1734982790678
   }
 }
