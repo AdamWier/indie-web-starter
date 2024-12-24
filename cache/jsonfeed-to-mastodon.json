@@ -2121,5 +2121,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113708995556111381"
     ],
     "lastTootTimestamp": 1735061577888
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1735068970/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1735068970/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1735068970/",
+    "content_text": "IT HAS BEGUN!\nIf this isn't the definition of \"Unbothered. Moisturized. Happy. In My Lane. Focused. Flourishing.\" I don't know what is. 🥰\n#Christmas #raclette #movie #anime #ghibli #studioghibli #wine #cheese #charcuterie #potatoes #tradition #France #usa #immigrant #expat #solo #\n",
+    "language": "en",
+    "date_published": "2024-12-24T19:36:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1735068967944.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A raclette dinner fit for a king with a Studio Ghibli movie about to start"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113709484865960962"
+    ],
+    "lastTootTimestamp": 1735069044237
   }
 }
