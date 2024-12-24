@@ -2139,5 +2139,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113709484865960962"
     ],
     "lastTootTimestamp": 1735069044237
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1735072196/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1735072196/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1735072196/",
+    "content_text": "Corn is kind of amazing when you think about it\n(Too embarrassed for hashtags on this one)\n",
+    "language": "en",
+    "date_published": "2024-12-24T20:29:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113709696340216451"
+    ],
+    "lastTootTimestamp": 1735072270962
   }
 }
