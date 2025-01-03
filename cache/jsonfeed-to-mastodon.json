@@ -2216,5 +2216,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113745987346103649"
     ],
     "lastTootTimestamp": 1735626027788
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1735880327/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1735880327/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1735880327/",
+    "content_text": "This is a quote I read of Reddit by Manzan Dohaku and I wanted to share it because I liked it.\n#Buddhism #Soto #rinzai #religion #theology #enlightenment #noself #zazen #koans #quotes #quote\n",
+    "language": "en",
+    "date_published": "2025-01-03T04:58:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1735880326375.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "You may say that it is the ear that hears, yet the\near is but a mechanism. If it could hear by itself, then the\ndead could hear our prayers for them. Inside you, then, is\na hearer. Now, this is the way to apply yourself: whether\nor not you hear anything, keep asking who the hearer is.\nDoubt, scrutinize, paying no attention to fancies or ideas."
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113762658084326110"
+    ],
+    "lastTootTimestamp": 1735880403426
   }
 }
