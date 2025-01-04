@@ -2245,5 +2245,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113764966580783004"
     ],
     "lastTootTimestamp": 1735915627921
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1736016488/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1736016488/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1736016488/",
+    "content_text": "One of the nice things about deleting my to do list is now I don't know what to do which leads to me new things or rediscovering old things. Tonight I went to a bar and played a game of Quill, a letter writing solo rpg set in medieval times.\nThis time I had to inform a father of his son's death. I scored just enough points to have the \"best\" ending where he invited me to speak at his son's funeral so I even wrote the little speech Serge gave.\n#quill #rpg #solorpg #tabletop #writing #quillrpg\n",
+    "language": "en",
+    "date_published": "2025-01-04T18:47:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1736016480161.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "An open notebook with writing in red ink, dice and a pint glass with a bit of cider in it on a high bar table"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113771732092616158"
+    ],
+    "lastTootTimestamp": 1736018861536
   }
 }
