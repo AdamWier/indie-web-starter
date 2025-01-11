@@ -2296,5 +2296,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113807430070302822"
     ],
     "lastTootTimestamp": 1736563569338
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1736599818/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1736599818/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1736599818/",
+    "content_text": "I missed my little pupper (even if he isn't a pupper anymore).\n#dogs #spaniel #tibetanspaniel #animals #pets #sleepy #dogphotos #lemans\n",
+    "language": "en",
+    "date_published": "2025-01-11T12:49:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1736599794802.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "the sleepiest but goodest of boys resting his little head on my leg"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1736599794962.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "oops the good boy fell asleep"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113809977339201863"
+    ],
+    "lastTootTimestamp": 1736602437683
   }
 }
