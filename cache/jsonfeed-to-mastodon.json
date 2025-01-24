@@ -2436,5 +2436,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113874425687314041"
     ],
     "lastTootTimestamp": 1737585841332
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1737741702/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1737741702/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1737741702/",
+    "content_text": "Just finished Paradigm! I definitely recommend. Fun point and click, not too hard, not too easy. Edgy boy humor without the alt-right bend, even if it gets a little one note 3/4 of the way through. And just all around weird. Take a look at the trailer if you like. I got this for free on Epic and had I known of it, I definitely would have been happy paying for it. Highly recommend for absurdist point and click\nhttps://www.youtube.com/watch?v=SJk4SCpL29w&t=3\n#paradigmegame #indiegaming #videogames\n",
+    "language": "en",
+    "date_published": "2025-01-24T18:01:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1737741701645.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Paradigm game cover"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113884645130975512"
+    ],
+    "lastTootTimestamp": 1737741778039
   }
 }
