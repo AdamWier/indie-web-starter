@@ -2465,5 +2465,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113884659035281629"
     ],
     "lastTootTimestamp": 1737741989968
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1737748755/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1737748755/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1737748755/",
+    "content_text": "I will not reveal the reasons why but I decided to look up the Wikipedia article on Spontaneous Human Combustion\n#duneprophecy\n",
+    "language": "en",
+    "date_published": "2025-01-24T19:59:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1737748752653.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113885272815204726"
+    ],
+    "lastTootTimestamp": 1737751355412
   }
 }
