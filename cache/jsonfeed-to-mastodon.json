@@ -2458,7 +2458,7 @@
   "https://www.mycabinetofcuriosities.com/notes/1737741916/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1737741916/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1737741916/",
-    "content_text": "I had two friends contact me about joining Madison today. Coincidence? I think not! Social media is changing\n#fediverse #socialmedia #mastodon #indieweb #foss #tech\n",
+    "content_text": "I had two friends contact me about joining Mastodon today. Coincidence? I think not! Social media is changing\n#fediverse #socialmedia #mastodon #indieweb #foss #tech\n",
     "language": "en",
     "date_published": "2025-01-24T18:05:00Z",
     "toots": [
@@ -2487,12 +2487,23 @@
   "https://www.mycabinetofcuriosities.com/notes/1737751281/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1737751281/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1737751281/",
-    "content_text": "One of my last posts before I go to bed tonight.... I always think of the moment in prostrations when we lift our hands. It, for whatever reason, is always a magical moment for me.\n#Buddhism #zen #meditation #liturgy\n",
+    "content_text": "One of my last posts before I go to bed tonight.... I think the moment in prostrations when we lift our hands up is, for whatever reason, always a magical moment for me.\n#Buddhism #zen #meditation #liturgy\n",
     "language": "en",
     "date_published": "2025-01-24T20:41:00Z",
     "toots": [
       "https://mastodon.social/users/donthatedontkill/statuses/113885278959284656"
     ],
     "lastTootTimestamp": 1737751449338
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1737774370/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1737774370/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1737774370/",
+    "content_text": "One of the first videos I saw on Loops. Nice 😎\n(I just signed up in a fit of insomnia.)\nhttps://loops.video/v/65AVNmizYR\n#loops #pixelfed #fediverse #bishopbudde #trump\n",
+    "language": "en",
+    "date_published": "2025-01-25T03:06:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113886785806987950"
+    ],
+    "lastTootTimestamp": 1737774441824
   }
 }
