@@ -2600,5 +2600,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113924049140297113"
     ],
     "lastTootTimestamp": 1738343035188
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1738343814/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1738343814/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1738343814/",
+    "content_text": "Je viens de commencer la deuxième partie du livre ! Hâte pour voir comment tout se termine !\n#vendredilecture #reading #sciencefiction #sf #hyperion #hyperioncantos\n",
+    "language": "en",
+    "date_published": "2025-01-31T17:16:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1738343811942.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113924363601887842"
+    ],
+    "lastTootTimestamp": 1738347833493
   }
 }
