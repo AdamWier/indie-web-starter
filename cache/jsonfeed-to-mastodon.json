@@ -2724,5 +2724,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113938882851617284"
     ],
     "lastTootTimestamp": 1738569379676
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1738607263/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1738607263/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1738607263/",
+    "content_text": "Looking for recommendations for YouTubers to follow. Something fun. Could be fictional, non fictional, nerd culture, reading, video games, tech, coding, random documentaries, whatever. Just not politics. My dance card is full on that front. Also, they don't need to be on YouTube. Could be Twitch, PeerTube or wherever. I'm just looking for interesting things to watch/listen to that are not politics for when I need a doom break\n#recommendations #youtube #peertube #twitch #video #podcasts #videos\n",
+    "language": "en",
+    "date_published": "2025-02-03T18:27:43Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113941471437660930"
+    ],
+    "lastTootTimestamp": 1738608878495
   }
 }
