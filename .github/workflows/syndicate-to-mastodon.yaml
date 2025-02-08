@@ -1,11 +1,10 @@
 name: Syndicate to mastodon
 on:
-  repository_dispatch:
-  # push:
-  #   branches:
-  #     - main
-  #   paths-ignore:
-  #     - uploads/**
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - uploads/**
 
 jobs:
   Feed2Mastodon:
