@@ -2790,5 +2790,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113964618335141032"
     ],
     "lastTootTimestamp": 1738962072131
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1738985206/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1738985206/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1738985206/",
+    "content_text": "J'ai eu une belle et une horrible rencontre ce soir dans un bar. J'écris un blog demain parce que 500 caractères ne suffisent pas. Mais les nazis sont bien parmi nous en France. Dans les bars gay en plus. Je parle pas de LePen. Je parle de AFD. Donc nazi de vrai quoi.\n(La belle rencontre c'était des choux avec qui j'ai parlé après. Il y a des gens cool aussi à Nantes, hein.)\n#Nantes\n",
+    "language": "en",
+    "date_published": "2025-02-08T03:26:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113966139293492200"
+    ],
+    "lastTootTimestamp": 1738985279916
   }
 }
