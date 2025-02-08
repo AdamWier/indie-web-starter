@@ -2801,5 +2801,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113966139293492200"
     ],
     "lastTootTimestamp": 1738985279916
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1738985563/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1738985563/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1738985563/",
+    "content_text": "Is it just me but do normies confuse telegram and signal and see no difference between the two? I'm not sure if it's my prejudices having me jump to conclusions or just an instinct. Your thoughts?\n#signal #telegram\n",
+    "language": "en",
+    "date_published": "2025-02-08T03:32:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113966162709474863"
+    ],
+    "lastTootTimestamp": 1738985637236
   }
 }
