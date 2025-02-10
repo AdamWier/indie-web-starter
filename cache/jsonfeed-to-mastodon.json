@@ -2823,5 +2823,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113968653291973154"
     ],
     "lastTootTimestamp": 1739023640444
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1739199153/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1739199153/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1739199153/",
+    "content_text": "Talking to a realtor on the phone....\nHim: \"You have an accent. Are you from England?\"\nMe: \"No\"\nUncomfortable silence ensues\n",
+    "language": "en",
+    "date_published": "2025-02-10T14:52:33Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/113980160465815141"
+    ],
+    "lastTootTimestamp": 1739199226001
   }
 }
