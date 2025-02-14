@@ -2856,5 +2856,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113997806003140015"
     ],
     "lastTootTimestamp": 1739468475785
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1739512139/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1739512139/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1739512139/",
+    "content_text": "So I'm in the tram on the way to the train station and I'm playing my favorite game: stressing over having possibly forgotten something but probably not. Oh me. When will I learn?\n#travelling #forgetfulness #anxiety #stress\n",
+    "language": "en",
+    "date_published": "2025-02-14T05:48:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114000672492775378"
+    ],
+    "lastTootTimestamp": 1739512214789
   }
 }
