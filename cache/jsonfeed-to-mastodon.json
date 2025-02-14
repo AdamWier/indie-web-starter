@@ -2889,5 +2889,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114001535448849360"
     ],
     "lastTootTimestamp": 1739525382397
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1739534850/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1739534850/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1739534850/",
+    "content_text": "@rootcompute@mastodon.social I just saw you put me in your directory! I feel positively honored! 🥰🥰 Thank you.\nhttps://rootcompute.neocities.org/directory\n#website #indieweb #smallweb #html #css #webdev #blog\n",
+    "language": "en",
+    "date_published": "2025-02-14T12:07:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114002160871388239"
+    ],
+    "lastTootTimestamp": 1739534925660
   }
 }
