@@ -2900,5 +2900,33 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114002160871388239"
     ],
     "lastTootTimestamp": 1739534925660
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1739796782/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1739796782/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1739796782/",
+    "content_text": "I've had the most amazing polyaffirmative weekend. Exactly what the doctor ordered. Hung out with an old, dear friend that I love immensely and his situationship. We all hit felt something special immediately.\nCuddle puddles, compersion and connection. ❤️❤️❤️\n#polyamory #love #friends #enm #ethicalnonmonogamy\n",
+    "language": "en",
+    "date_published": "2025-02-17T12:52:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1739796777807.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "three men, strangely all bald, under people club lighting, smiling"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1739796777885.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "three men, still all of them bald, one in the middle while the other two on either side kiss his cheeks"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1739796777951.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "three men, you guessed it, bald, but one is wearing a hood. smiling for the camera in the streets of Amsterdam"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114019327053502359"
+    ],
+    "lastTootTimestamp": 1739796860825
   }
 }
