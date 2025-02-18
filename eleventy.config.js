@@ -133,6 +133,10 @@ module.exports = function(eleventyConfig) {
 		return tags ? "<p>#"+tags : ""
 	})
 
+	eleventyConfig.addFilter('encodeURIComponent', str => {
+		return encodeURIComponent(str);
+	  });
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
