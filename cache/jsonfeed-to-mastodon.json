@@ -2939,5 +2939,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114036090776015661"
     ],
     "lastTootTimestamp": 1740052654800
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1740312006/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1740312006/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1740312006/",
+    "content_text": "What an amazing week and some change with these guys... Sometimes when you least expect it, amazing people come (back) into your life and despite the hurdles, you've got to seize the moment and do what you can. Counting the days till I can go back and see my boys next month. ☘️\n#polyamory #love #friends #enm #ethicalnonmonogamy #gay #queer #lgbtqia #lgbtq #gaymen\n",
+    "language": "en",
+    "date_published": "2025-02-23T12:00:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1740312003616.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Three baldies ready to go cause nighttime mayhem"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1740312003692.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "three bald men posing for a picture, the right one kidding the center one's cheek, the center one with his arms around the other two"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114053092607854418"
+    ],
+    "lastTootTimestamp": 1740312082325
   }
 }
