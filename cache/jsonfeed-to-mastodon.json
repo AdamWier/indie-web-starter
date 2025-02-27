@@ -2995,5 +2995,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114072231251415351"
     ],
     "lastTootTimestamp": 1740604114754
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1740657968/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1740657968/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1740657968/",
+    "content_text": "Some real good, creative stuff comes from Estonia\n#arvopart #discoelysium #music #videogames #art #estonia\n",
+    "language": "en",
+    "date_published": "2025-02-27T12:06:08Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114075765551988607"
+    ],
+    "lastTootTimestamp": 1740658043909
   }
 }
