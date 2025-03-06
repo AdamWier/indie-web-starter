@@ -3039,5 +3039,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114087684480321328"
     ],
     "lastTootTimestamp": 1740839912486
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1741301842/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1741301842/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1741301842/",
+    "content_text": "I've been quiet. I have lots of thoughts. I'm not sure how to express them. They're not all negative.\nThis is New Ways of Being, baby\n",
+    "language": "en",
+    "date_published": "2025-03-06T22:57:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114117962140166609"
+    ],
+    "lastTootTimestamp": 1741301912691
   }
 }
