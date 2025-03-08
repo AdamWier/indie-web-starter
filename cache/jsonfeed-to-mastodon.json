@@ -3079,5 +3079,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114127874344009659"
     ],
     "lastTootTimestamp": 1741453161005
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1741461554/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1741461554/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1741461554/",
+    "content_text": "I feel quite sad and lonely tonight. It wasn't always this way. But things changed, people have changed and I don't even know what world I'm living in now. There's certainly a way forward but it's unknown to me. So what now... I don't know.\n",
+    "language": "en",
+    "date_published": "2025-03-08T19:19:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114128429303157752"
+    ],
+    "lastTootTimestamp": 1741461629217
   }
 }
