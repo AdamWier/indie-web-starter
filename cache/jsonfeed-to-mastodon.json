@@ -3185,5 +3185,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114169701378172704"
     ],
     "lastTootTimestamp": 1742091390853
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742244082/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742244082/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742244082/",
+    "content_text": "There is a brass band playing in front of my building for the last hour and a half and I have just one question: \"Why, God, why?\"\n",
+    "language": "en",
+    "date_published": "2025-03-17T20:41:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114179712989539446"
+    ],
+    "lastTootTimestamp": 1742244156021
   }
 }
