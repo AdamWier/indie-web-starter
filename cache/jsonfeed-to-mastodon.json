@@ -3229,5 +3229,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114198586352760806"
     ],
     "lastTootTimestamp": 1742532140546
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742599954/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742599954/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742599954/",
+    "content_text": "What are we to do if not help each other? I know this to be true in my heart. And may it guide all my actions. We are here to help each other, no more and no less.\n",
+    "language": "en",
+    "date_published": "2025-03-21T23:32:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114203126815532334"
+    ],
+    "lastTootTimestamp": 1742601422467
   }
 }
