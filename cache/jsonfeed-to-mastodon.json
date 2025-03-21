@@ -3207,5 +3207,24 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114188045244797713"
     ],
     "lastTootTimestamp": 1742371296221
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742532071/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742532071/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742532071/",
+    "content_text": "Yesterday I put an offer in on an apartment. Before the asking price. Another person is putting in an offer of an undetermined amount. Cross your fingers for me.\n",
+    "language": "en",
+    "date_published": "2025-03-21T04:41:00Z",
+    "toots": []
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742408699/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742408699/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742408699/",
+    "content_text": "People are out tonight! I decided to come out, drink a beer en terrasse and read a book, and I've got all these little slices of life. A father and son desperately trying to relate to each other, two ladies laughing, very much enjoying each other's company, a man with an Asian tourist(?) who wanted a pint, so the former replied \"well we need to go over to that bar invest! They're Irish! They're beer specialists!\" What an evening, what a treat!\n#people #peoplelistening #peoplewatching #humans\n",
+    "language": "en",
+    "date_published": "2025-03-19T18:24:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114198586352760806"
+    ],
+    "lastTootTimestamp": 1742532140546
   }
 }
