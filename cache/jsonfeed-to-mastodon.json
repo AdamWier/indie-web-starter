@@ -3251,5 +3251,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114206319204134428"
     ],
     "lastTootTimestamp": 1742650134555
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742688290/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742688290/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742688290/",
+    "content_text": "I just discovered Nicole the fediverse chick and John Mastodon, and I am living for it!!\nThis is a Nicole (@actualfediversechick@mastodon.social) stan account now.\n#nicolethefediversechick #johnmastodon #Nicole #fediversechick\n",
+    "language": "en",
+    "date_published": "2025-03-23T00:04:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114208824435622319"
+    ],
+    "lastTootTimestamp": 1742688361300
   }
 }
