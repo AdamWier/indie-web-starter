@@ -3273,5 +3273,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114217666813088085"
     ],
     "lastTootTimestamp": 1742823285234
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1742884868/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1742884868/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1742884868/",
+    "content_text": "I'm not feeling great today. I don't know why. Maybe stressed? Maybe sad? Maybe tired? Maybe worried? Maybe fearful? It's not great thought. I hope it'll pass soon. I wish I were working from home today.\n",
+    "language": "en",
+    "date_published": "2025-03-25T06:41:08Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114221707418919763"
+    ],
+    "lastTootTimestamp": 1742884940037
   }
 }
