@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Wait for deply
-        run: sleep 60s
+        run: sleep 70s
         shell: bash
 
       # Look for new toots to create from items in the JSON feed
