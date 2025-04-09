@@ -3372,5 +3372,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114306322883664443"
     ],
     "lastTootTimestamp": 1744176069585
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1744211313/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1744211313/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1744211313/",
+    "content_text": "About to do my first run in shorts of the year and feeling cute! (Won't delete later 😁)\n#running #fitness #spring #summer #exercise #toughmudder #gayselfie #selfie #nantes #vanitypost #gay\n",
+    "language": "en",
+    "date_published": "2025-04-09T15:08:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1744211309744.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man in shorts and athletic wear, crouching down, giving a thumbs up to the camera"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114308639376882833"
+    ],
+    "lastTootTimestamp": 1744211416554
   }
 }
