@@ -3427,9 +3427,12 @@
   "https://www.mycabinetofcuriosities.com/notes/1744348863/": {
     "id": "https://www.mycabinetofcuriosities.com/notes/1744348863/",
     "url": "https://www.mycabinetofcuriosities.com/notes/1744348863/",
-    "content_text": "",
+    "content_text": "I finally got a good night of sleep but I had so many dreams. They include:\nA post apocalyptic society that recreated ancient civilizations. The main character's father and her were captured by the Greeks. She was raised as part of the Greek royal family but learned that she was Egyptian so she freed him and they returned to Egyptian society.\n",
     "language": "en",
     "date_published": "2025-04-11T05:21:02Z",
-    "toots": []
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114331784971217049"
+    ],
+    "lastTootTimestamp": 1744564590190
   }
 }
