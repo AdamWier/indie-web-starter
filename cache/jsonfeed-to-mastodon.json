@@ -3445,5 +3445,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114340267936215709"
     ],
     "lastTootTimestamp": 1744694030113
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1745142645/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1745142645/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1745142645/",
+    "content_text": "#silentsunday\n",
+    "language": "en",
+    "date_published": "2025-04-20T09:50:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1745142639679.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "An small, old windmill in Batz sur Mer, France"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114369674500677396"
+    ],
+    "lastTootTimestamp": 1745142738471
   }
 }
