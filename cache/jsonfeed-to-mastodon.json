@@ -3496,5 +3496,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114387255332115401"
     ],
     "lastTootTimestamp": 1745411000838
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1745464099/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1745464099/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1745464099/",
+    "content_text": "I've had two nights of good sleep in a row! What's next?? It'll be raining cheese on my birthday???\n#sleep #cheese #health #insomnia\n",
+    "language": "en",
+    "date_published": "2025-04-24T03:08:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114390741296641863"
+    ],
+    "lastTootTimestamp": 1745464192334
   }
 }
