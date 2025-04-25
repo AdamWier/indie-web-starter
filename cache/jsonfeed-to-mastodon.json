@@ -3518,5 +3518,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114393875829469610"
     ],
     "lastTootTimestamp": 1745512021511
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1745580923/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1745580923/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1745580923/",
+    "content_text": "A project manager asked me how we save the data for our application. \"Do you keep it in folders?\" he asked me. And I was like \"I don't even know how to answer that question.\" (Like in a way that would make sense to someone who thinks we're saving separate files) So I tried to explain to him what mongodb timeseries collections are and I think he might have accidentally phase shifted into the shadow zone. Sorry about that!\n#mongodb #database #db #dev #webdev #tech #programming #coding\n",
+    "language": "en",
+    "date_published": "2025-04-25T11:35:23Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114398448073329019"
+    ],
+    "lastTootTimestamp": 1745581788488
   }
 }
