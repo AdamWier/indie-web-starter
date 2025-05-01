@@ -3602,5 +3602,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114429124712158743"
     ],
     "lastTootTimestamp": 1746049876863
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1746099831/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1746099831/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1746099831/",
+    "content_text": "\"Crowned heads, wealth and privilege may well tremble should ever again the Black and Red unite!\"\n-Otto van Bismark\nHappy labor day, comrades!\n#laborday #mayday #leftism #communism #anarchism #workersrights #politics #demonstration #protest #france #npa #lfi #nfp\n",
+    "language": "en",
+    "date_published": "2025-05-01T11:43:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1746099827516.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Me at the labor day demonstration in front of the section of my preferred political party (New Anticapitalist Party)"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1746099827681.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A banner in French reading \"No countries, no borders. One working class.\" (It rhymes in French.)"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114432436806910579"
+    ],
+    "lastTootTimestamp": 1746100415629
   }
 }
