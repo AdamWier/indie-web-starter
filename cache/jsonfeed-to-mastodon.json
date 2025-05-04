@@ -3625,5 +3625,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114432436806910579"
     ],
     "lastTootTimestamp": 1746100415629
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1746361327/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1746361327/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1746361327/",
+    "content_text": "It's Sunday.\n#comics #gingerbeer #nantes #atomicscafe #reading #sunday #relax #relaxing\n",
+    "language": "en",
+    "date_published": "2025-05-04T12:22:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1746361322424.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A glass of ginger beer on a table in a swanky looking library with a big bookshelf of comics in the background"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114449542146574013"
+    ],
+    "lastTootTimestamp": 1746361422302
   }
 }
