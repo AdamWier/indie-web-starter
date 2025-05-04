@@ -53,5 +53,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/113680704862698706"
     ],
     "lastTootTimestamp": 1734629896188
+  },
+  "https://www.mycabinetofcuriosities.com/articles/spiders-in-the-web/": {
+    "id": "https://www.mycabinetofcuriosities.com/articles/spiders-in-the-web/",
+    "url": "https://www.mycabinetofcuriosities.com/articles/spiders-in-the-web/",
+    "content_text": "New blog post: \"Spiders in the web: Hyperion&#39;s Farcasters and Technofeudalism\" at https://www.mycabinetofcuriosities.com/articles/spiders-in-the-web/ #articles #hyperioncantos #fediverse #bigtech #blog #post #indieweb #syndication #possee",
+    "language": "en",
+    "date_published": "2025-05-04T18:11:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114451424559367289"
+    ],
+    "lastTootTimestamp": 1746390146010
   }
 }
