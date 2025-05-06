@@ -3665,5 +3665,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114454116572012197"
     ],
     "lastTootTimestamp": 1746431222507
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1746509631/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1746509631/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1746509631/",
+    "content_text": "I recently unfollowed most non mutuals and found out how to hide all boosts and I'm back to really enjoying Mastodon again. It's so great to see all the nice people I follow again: your thoughts, little snippets of your lives, random things found elsewhere on the internet. Don't get me wrong: Boost away. I'll switch them back on occasionally, but one of the things I like about the fediverse is the more personal feel it has. Anyway, have a good day!\n#fediverse #mastodon #boosts #socialmedia\n",
+    "language": "en",
+    "date_published": "2025-05-06T05:33:51Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114459261204108492"
+    ],
+    "lastTootTimestamp": 1746509723210
   }
 }
