@@ -3738,5 +3738,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114502007678701409"
     ],
     "lastTootTimestamp": 1747161983154
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1747469387/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1747469387/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1747469387/",
+    "content_text": "I've decided today is a Disco Elysium day. I'm going to travel across the Pale and hang out with all the Revacholians, try to sniff out some Mazovians and join the homosexual underground.\n#discoelysium #videogames #saturday #kim #kimkitsuragi #revachol\n",
+    "language": "en",
+    "date_published": "2025-05-17T08:09:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1747469386400.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": ""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114522159975750399"
+    ],
+    "lastTootTimestamp": 1747469482569
   }
 }
