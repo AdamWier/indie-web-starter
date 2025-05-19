@@ -3756,5 +3756,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114522159975750399"
     ],
     "lastTootTimestamp": 1747469482569
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1747633834/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1747633834/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1747633834/",
+    "content_text": "Lately I've been ramping up pushing Signal to people I text regularly through other apps. The conversation tends to go like this after I get a message:\nMe: (responding to message and then:) By the way, I'm not really on (whatever this app is) anymore. I use Signal pretty exclusively now.\nThem: Oh, I don't have Signal.\nMe: Darn\nI've made my choice, you made your choice. You know where to find me. Big. Shrug.\n(That being said, some people do say oh I'll download it!)\n#signal #privacy #messaging\n",
+    "language": "en",
+    "date_published": "2025-05-19T05:50:34Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114532936888454056"
+    ],
+    "lastTootTimestamp": 1747633924956
   }
 }
