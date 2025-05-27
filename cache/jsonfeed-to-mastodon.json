@@ -3855,5 +3855,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114575109656820298"
     ],
     "lastTootTimestamp": 1748277430810
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1748361553/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1748361553/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1748361553/",
+    "content_text": "I'm happy to report that harassing everyone I know to get on Signal has actually worked. I have very few regular contacts that use anything else now. Stand your ground! Draw those lines in the sand! They may consent to giving away their info but those message are between 2+ parties and YOU don't consent. That's a point I brought up. And even some non security minded people changed after reading an article I sent. Keep pushing! They'll come!\n#signal #infosec #messnger #meta #socialmedia\n",
+    "language": "en",
+    "date_published": "2025-05-27T15:59:13Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114580628790768416"
+    ],
+    "lastTootTimestamp": 1748361646041
   }
 }
