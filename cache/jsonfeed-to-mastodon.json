@@ -3932,5 +3932,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114608306592945955"
     ],
     "lastTootTimestamp": 1748783975404
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1748878793/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1748878793/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1748878793/",
+    "content_text": "Sometimes you just got to lie down and count your breaths\nhttps://loops.video/v/8H7_Bv8jbb\n#loops #stress #work #wfh\n",
+    "language": "en",
+    "date_published": "2025-06-02T15:39:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114614526666381508"
+    ],
+    "lastTootTimestamp": 1748878886074
   }
 }
