@@ -3965,5 +3965,24 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114626215358875814"
     ],
     "lastTootTimestamp": 1749057241399
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1749229596/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1749229596/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1749229596/",
+    "content_text": "This is your sign to go check out your local library!!\nhttps://loops.video/v/8Mmv96xzdV\n#loops #libraries #music #instruments #degrowth #borrowing\n",
+    "language": "en",
+    "date_published": "2025-06-06T17:06:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114637517158735403"
+    ],
+    "lastTootTimestamp": 1749229693557
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1749057149/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1749057149/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1749057149/",
+    "content_text": "You know what's a really bad idea? Try to relax by playing Darkest Dungeon. Jesus christ. Why did I think that was a good idea?\n#videogames #darkestdungeon #stress #anxiety #mentalhealth\n",
+    "language": "en",
+    "date_published": "2025-06-04T17:12:29Z",
+    "toots": []
   }
 }
