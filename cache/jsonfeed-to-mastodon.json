@@ -3998,5 +3998,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114642093351997225"
     ],
     "lastTootTimestamp": 1749299521035
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1749328242/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1749328242/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1749328242/",
+    "content_text": "So whatsapp sent me a message about how secure they are right after I set an autoresponse message telling people to find me on Signal. It could be a coincidence, but at this point.... The optics are not great, Meta.\n#meta #infosec #signal #security #privacy #socialmedia\n",
+    "language": "en",
+    "date_published": "2025-06-07T20:30:42Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114643981802848946"
+    ],
+    "lastTootTimestamp": 1749328335906
   }
 }
