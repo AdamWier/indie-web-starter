@@ -4020,5 +4020,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114646975292668562"
     ],
     "lastTootTimestamp": 1749374012974
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1749383368/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1749383368/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1749383368/",
+    "content_text": "There are two children right outside my window that have decided to reenact the opening to the Lion King, music and all, and I am cracking up.\n#lionking\n",
+    "language": "en",
+    "date_published": "2025-06-08T11:49:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114647594381713559"
+    ],
+    "lastTootTimestamp": 1749383459351
   }
 }
