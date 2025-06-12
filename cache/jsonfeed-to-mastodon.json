@@ -4064,5 +4064,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114659862477454712"
     ],
     "lastTootTimestamp": 1749570655691
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1749751593/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1749751593/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1749751593/",
+    "content_text": "I'm off work tomorrow. Thank goodness. I need a breather.\n",
+    "language": "en",
+    "date_published": "2025-06-12T18:06:32Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114672044195797784"
+    ],
+    "lastTootTimestamp": 1749756533887
   }
 }
