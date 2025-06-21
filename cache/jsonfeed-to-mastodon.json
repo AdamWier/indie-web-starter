@@ -4086,5 +4086,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114720864153598811"
     ],
     "lastTootTimestamp": 1750501467441
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1750501764/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1750501764/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1750501764/",
+    "content_text": "For a while, I've been posting on Loops, almost daily till recently. Even though I have a harder time speaking eloquently than writing, I like it because it helps us remember there are people behind all these interactions. But it definitely doesn't get the interaction it does here and I miss being able to talk to other people. So, I need to think about what I want to do for my social media time because I don't think I have the energy for both.\n#loops #mastodon #socialmedia\n",
+    "language": "en",
+    "date_published": "2025-06-21T10:29:23Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114720889795745240"
+    ],
+    "lastTootTimestamp": 1750501858709
   }
 }
