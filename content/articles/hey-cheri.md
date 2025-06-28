@@ -7,9 +7,9 @@ tags:
   - humans
   - encounters
   - meeting
-date: '2025-06-28T1:58:00+0200'
+date: '2025-06-28T01:58:00+0200'
 post-status: published
-updated: '2025-06-28T1:58:00+0200'
+updated: '2025-06-28T01:58:00+0200'
 client_id: ''
 ---
 I just got home and I need to write about an experience I just had that I'm still trying to understand.
