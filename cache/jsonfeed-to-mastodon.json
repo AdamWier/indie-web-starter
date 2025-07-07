@@ -4185,5 +4185,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114806346428422898"
     ],
     "lastTootTimestamp": 1751805823534
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1751900969/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1751900969/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1751900969/",
+    "content_text": "They are getting absolutely WILD with it in the Lisbon airport.\n#airport #Lisbon #Portugal #traveling #tourism #fish #sardines #shopping #strange #weird\n",
+    "language": "en",
+    "date_published": "2025-07-07T15:09:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1751900966935.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A store with a carnaval theme called The Fantastic World of the Portuguese Sardine"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114812588088531977"
+    ],
+    "lastTootTimestamp": 1751901063628
   }
 }
