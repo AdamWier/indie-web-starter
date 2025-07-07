@@ -4203,5 +4203,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114812588088531977"
     ],
     "lastTootTimestamp": 1751901063628
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1751902380/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1751902380/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1751902380/",
+    "content_text": "I absolutely do not understand it. We are in a big room, waiting in line, and the people behind me have decided to stand next to me like we share the same bed. They are, of course, French. I'm not ready to go back. People in Portugal are so much nicer.\n",
+    "language": "en",
+    "date_published": "2025-07-07T15:33:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114812680231147548"
+    ],
+    "lastTootTimestamp": 1751902469653
   }
 }
