@@ -4236,5 +4236,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114818848030558061"
     ],
     "lastTootTimestamp": 1751996582656
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1752095710/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1752095710/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1752095710/",
+    "content_text": "Today at work, discussing AI, at a company wide teams meeting, I wrote in the chat, \"Hearing this makes me want to start the Butlerian Jihad a couple millennia too early. And I'm going to start by taking a bat to my friends' Alexas.\" I thought some people here would enjoy this.\n#ai #dune #work\n",
+    "language": "en",
+    "date_published": "2025-07-09T21:15:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114825383366807576"
+    ],
+    "lastTootTimestamp": 1752096303987
   }
 }
