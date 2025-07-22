@@ -4280,5 +4280,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114898009100982957"
     ],
     "lastTootTimestamp": 1753204484886
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1753207276/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1753207276/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1753207276/",
+    "content_text": "Me right now. I'm not doing well.\nhttps://letmegooglethat.com/?q=a+fire+alarm+that+doesn%27t+cause+an+autistic+meltdown+\n",
+    "language": "en",
+    "date_published": "2025-07-22T18:01:15Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114898197866534928"
+    ],
+    "lastTootTimestamp": 1753207365041
   }
 }
