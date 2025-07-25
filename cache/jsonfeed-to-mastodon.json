@@ -4291,5 +4291,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114898197866534928"
     ],
     "lastTootTimestamp": 1753207365041
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1753465376/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1753465376/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1753465376/",
+    "content_text": "TO THE GUY WHO DID NOT ASK WHAT SAUCE I WANTED AND GAVE ME KETCHUP*, YOU ARE ON MY LIST. I HATE KETCHUP.\n*If he hadn't insisted on speaking to me in English, I wouldn't believe that his stereotyping me as an American.\n",
+    "language": "en",
+    "date_published": "2025-07-25T17:42:56Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114915112820669777"
+    ],
+    "lastTootTimestamp": 1753465466797
   }
 }
