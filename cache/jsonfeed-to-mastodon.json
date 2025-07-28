@@ -4324,5 +4324,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114925913756418950"
     ],
     "lastTootTimestamp": 1753630276004
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1753744567/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1753744567/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1753744567/",
+    "content_text": "I always very much further that I'm seen differently in France than the US, like physically speaking, and it's always wild to me\n",
+    "language": "en",
+    "date_published": "2025-07-28T23:16:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/114933410010479011"
+    ],
+    "lastTootTimestamp": 1753744659752
   }
 }
