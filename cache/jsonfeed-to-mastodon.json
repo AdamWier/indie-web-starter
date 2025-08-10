@@ -4368,5 +4368,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/114998528100721712"
     ],
     "lastTootTimestamp": 1754738282930
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1754849967/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1754849967/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1754849967/",
+    "content_text": "The predicted the entire geriatric US government. Wow!\n#transmetropolitan #uspol #comics\n",
+    "language": "en",
+    "date_published": "2025-08-10T18:19:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1754849964179.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A comic panel with a surprised women hearing someone off panel exclaim \"Quick! The president just shat himself!\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115005853697748959"
+    ],
+    "lastTootTimestamp": 1754850062940
   }
 }
