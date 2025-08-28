@@ -4466,5 +4466,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115096137301953391"
     ],
     "lastTootTimestamp": 1756227681121
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1756381675/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1756381675/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1756381675/",
+    "content_text": "Me at Folsom Europe every five minutes:\n#folsom #folsomeurope\n",
+    "language": "en",
+    "date_published": "2025-08-28T11:47:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1756381671701.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "The Animaniacs saying hellooooo nurse"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115106235539802428"
+    ],
+    "lastTootTimestamp": 1756381768181
   }
 }
