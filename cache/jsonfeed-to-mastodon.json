@@ -4484,5 +4484,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115106235539802428"
     ],
     "lastTootTimestamp": 1756381768181
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1756483487/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1756483487/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1756483487/",
+    "content_text": "Last night's look. For the Folsom opening party. 🤼\nWhat a night!\n#Folsom #FolsomBerlin #Folsom2025 #FolsomBerlin2025 #wrestling #kink #fetish #gay\n",
+    "language": "en",
+    "date_published": "2025-08-29T16:04:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1756483480843.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man in a wrestling singlet flexing proudly"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1756483480988.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "a man in a singlet ready to grapple an imaginary opponent with a devious look on his face"
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115113479420320629"
+    ],
+    "lastTootTimestamp": 1756492300967
   }
 }
