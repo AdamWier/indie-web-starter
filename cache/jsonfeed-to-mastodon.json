@@ -4518,5 +4518,28 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115119338039555735"
     ],
     "lastTootTimestamp": 1756581696393
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1756649506/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1756649506/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1756649506/",
+    "content_text": "Last look of the weekend. It's a remix of my street fair look. I was feeling a way about my body so I'm not posting that one. This one however is one for the archives.\n(The second photo is an expression of pain.)\nHappy end of Folsom to the kinksters!\n#Folsom #FolsomBerlin #Folsom l2025 #kink #gay #fetish #discoelysium #theexpression\n",
+    "language": "en",
+    "date_published": "2025-08-31T14:11:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1756649498269.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man in camo, boots and a football jersey crouching down and looking a little seductively and proudly at the camera"
+      },
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1756649498411.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man in camo, boots and a football jersey crouching down and giving a thumbs up, tiredly "
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115123788220531813"
+    ],
+    "lastTootTimestamp": 1756649600884
   }
 }
