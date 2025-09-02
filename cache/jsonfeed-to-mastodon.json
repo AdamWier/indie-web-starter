@@ -4541,5 +4541,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115123788220531813"
     ],
     "lastTootTimestamp": 1756649600884
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1756841458/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1756841458/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1756841458/",
+    "content_text": "I'm finally back home. After missing my connection because of a delayed flight, I had to spend the night in Paris. Then, the flight they put me on got all the way to the destination before they turned back around to Paris because of low visibility. THEN they tried to keep me in Paris another day. Needless to say, I took the train. Anyway, I'm back and like all amazing trips, I'm meditating on what made this so magical and what I can do to bring that into my day to day life.\n#folsom #traveling\n",
+    "language": "en",
+    "date_published": "2025-09-02T19:30:58Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115136367700568245"
+    ],
+    "lastTootTimestamp": 1756841548342
   }
 }
