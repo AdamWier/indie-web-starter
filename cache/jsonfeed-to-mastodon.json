@@ -4596,5 +4596,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115182162314830886"
     ],
     "lastTootTimestamp": 1757540318725
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1758360889/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1758360889/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1758360889/",
+    "content_text": "\"The truth about drugs\":  That there are a lot less people just handing drugs out for free and that pot will not make you a useless blob on the couch. Also your parents have done at least one.\n#drugs #healthclass\n",
+    "language": "en",
+    "date_published": "2025-09-20T09:34:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1758360885724.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A stand that says in French \"the truth about drugs\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115235945370012675"
+    ],
+    "lastTootTimestamp": 1758360982969
   }
 }
