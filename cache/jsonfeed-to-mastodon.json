@@ -4614,5 +4614,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115235945370012675"
     ],
     "lastTootTimestamp": 1758360982969
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1758367641/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1758367641/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1758367641/",
+    "content_text": "I tried to shave my mess of a face and it didn't go well. In a move reminiscent of Britney Spears, I got frustrated with my lack of agency in life and shaved it all off. Feeling a bit daddy now.\nAnyway, how you doin' ?\n#shaving #spiraling #britneyspears #gay #gayman #gayselfie #selfie #lgbtq #lgbtqia #gaydad #queer #queerselfie\n",
+    "language": "en",
+    "date_published": "2025-09-20T11:27:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1758367639350.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A man looking at the camera with stubble and a mustache. The background is a green wall and an open door."
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115236539644782866"
+    ],
+    "lastTootTimestamp": 1758370050990
   }
 }
