@@ -4665,5 +4665,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115249048437490119"
     ],
     "lastTootTimestamp": 1758560919912
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1758563950/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1758563950/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1758563950/",
+    "content_text": "I think it's also worth noting that at my housewarming party yesterday, when any person said I don't know a lot of people on Signal, I would point out about three people (out of 20~) and say \"they're not on Signal but everyone else here is.\" And that's because I  proselytized to all my friends, setting lines in the sand about how to contact me and expect a response. Little by little, we win.\n(I wrote this post largely to tell myself to keep going.)\n#signal #infosec #privacy #internet #anewworld\n",
+    "language": "en",
+    "date_published": "2025-09-22T17:59:09Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115249334927192804"
+    ],
+    "lastTootTimestamp": 1758565291472
   }
 }
