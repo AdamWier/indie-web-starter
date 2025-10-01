@@ -4705,5 +4705,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115298381929059542"
     ],
     "lastTootTimestamp": 1759313689527
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1759343772/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1759343772/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1759343772/",
+    "content_text": "This is an appreciation post for\nhttps://github.com/robturner45/vlc-yt-dlp\nAnd also https://github.com/yt-dlp/yt-dlp\nAnd also https://github.com/FreeTubeApp/FreeTube\nFreeTube is temporarily broken, longer than usual. (Bless those devs!) And this VLC plugin allows you to open the videos in VLC instead with the Freetube frontend.\nAll of us devs, standing on the shoulders of giants. Never forget it.\n(PS I recommend using Freetube on your computer and NewPipe on your Android phone!)\n#freetube #yt-dlp #vlc-yt-dlc #invidious #newpipe\n",
+    "language": "en",
+    "date_published": "2025-10-01T18:36:11Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115300359366576853"
+    ],
+    "lastTootTimestamp": 1759343862688
   }
 }
