@@ -4738,5 +4738,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115317626446659533"
     ],
     "lastTootTimestamp": 1759607337286
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1759673350/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1759673350/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1759673350/",
+    "content_text": "My train got cancelled and so I'm stuck in Paris for an extra a couple hours till the next one comes and oh my god I forgot how much I HATE THIS FUCKING CITY\n#paris\n",
+    "language": "en",
+    "date_published": "2025-10-05T14:09:00Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115321958749992389"
+    ],
+    "lastTootTimestamp": 1759673443160
   }
 }
