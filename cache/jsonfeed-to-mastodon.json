@@ -4749,5 +4749,16 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115321958749992389"
     ],
     "lastTootTimestamp": 1759673443160
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1760250410/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1760250410/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1760250410/",
+    "content_text": "FreeTube has been down a long time and I'm worried. I'm rooting for the devs! I believe in you!!! People have been recommending Grayjay, but the fact that I have video suggestions is a deal breaker. The first and foremost reason I use Freetube is to avoid the media overload and algorithms while still watching videos. If Freetube can't pull through, I'm going to quit YouTube and finally pay for Nebula. (And of course see who's worth checking out on Peertube!)\n#freetube #youtube #grayjay #nebula\n",
+    "language": "en",
+    "date_published": "2025-10-12T06:26:49Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115359776856265223"
+    ],
+    "lastTootTimestamp": 1760250501658
   }
 }
