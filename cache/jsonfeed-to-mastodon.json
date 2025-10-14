@@ -4782,5 +4782,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115368028422044679"
     ],
     "lastTootTimestamp": 1760376410534
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1760424283/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1760424283/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1760424283/",
+    "content_text": "Spotted in the wild.... This is my energy company.... Which is actually a non profit!\n#edn #Nantes #energiedeNantes #anticapitalism #nfp #france #ecotopia\n",
+    "language": "en",
+    "date_published": "2025-10-14T06:44:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1760424279963.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "A pole with stickers on it. Both in French. One reads \"no state, no market\" and the other says \"Energy is not a commodity.\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115371363214677250"
+    ],
+    "lastTootTimestamp": 1760427295699
   }
 }
