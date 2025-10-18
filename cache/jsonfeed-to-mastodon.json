@@ -4811,5 +4811,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115376936643673483"
     ],
     "lastTootTimestamp": 1760512339247
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1760522543/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1760522543/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1760522543/",
+    "content_text": "Me.\n",
+    "language": "en",
+    "date_published": "2025-10-15T10:02:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1760522541570.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Même with Bernie Sanders saying \"I am once again asking you to speak to me in French like a normal fucking person.\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115396966374092955"
+    ],
+    "lastTootTimestamp": 1760817968577
   }
 }
