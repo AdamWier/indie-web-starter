@@ -1,6 +1,7 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
+return []
     const eventsUrl = `https://api.github.com/users/adamwier/events`;
     const userUrl = "https://api.github.com/users/adamwier";
 
