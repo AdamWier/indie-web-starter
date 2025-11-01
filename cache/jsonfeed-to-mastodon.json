@@ -4851,5 +4851,23 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115453446715122329"
     ],
     "lastTootTimestamp": 1761679790248
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1761679699/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1761679699/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1761679699/",
+    "content_text": "Them: How are you?\nMe: I'm okay. Just came back from four days in a Buddhist temple.\nThem: I'm not very spiritual.\nMe: Ok.....?\n(I swear. France is like r/atheism became a country.)\n",
+    "language": "en",
+    "date_published": "2025-10-28T19:28:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1761679697274.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "meme known as \"confused black girl\""
+      }
+    ],
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115474117859504875"
+    ],
+    "lastTootTimestamp": 1761995206889
   }
 }
