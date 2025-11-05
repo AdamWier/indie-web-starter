@@ -4880,5 +4880,31 @@
       "https://mastodon.social/users/donthatedontkill/statuses/115481555168552898"
     ],
     "lastTootTimestamp": 1762108691498
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1762325408/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1762325408/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1762325408/",
+    "content_text": "MAMDANI!!!!!!!!!!!!!!!!!!\n#newyork #uspol #newyorkmayoralelections #mamdani #zohranmamdani\n",
+    "language": "en",
+    "date_published": "2025-11-05T06:50:08Z",
+    "toots": [
+      "https://mastodon.social/users/donthatedontkill/statuses/115495838965730784"
+    ],
+    "lastTootTimestamp": 1762326644648
+  },
+  "https://www.mycabinetofcuriosities.com/notes/1762288747/": {
+    "id": "https://www.mycabinetofcuriosities.com/notes/1762288747/",
+    "url": "https://www.mycabinetofcuriosities.com/notes/1762288747/",
+    "content_text": "Okay but this just feels rude to say.\n#fearandhunger #fearandhunger2 #termina #videogames #indiegames\n",
+    "language": "en",
+    "date_published": "2025-11-04T20:39:00Z",
+    "attachments": [
+      {
+        "url": "https://www.mycabinetofcuriosities.com/1762288743711.jpg",
+        "mime_type": "image/jpeg",
+        "_alt_text": "Screen capture from Fear And Hunger: Termina. An olden book with a car dancing with a boy and text that reads \"to teach Willem a lesson, Turkilo kept pushing Willem deeper to the forest with his freakish man-beetle strength.\""
+      }
+    ],
+    "toots": []
   }
 }
