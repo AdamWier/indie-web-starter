@@ -30,7 +30,7 @@ jobs:
       # Look for new toots to create from items in the JSON feed
       - name: Feed to Mastodon
         id: feed 
-        uses: AdamWier/github-action-feed-to-mastodon@c0b556c6e52bb2afd1897d4e496a655bf06e9d32
+        uses: nhoizey/github-action-feed-to-mastodon@v2
         with:
           feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
           mastodonInstance: "https://mastodon.social"
