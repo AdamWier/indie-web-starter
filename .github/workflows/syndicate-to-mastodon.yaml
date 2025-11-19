@@ -1,65 +1,65 @@
-# name: Syndicate to mastodon
-# on:
-#   push:
-#     branches:
-#       - main
-#     paths-ignore:
-#       - uploads/**
+name: Syndicate to mastodon
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - uploads/**
 
-# jobs:
-#   Feed2Mastodon:
-#     outputs:
-#       tootUrl: ${{ steps.feed.outputs.tootUrl }}
+jobs:
+  Feed2Mastodon:
+    outputs:
+      tootUrl: ${{ steps.feed.outputs.tootUrl }}
 
-#     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-#     permissions:
-#       # Give the default GITHUB_TOKEN write permission to commit and push the
-#       # added or changed files to the repository.
-#       contents: write
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
 
-#     steps:
-#       # Checkout the repository to restore previous cache
-#       - name: Checkout
-#         uses: actions/checkout@v3
+    steps:
+      # Checkout the repository to restore previous cache
+      - name: Checkout
+        uses: actions/checkout@v3
 
-#       # - name: Wait for deply
-#       #   run: sleep 80s
-#       #   shell: bash
+      # - name: Wait for deply
+      #   run: sleep 80s
+      #   shell: bash
 
-#       # Look for new toots to create from items in the JSON feed
-#       - name: Feed to Mastodon
-#         id: feed 
-#         uses: AdamWier/github-action-feed-to-mastodon@c0b556c6e52bb2afd1897d4e496a655bf06e9d32
-#         with:
-#           feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
-#           mastodonInstance: "https://mastodon.social"
-#           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
-#           testMode: false
-#           ignoreFirstRun: false
-#           globalDelayToots: 0
+      # Look for new toots to create from items in the JSON feed
+      - name: Feed to Mastodon
+        id: feed 
+        uses: AdamWier/github-action-feed-to-mastodon@c0b556c6e52bb2afd1897d4e496a655bf06e9d32
+        with:
+          feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
+          mastodonInstance: "https://mastodon.social"
+          mastodonToken: ${{ secrets.MASTODON_TOKEN }}
+          testMode: false
+          ignoreFirstRun: false
+          globalDelayToots: 0
 
-#       # Make sure files are up to date if other commits have been pushed in the mean time
-#       - name: Pull any changes from Git
-#         run: git pull
+      # Make sure files are up to date if other commits have been pushed in the mean time
+      - name: Pull any changes from Git
+        run: git pull
 
-#       # Push changes in the cache files to the repository
-#       # See https://github.com/stefanzweifel/git-auto-commit-action#readme
-#       - name: Commit and push
-#         uses: stefanzweifel/git-auto-commit-action@v5
+      # Push changes in the cache files to the repository
+      # See https://github.com/stefanzweifel/git-auto-commit-action#readme
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
 
-#   UpdateSyndication:
-#     runs-on: ubuntu-latest
-#     needs: Feed2Mastodon
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v3
-#         with:
-#           ref: 'main'
-#       - name: Add syndication link
-#         uses: AdamWier/micropub-action@7d42b56fe3094db1c2d296f51ed85155e2ab70d4
-#         if: needs.Feed2Mastodon.outputs.tootUrl != 'false'
-#         with:
-#           endpoint: "https://jovial-cocada-8ea186.netlify.app/.netlify/functions/micropub"
-#           token: ${{ secrets.MICROPUB_TOKEN }}
-#           feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
+  UpdateSyndication:
+    runs-on: ubuntu-latest
+    needs: Feed2Mastodon
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: 'main'
+      - name: Add syndication link
+        uses: AdamWier/micropub-action@7d42b56fe3094db1c2d296f51ed85155e2ab70d4
+        if: needs.Feed2Mastodon.outputs.tootUrl != 'false'
+        with:
+          endpoint: "https://jovial-cocada-8ea186.netlify.app/.netlify/functions/micropub"
+          token: ${{ secrets.MICROPUB_TOKEN }}
+          feedUrl: "https://mycabinetofcuriosities.com/feed/syndicate-mastodon-json.json"
