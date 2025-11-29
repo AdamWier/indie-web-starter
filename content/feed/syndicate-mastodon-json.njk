@@ -21,7 +21,8 @@ permalink: /feed/syndicate-mastodon-json.json
 				"url": "{{ absolutePostUrl }}",
 				"content_text": {{ post.content |dump|removeHtml|safe|trim|decodeHtmlEntities|safe|escapeQuotes|safe }},
 				"language": "{{ metadata.language }}",
-				"date_published": "{{ post.date | dateToRfc3339 }}"
+				"date_published": "{{ post.date | dateToRfc3339 }}",
+				"syndication": "{{post.data.syndication}}"
 				{% if post.data.photo.length %},
 					"attachments": [
 					{% for photoItem in post.data.photo | reverse %}
