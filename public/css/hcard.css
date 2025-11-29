@@ -42,6 +42,12 @@
 	margin: 0 5px 0 -15px;
 }
 
+.book-icon:before {
+	font-family: "FontAwesome";
+	content: "\e0bb";
+	margin: 0 5px 0 -15px;
+}
+
 .rss-icon:before {
 	font-family: "FontAwesome";
 	content: "\f09e";
