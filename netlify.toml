@@ -3,6 +3,7 @@
 	command = "npm run build"
 
 [[plugins]]
+package = "netlify-plugin-cache"
 
 	# Opt-in to the Netlify Lighthouse plugin (choose one):
 
