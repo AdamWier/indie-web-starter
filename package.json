@@ -41,7 +41,6 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
-		"eleventy-google-fonts": "^0.1.0",
 		"eleventy-plugin-reading-time": "^0.0.1",
 		"he": "^1.2.0",
 		"luxon": "^3.3.0",

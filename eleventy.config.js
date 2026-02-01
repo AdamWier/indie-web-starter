@@ -12,8 +12,6 @@ const pluginImages = require("./eleventy.config.images.js");
 
 const dotenv = require('dotenv');
 
-const eleventyGoogleFonts = require("eleventy-google-fonts");
-
 const stripHtml = require('striptags');
 
 var he = require('he');
@@ -28,8 +26,6 @@ module.exports = function(eleventyConfig) {
 	dotenv.config()
 
 	eleventyConfig.addPlugin(readingTime);
-
-	eleventyConfig.addPlugin(eleventyGoogleFonts);
 	
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -168,7 +164,6 @@ module.exports = function(eleventyConfig) {
 	  });
 
 	eleventyConfig.addCollection("webmentionsByPost", collectionApi => {
-		console.log(collectionApi.getAll()[0].data)
 		let webmentions = collectionApi.getAll()[0].data.webmentions.all;
 		const getRelated = (target, arr) => arr.filter(wm => wm["wm-target"] === target);
 		const targets = webmentions.map(wb => wb["wm-target"]);
