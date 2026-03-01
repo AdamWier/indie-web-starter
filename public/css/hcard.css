@@ -48,6 +48,12 @@
 	margin: 0 5px 0 -15px;
 }
 
+.video-icon:before {
+	font-family: "FontAwesome";
+	content: "\f03d";
+	margin: 0 5px 0 -15px;
+}
+
 .rss-icon:before {
 	font-family: "FontAwesome";
 	content: "\f09e";
