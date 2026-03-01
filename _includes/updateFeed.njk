@@ -10,8 +10,8 @@
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body p-0">
                 <ul class="list-group h-feed">
-                    {%for post in collections.allUpdates | limit(20) %}
-                        {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url, false, post.data.photo, post.data["in-reply-to"], post.data["like-of"], post.data["syndication"], collections.webmentionsByPost)}}
+                    {%for post in collections.allUpdates | limit(30) %}
+                        {{ feedItemTemplate.updateFeedItem(post.date, post.content, post.url, false, post.data.photo, post.data["in-reply-to"], post.data["like-of"], post.data["syndication"], collections.webmentionsByPost, post.video)}}
                     {% endfor %}
                 </ul>
             </div>

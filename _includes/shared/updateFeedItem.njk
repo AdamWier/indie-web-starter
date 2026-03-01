@@ -1,4 +1,4 @@
-{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf, syndication, webmentions)%}
+{% macro updateFeedItem(date, content, url, includeAvatar, photos, replyTo, likeOf, syndication, webmentions, video)%}
     <li class="list-group-item h-entry">
         <div hidden>{% include 'hcard.njk' %}</div>
         <div class="row">
@@ -50,6 +50,17 @@
                     </div>
                     {% endfor %}
                 </div>
+                {% endif %}
+                {% if video %}
+                    <div class="row my-2">
+                        <div class="col">
+                            <div class="ratio ratio-1x1">
+                                <video aria-label="${video.media.alt_text}" controls allowfullscreen>
+                                    <source src="{{video}}" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
                 {% endif %}
                 <div class="row my-1">
                     <div class="col">

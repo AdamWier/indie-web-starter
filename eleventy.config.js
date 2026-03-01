@@ -121,11 +121,15 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('tagify', tags => tags.map(tag => `#${tag}`).join(' '));
 
 	eleventyConfig.addFilter("removeTags", (content) => {
-		return content.split("<p>#")[0]
+		const split = content.split("<p>#")
+		if(split.length == 2){
+			return content.split("<p>#")[0] 
+		}
+		return content.split("\n\n#")[0]
 	})
 
 	eleventyConfig.addFilter("extractTags", (content) => {
-		let tags = content.split("<p>#")[1];
+		let tags = content.split("<p>#")[1] || content.split("\n\n#")[1];
 		return tags ? "<p>#"+tags : ""
 	})
 
@@ -176,8 +180,9 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addCollection('allUpdates', collectionApi => {
 		const mentions = collectionApi.getAll()[0].data.webmentions.others;
+		const loops = collectionApi.getAll()[0].data.loops.postAdaptedVideos;
 
-		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...mentions, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
+		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...mentions, ...loops, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {
