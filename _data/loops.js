@@ -10,11 +10,8 @@ module.exports = async function () {
             date: new Date(video.created_at),
             content: video.caption,
             video: video.media.src_url, 
-            // `<video aria-label="${video.media.alt_text}" src="${video.media.src_url}" controls=""></video>`,
             url: video.url,
         }))
-
-        console.log(postAdaptedVideos)
 
         return {postAdaptedVideos}
     } catch (err) {

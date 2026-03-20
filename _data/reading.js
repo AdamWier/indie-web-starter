@@ -1,17 +1,21 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
-    const base = "https://openlibrary.org";
-    const url = `${base}/people/donthatedontkill1811/books/currently-reading.json`
+    const url = "https://bookwyrm.social/user/donthatedontkill/books/reading.json?page=1";
 
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
-        let key = response.reading_log_entries[0].work.key
-        let book = await EleventyFetch(base+key+'.json', {type: 'json', duration: "0s"})
+        const mostRecentlyAdded = response.orderedItems[0]
+        const {id, title, description, cover, authors } = mostRecentlyAdded;
+        const authorResponses = await Promise.all(authors.map(uri => EleventyFetch(uri+'.json', {type: 'json', duration: "0s"})));
+        const authorText = authorResponses.filter(Boolean).map(({name}) => console.log(name) || name).join(', '); 
+
         return {
-            ...book,
-            key,
-            author: response.reading_log_entries[0].work.author_names[0]
+            url: id,
+            title,
+            description,
+            coverUrl: cover.url,
+            authorText
         }
     } catch (err) {
         console.error(err)
