@@ -182,7 +182,7 @@ module.exports = function(eleventyConfig) {
 		const mentions = collectionApi.getAll()[0].data.webmentions.others;
 		const loops = collectionApi.getAll()[0].data.loops.postAdaptedVideos;
 
-		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...mentions, ...loops, ...collectionApi.getAll()[0].data.mastodon.replies].sort((a,b) => b.date - a.date)
+		return [...collectionApi.getFilteredByTag('likes'), ...collectionApi.getFilteredByTag('notes'), ...mentions, ...loops, ...collectionApi.getAll()[0].data.mastodon.replies, ...collectionApi.getAll()[0].data.bookwyrm].sort((a,b) => b.date - a.date)
 	})
 
 	eleventyConfig.addCollection('allOriginalContent', collectionApi => {
