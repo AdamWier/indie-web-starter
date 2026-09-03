@@ -33,6 +33,6 @@ module.exports = async function () {
         return response
     } catch (err) {
         console.error(err)
-        return null
+        return []
     }
 }
