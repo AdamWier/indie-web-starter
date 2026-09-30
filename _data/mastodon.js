@@ -1,8 +1,8 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
-    const base = "https://mastodon.social/api/v1/";
-    const url = `${base}accounts/112156626614796336/statuses?exclude_reblogs=true`
+    const base = "https://nantes.social/api/v1/";
+    const url = `${base}accounts/115739477264444141/statuses?exclude_reblogs=true`
     const statusUrl = `${base}/statuses/?`
 
     try {
