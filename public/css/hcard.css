@@ -59,3 +59,9 @@
 	content: "\f09e";
 	margin: 0 5px 0 -15px;
 }
+
+.fediverse-icon:before {
+	font-family: "FontAwesome";
+	content: "\e865";
+	margin: 0 5px 0 -15px;
+}
