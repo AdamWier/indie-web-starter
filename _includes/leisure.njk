@@ -21,10 +21,12 @@
                         <h4>{{reading.authorText}}</h4>
                     </div>
                     <div class="col">
-                        {% image reading.coverUrl, "Cover of "+reading.title, [130] %}
+                        {% image reading.coverUrl, "Cover of "+reading.title, [100] %}
                     </div>
                 </div>
-                <p>{{reading.description | safe}}</p>
+                <div class="overflow-y-scroll" style="height: 150px">
+                    {{reading.description | safe}}
+                </div>
                 <div></div>
             </div>
             <div class="tab-pane fade" id="playing" role="tabpanel">
