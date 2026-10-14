@@ -22,6 +22,7 @@ const fillInTemplate = (child) => `
     ${child.content?.html || child.content?.text || ""}
     `;
 module.exports = async function () {
+    // Filter out bridged mastodon account    
     const domain = 'mycabinetofcuriosities.com'
     const token = process.env.WEBMENTION_TOKEN
     const url = `${API_ORIGIN}?domain=${domain}&token=${token}`
@@ -29,7 +30,7 @@ module.exports = async function () {
     try {
         const response = await EleventyFetch(url, {type: 'json', duration: "0s"})
         let all = response.children;
-        let others = response.children.filter(child => verb[child["wm-property"]]).map(child =>({
+        let others = response.children.filter(child => verb[child["wm-property"]]).filter(child => child.author.url != 'https://bsky.app/profile/donthatedontkill.bsky.social').map(child =>({
             ...child,
             statement: `${child.author.name} ${verb[child["wm-property"]]} ${child[child["wm-property"]]}`,
             content: child.content?.html || child["like-of"] ? fillInTemplate(child) : `Web mention from ${child.author?.name}`,

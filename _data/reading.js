@@ -8,7 +8,7 @@ module.exports = async function () {
         const mostRecentlyAdded = response.orderedItems[0]
         const {id, title, description, cover, authors } = mostRecentlyAdded;
         const authorResponses = await Promise.all(authors.map(uri => EleventyFetch(uri+'.json', {type: 'json', duration: "0s"})));
-        const authorText = authorResponses.filter(Boolean).map(({name}) => console.log(name) || name).join(', '); 
+        const authorText = authorResponses.filter(Boolean).map(({name}) => name).join(', '); 
 
         return {
             url: id,
