@@ -20,6 +20,7 @@ const markdownItFootnote = require("markdown-it-footnote");
 const markdownItEmoji = require("markdown-it-emoji").full;
 const mdIterator = require('markdown-it-for-inline')
 const readingTime = require('eleventy-plugin-reading-time');
+const sanitizeHtml = require('sanitize-html');
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
@@ -166,6 +167,23 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addNunjucksFilter("getVarFromString", function(varName) {
 		return this.getVariables()[varName];
 	  });
+
+	  
+	eleventyConfig.addNunjucksFilter('getBlogPreview', function(string){
+		const allowedTags = [
+			"address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4",
+			"h5", "h6", "hgroup", "main", "nav", "section", "blockquote", "dd", "div",
+			"dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre",
+			"ul", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn",
+			"em", "i", "kbd", "mark", "q", "rb", "rp", "rt", "rtc", "ruby", "s", "samp",
+			"small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "caption",
+			"col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr"
+		];
+		const sanitizedPreview = sanitizeHtml(string, {allowedTags}).substring(0, 400)
+		const endOfLastWord = sanitizedPreview.lastIndexOf(' ');
+		return endOfLastWord === -1 ? sanitizedPreview : sanitizedPreview.substring(0, endOfLastWord)
+	})
+
 
 	eleventyConfig.addCollection("webmentionsByPost", collectionApi => {
 		let webmentions = collectionApi.getAll()[0].data.webmentions.all;
