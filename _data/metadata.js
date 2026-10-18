@@ -1,10 +1,10 @@
 module.exports = {
-	title: "Adam is making things",
+	title: "This website is for humans.",
 	url: "https://www.mycabinetofcuriosities.com/",
 	language: "en",
 	description: "This is my house. I made these things.",
 	author: {
-		name: "Adam",
+		name: "donthatedontkill",
 		url: "https://www.mycabinetofcuriosities.com/"
 	}
 }
