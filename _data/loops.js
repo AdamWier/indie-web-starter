@@ -16,6 +16,6 @@ module.exports = async function () {
         return {postAdaptedVideos}
     } catch (err) {
         console.error(err)
-        return null
+        return {postAdaptedVideos: []}
     }
 }
