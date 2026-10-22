@@ -4,3 +4,8 @@
 
 [[plugins]]
 package = "netlify-plugin-cache"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noai, noimageai"
