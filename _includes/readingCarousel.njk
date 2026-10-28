@@ -1,0 +1,36 @@
+<div id="reading-carousel" class="dw-100 carousel slide carousel-dark pb-5">
+    <div class="carousel-indicators">
+        {% for book in reading %}
+            <button type="button" data-bs-target="#reading-carousel" data-bs-slide-to="{{loop.index0}}" class="{% if loop.index0 == 0 %}active{% endif %}" aria-current="{% if loop.index0 == 0 %}true{% endif %}" aria-label="Slide {{loop.index}}"></button>
+        {% endfor %}
+    </div> 
+    <div class="carousel-inner">
+        {% for book in reading %}
+<div class="carousel-item text-center {% if loop.index0 == 0 %}active{% endif %}">
+        <div class="row m-3">
+                <button class="carousel-control-prev" type="button" data-bs-target="#reading-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#reading-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+                    <div class="col">
+                        <a href="{{book.url}}" target="_blank">
+                            <h3>{{book.title}}</h3>
+                        </a>
+                        <h4>{{book.authorText}}</h4>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-evenly">
+                        {% image book.coverUrl, "Cover of "+book.title, [100] %}
+                    </div>
+                </div>
+                <div class="overflow-y-scroll" style="max-height: 150px; min-height: 0 px">
+                    {{book.description | safe}}
+                </div>
+                <div></div>
+                </div>
+        {% endfor %}
+    </div>
+</div>
