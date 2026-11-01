@@ -17,3 +17,7 @@ body {
     color: unset !important;
     text-align: unset !important;
 }
+
+.carousel-control-next, .carousel-control-prev{
+    height: 50%;
+}
