@@ -1,24 +1,30 @@
-<ul class="list-group shadow-lg my-3">
-    <li class="list-group-item list-group-item-action active fw-normal">Blog posts</li>
-    {%for post in collections.blogPosts.reverse() %}
-        <li class="list-group-item">
-            <h6 class="fw-bold">
-                {{post.data.title}}
-            </h6>
-            <div class="row">
-                {{post.content | getBlogPreview | safe}}...
-            </div>
-            <div class="row">
-                <div class="col">
-                    <span class="text-info fw-bold">
-                        {{post.date | toLocaleTimeString}}
-                        {{post.date.toLocaleDateString()}}
-                    </span>
-                </div>
-                <div class="col text-end">
-                    <a href="{{post.url}}">Read more</a>
-                </div>
-            </div>
-        </li>
-    {% endfor %}
+<div class="card border-primary">
+    <div class="card-header bg-primary text-white">
+        Blog posts
+    </div>
+    <div class="card-body p-0">
+        <ul class="list-group h-feed overflow-y-scroll" style="max-height: 40vh; min-height: 0 px">
+            {%for post in collections.blogPosts.reverse() %}
+                <li class="list-group-item">
+                    <h6 class="fw-bold">
+                        {{post.data.title}}
+                    </h6>
+                    <div class="row">
+                        {{post.content | getBlogPreview | safe}}...
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span class="text-info fw-bold">
+                                {{post.date | toLocaleTimeString}}
+                                {{post.date.toLocaleDateString()}}
+                            </span>
+                        </div>
+                        <div class="col text-end">
+                            <a href="{{post.url}}">Read more</a>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </ul>
