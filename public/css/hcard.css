@@ -71,3 +71,9 @@
 	content: "\e865";
 	margin: 0 5px 0 -15px;
 }
+
+.info-icon:before {
+	font-family: "FontAwesome";
+	content: "\f05a";
+	margin: 0 5px 0 -15px;
+}

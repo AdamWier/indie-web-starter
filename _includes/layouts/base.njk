@@ -37,21 +37,17 @@
 		<link rel="me" href="https://nantes.social/@donthatedontkill" />
 		<link rel="alternate feed" type="application/rss+xml" title="Latest updates" href="https://mycabinetofcuriosities.com/feed/feed.xml">
 		<link rel="pgpkey" href="/key.pub">
-		<!-- MailerLite Universal -->
+
 		<script>
-			(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-			.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-			n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-			(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-			ml('account', '1142792');
+			document.addEventListener("DOMContentLoaded", () => {
+				const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+				const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+				console.log(tooltipTriggerList)
+			})
 		</script>
-<!-- End MailerLite Universal -->
 	</head>
 	<body>
 		<header>
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-			</nav>
 		</header>
 
 		<main id="skip">
