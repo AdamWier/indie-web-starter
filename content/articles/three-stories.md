@@ -15,7 +15,7 @@ client_id: ''
 
 [Gilsbrecht Leythers - Winter Landscape with Travelers and Ice skaters](https://www.navigart.fr/museedartsdenantes/artwork/gysbrecht-leytens-paysage-d-hiver-avec-gitans-et-patineurs-110000000006033)
 
-Snow had finally fallen and the town, as usual, took the first occasion to go ice skating on the lake. In their Breton town, the water froze almost instantly, though it was the custom of nervous mothers to fret as fathers coaxed their children onto the ice. Some for the very first time. For Louis, it was his first winter on the ice. It would also be his last. The ice would crack below his feet and he would look down, head cocked to the side with curiosity. Looking up and in the direction of his mother's scream before plunging into cold Hades' grip. !!She!! had finally been proven right.
+Snow had finally fallen and the town, as usual, took the first occasion to go ice skating on the lake. In their Breton town, the water froze almost instantly, though it was the custom of nervous mothers to fret as fathers coaxed their children onto the ice. Some for the very first time. For Louis, it was his first winter on the ice. It would also be his last. The ice would crack below his feet and he would look down, head cocked to the side with curiosity. Looking up and in the direction of his mother's scream before plunging into cold Hades' grip. She had finally been proven right.
 
 <div class="text-center">
   <a href="/1794062687.jpg" target="_blank"><img width="200rem" src="/1794062687.jpg" alt="A winter landscape set in another era. People are out skating, conversing. There are some animals too."/></a>
