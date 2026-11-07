@@ -13,7 +13,7 @@ client_id: ''
 ---
 **This is part of a series. Read more about it [here](/articles/can-you-hear-it).**
 
-[Gilsbrecht Leythers - Winter Landscape with Travelers and Ice skaters](https://www.navigart.fr/museedartsdenantes/artwork/gysbrecht-leytens-paysage-d-hiver-avec-gitans-et-patineurs-110000000006033)
+[Gysbrecht Leytens - Winter Landscape with Travelers and Ice skaters](https://www.navigart.fr/museedartsdenantes/artwork/gysbrecht-leytens-paysage-d-hiver-avec-gitans-et-patineurs-110000000006033)
 
 Snow had finally fallen and the town, as usual, took the first occasion to go ice skating on the lake. In their Breton town, the water froze almost instantly, though it was the custom of nervous mothers to fret as fathers coaxed their children onto the ice. Some for the very first time. For Louis, it was his first winter on the ice. It would also be his last. The ice would crack below his feet and he would look down, head cocked to the side with curiosity. Looking up and in the direction of his mother's scream before plunging into cold Hades' grip. She had finally been proven right.
 
