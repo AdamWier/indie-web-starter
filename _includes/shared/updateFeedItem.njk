@@ -90,10 +90,8 @@
         </div>
         <div class="row">
             <div class="col">
-                <span hidden class="dt-published">{{ date | dateToRfc3339}}</span>
-                <span class="text-info fw-bold">
-                    {{date | toLocaleTimeString }}
-                    {{date.toLocaleDateString()}}
+                <span class="text-info fw-bold dt-published">
+                    {{ date | dateToRfc3339 }}
                 </span>
             </div>
             <div class="col text-end">

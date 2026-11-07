@@ -14,9 +14,8 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                            <span class="text-info fw-bold">
-                                {{post.date | toLocaleTimeString}}
-                                {{post.date.toLocaleDateString()}}
+                            <span class="text-info fw-bold dt-published">
+                                {{ post.date | dateToRfc3339}}
                             </span>
                         </div>
                         <div class="col text-end">

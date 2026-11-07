@@ -37,12 +37,13 @@
 		<link rel="me" href="https://nantes.social/@donthatedontkill" />
 		<link rel="alternate feed" type="application/rss+xml" title="Latest updates" href="https://mycabinetofcuriosities.com/feed/feed.xml">
 		<link rel="pgpkey" href="/key.pub">
-
+		
+		<script defer src="/js/adjust-date-times.js"></script>
+		<script defer src="/js/activate-bootstrap-tooltips.js"></script>
 		<script>
 			document.addEventListener("DOMContentLoaded", () => {
-				const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-				const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-				console.log(tooltipTriggerList)
+				activateBootstrapTooltips();
+				adjustDateTimes();
 			})
 		</script>
 	</head>

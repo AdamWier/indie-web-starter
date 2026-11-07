@@ -63,11 +63,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginBundle);
 
 	eleventyConfig.addFilter("removeStatuses", string => string.replace("/users/donthatedontkill/statuses", "/@donthatedontkill"))
-	
-	eleventyConfig.addFilter("toLocaleTimeString", (date) => {
-		date.setHours(date.getHours() + 2)
-		return date.toLocaleTimeString()
-	})
 
 	eleventyConfig.addFilter('escapeQuotes', string => string.replace(/(?<!^)\"(?!$)/g, "\\\""))
 

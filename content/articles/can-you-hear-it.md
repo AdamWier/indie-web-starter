@@ -6,7 +6,7 @@ tags:
   - writing
   - museums
   - dialogue
-date: '2026-11-07T12:17:00+0200'
+date: '2026-11-07T12:17:00+0100'
 post-status: published
 client_id: ''
 ---
