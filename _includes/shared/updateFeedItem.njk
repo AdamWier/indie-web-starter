@@ -18,13 +18,18 @@
                 <div class="row text-break">
                     <div class="col fw-normal">
                         {% if likeOf %}
-                            I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}
+                        <div>
+                            I liked <a href="{{likeOf}}" class="u-like-of" target="_blank">{{likeOf}}</a>
+                        </div>
+                        <div class="text-center">
+                            <a href="{{likeOf}}" target="_blank">
                                 <img
-                                    src="https://v1.screenshot.11ty.dev/{{likeOf | encodeURIComponent}}/small/"
-                                    alt="Screenshot for {{likeOf}}"
-                                    class="u-photo img-fluid"
+                                src="https://v1.screenshot.11ty.dev/{{likeOf | encodeURIComponent}}/small/"
+                                alt="Screenshot for {{likeOf}}"
+                                class="u-photo img-fluid"
                                 />
                             </a>
+                        </div>
                         {% endif %}
                     </div>
                 </div>
