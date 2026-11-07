@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ metadata.title }}</title>
+		{# Used for articles titles in cards when sharing on social media #}
+		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ metadata.description }}">
 
 		<meta name="fediverse:creator" content="@donthatedontkill@nantes.social" />
