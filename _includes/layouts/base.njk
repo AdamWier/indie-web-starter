@@ -9,7 +9,8 @@
 
 		<meta name="fediverse:creator" content="@donthatedontkill@nantes.social" />
 
-		<meta property="og:title" content="{{metadata.title}}">
+		{# Used for articles titles in cards when sharing on social media #}
+		<meta property="og:title" content="{% if title %}{{ title }} ({{metadata.title}}){% else %}{{metadata.title}}{% endif %}">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="https://mycabinetofcuriosities.com/img/me.jpg">
 		<meta property="og:url" content="https://mycabinetofcuriosities.com{{ page.url }}">
