@@ -9,8 +9,6 @@ tags:
 date: '2026-11-07T12:17:00+0200'
 post-status: published
 client_id: ''
-eleventyComputed:
-    data: articles
 ---
 Something I have done for over fifteen years now is to go to the museum and stream-of-consciousness write stories. I go with a notebook and pen, walk around, and when a work strikes me, I stand in front of it, and scribble out a a story as it comes to me. The idea to do this was inspired by an exercise I had in an improv class, back when I was studying theatre and film in an acting conservatory. We had to look at a piece of art and describe what we saw, allowing ourselves to embellish it into a story. I'm not a very visual guy. So when I went to museums, especially art museums, I never felt like I could properly appreciate the things I would see. I would look at them, think to myself, "this is nice" or "I like this color" and then move on. I didn't really feel I was connecting with the painting. I am, however, a very linguistic person. I read a lot up until my 20s, where I got distracted by other things, and now in my 40s, I'm getting back at it. I wrote a lot too. I studied translation and for a while, was a translator of poetry and literature for a small publisher and freelance. Even as young as six, I was writing, making books, and I have tried several times to write a novel. (And failed every time to date... One of these days!) I apparently also was an early speaker and reader, but how true that is and how much that's my mother exaggerating, as all mothers do, is up for debate, I think.
 

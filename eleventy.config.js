@@ -1,5 +1,4 @@
 const { DateTime } = require("luxon");
-const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -147,16 +146,8 @@ module.exports = function(eleventyConfig) {
 			  tokens[idx].attrPush([ 'target', '_blank' ])
 			  tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
 			}
-		  }).use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1,2,3,4],
-			slugify: eleventyConfig.getFilter("slugify")
-		}).use(markdownItFootnote)
+		  })
+		.use(markdownItFootnote)
 		.use(markdownItEmoji);
 	});
 
@@ -184,6 +175,7 @@ module.exports = function(eleventyConfig) {
 		return endOfLastWord === -1 ? sanitizedPreview : sanitizedPreview.substring(0, endOfLastWord)
 	})
 
+	eleventyConfig.addCollection('museumMusings', collectionApi => collectionApi.getFilteredByTag('museumMusings'))
 
 	eleventyConfig.addCollection("webmentionsByPost", collectionApi => {
 		let webmentions = collectionApi.getAll()[0].data.webmentions.all;
